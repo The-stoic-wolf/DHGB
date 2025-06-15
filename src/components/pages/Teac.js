@@ -23,7 +23,7 @@ export default function Teac() {
          </div>
       </div>
       {/* ----------------------------------------------------------section no 1---------------------------------------------------------------- */}
-      <div className="pt-5" style={{height:"1350px",width:"100%",backgroundColor:"rgb(40, 51, 65)"}}> 
+      <div className="pt-5" style={{height:"1400px",width:"100%",backgroundColor:"rgb(40, 51, 65)"}}> 
 
         <div className="d-flex flex-column text-white align-items-center pt-3" style={{height:"900px", margin:" 0px 300px 50px 300px"}}>
             <h2 className="fs-3 fw-normal ">BOOK YOUR VIETNAMESE TEA CEREMONY WITH US!</h2>
