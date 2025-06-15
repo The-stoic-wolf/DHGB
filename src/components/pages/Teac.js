@@ -23,21 +23,21 @@ export default function Teac() {
          </div>
       </div>
       {/* ----------------------------------------------------------section no 1---------------------------------------------------------------- */}
-      <div className="pt-5" style={{height:"1250px",width:"100%",backgroundColor:"rgb(40, 51, 65)"}}> 
+      <div className="pt-5" style={{height:"1300px",width:"100%",backgroundColor:"rgb(40, 51, 65)"}}> 
 
         <div className="d-flex flex-column text-white align-items-center pt-3" style={{height:"900px", margin:" 0px 300px 50px 300px"}}>
             <h2 className="fs-3 fw-normal ">BOOK YOUR VIETNAMESE TEA CEREMONY WITH US!</h2>
             <p className=" fs-5 fw-normal " style={{margin:"10px 190px 0px 190px"}}>At Đông Hưng Viên Bakery, we specialize in bringing to life the sweetness of  your engagement (Đám Hỏi) and wedding day with our bespoke cakes and personalized service.</p>
 {/* -----------------------------------------------------section no 2----------------------------------------------------------------------------- */}
           <div className="d-flex flex-column mt-4"  style={{height:"800px",width:"100%"}}>
-            <div className="d-flex flex-row" style={{height:"80px"}}>
+            <div className="d-flex flex-row" style={{height:"100px"}}>
                <div className="d-flex flex-column ms-1" style={{width:"48%"}}>
                  <label  htmlFor="fname" className='ms-1 fs-5 fw-normal'>First name</label><br></br>
-                 <input style={{height:"40px"}} className="rounded-3 " type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
+                 <input style={{height:"40px"}} className="rounded-3 mt-0" type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
                </div>
                <div className="d-flex flex-column ms-3" style={{width:"48%"}}>
                  <label  htmlFor="fname" className='ms-1 fs-5 fw-normal'>Last name</label><br></br>
-                 <input style={{height:"40px"}} className="rounded-3" type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
+                 <input style={{height:"40px"}} className="rounded-3 mt-0" type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
                </div>
              </div>
 
