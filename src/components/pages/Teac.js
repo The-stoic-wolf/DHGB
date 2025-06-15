@@ -31,23 +31,23 @@ export default function Teac() {
 {/* -----------------------------------------------------section no 2----------------------------------------------------------------------------- */}
           <div className="d-flex flex-column mt-4"  style={{height:"800px",width:"100%"}}>
             <div className="d-flex flex-row" style={{height:"45px"}}>
-               <div className="d-flex flex-column ms-1" style={{width:"48%"}}>
-                 <label  htmlFor="fname" className='ms-1 mb-1 fs-5 fw-normal'>First name</label><br></br>
-                 <input style={{height:"40px"}} className="rounded-3" type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
+               <div className="d-flex flex-column ps-1" style={{width:"48%"}}>
+                 <label  htmlFor="fname" className='fs-5 fw-normal pt-1'style={{height:"5px"}}>First name</label><br></br>
+                 <input style={{height:"40px"}} className="rounded-3 mt-0" type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
                </div>
-               <div className="d-flex flex-column ms-3" style={{width:"48%"}}>
-                 <label  htmlFor="fname" className='ms-1 mb-1 fs-5 fw-normal'>Last name</label><br></br>
-                 <input style={{height:"40px"}} className="rounded-3" type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
+               <div className="d-flex flex-column ps-3" style={{width:"48%"}}>
+                 <label  htmlFor="fname" className='fs-5 fw-normal pt-1' style={{height:"5px"}}>Last name</label><br></br>
+                 <input style={{height:"40px"}} className="rounded-3 mt-0" type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
                </div>
              </div>
 
-             <div className="d-flex flex-column mt-1 mx-1 bg-warning" style={{width:"98%",height:"45px"}} >
-                 <label  htmlFor="fname" className='ms-1 mb-0 fs-5 fw-normal'>Email</label><br></br>
+             <div className="d-flex flex-column mt-1 mx-1" style={{width:"98%",height:"45px"}} >
+                 <label  htmlFor="fname" className='ms-1 fs-5 fw-normal pt-1' style={{height:"5px"}}>Email</label><br></br>
                  <input style={{height:"40px"}} className="rounded-3 " type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
              </div>
 
-             <div className="d-flex flex-column mt-1 mx-1 bg-warning" style={{width:"98%",height:"50px"}}>
-                 <label  htmlFor="fname" className='ms-1 mb-0 fs-5 fw-normal'>Phone</label><br></br>
+             <div className="d-flex flex-column mt-1 mx-1" style={{width:"98%",height:"50px"}}>
+                 <label  htmlFor="fname" className='ms-1 fs-5 fw-normal'>Phone</label><br></br>
                  <input style={{height:"40px"}} className="rounded-3" type="text" id="fname" name="fname"/><br></br>
              </div>
 
