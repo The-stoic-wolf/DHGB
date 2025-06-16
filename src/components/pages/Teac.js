@@ -37,7 +37,7 @@ export default function Teac() {
                </div>
                <div className="d-flex flex-column ms-1 ps-3 pt-2" style={{width:"48%",border:"3px solid red"}}>
                  <label  htmlFor="fname" className=' mx-1 fs-5 fw-normal ' style={{height:"10px"}}>Last name</label><br></br>
-                 <input style={{height:"40px"}} className="rounded-3 pb-1-1" type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
+                 <input style={{height:"40px"}} className="rounded-3 pb-1" type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
                </div>
              </div>
 
@@ -114,7 +114,7 @@ export default function Teac() {
                    </div>
                  </div>     
             </div>
-            <div className="d-flex flex-column pt-2 mx-1" style={{width:"98%",height:"200px",border:"3px solid red"}}>
+            <div className="d-flex flex-column pt-2 mx-1" style={{width:"98%",height:"250px",border:"3px solid red"}}>
                  <label  htmlFor="fname" className='ms-1 fs-6 fw-semibold'>DESCRIBE YOUR EVENT (Are there any additional details you would like us to be aware of?)*</label><br></br>
                  <textarea className="form-control rounded-3 pb-2" id="exampleFormControlTextarea1" rows="5"></textarea><br></br>
              </div>
