@@ -114,11 +114,11 @@ export default function Teac() {
                    </div>
                  </div>     
             </div>
-            <div className="d-flex flex-column pt-2 pb-2 mx-1" style={{width:"98%",height:"100px",border:"3px solid red"}}>
+            <div className="d-flex flex-column pt-2 mx-1" style={{width:"98%",height:"200px",border:"3px solid red"}}>
                  <label  htmlFor="fname" className='ms-1 fs-6 fw-semibold'>DESCRIBE YOUR EVENT (Are there any additional details you would like us to be aware of?)*</label><br></br>
                  <textarea className="form-control rounded-3 pb-2" id="exampleFormControlTextarea1" rows="5"></textarea><br></br>
              </div>
-             <div className="d-flex flex-column mx-1" style={{width:"98%",height:"100px",border:"3px solid red"}}>
+             <div className="d-flex flex-column mx-1 pb-1" style={{width:"98%",height:"100px",border:"3px solid red"}}>
                  <label  htmlFor="fname" className='ms-1 fs-6 fw-semibold'>How Did You Hear About Us? *</label><br></br>
                  <textarea className="form-control rounded-3 pt-1" id="exampleFormControlTextarea1" rows="1"></textarea><br></br>
              </div>
