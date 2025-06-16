@@ -31,10 +31,10 @@ export default function Vegan() {
       </div>
       {/* -------------------------------------------------------------------------------section no 1------------------------------------------------------------------------------------- */}
          <div className="d-flex flex-row  w-100 bg-black" style={{height:'1100px'}}>
-          <div className=" bg-black" style={{height:"900px",width:"30%",margin:"80px 0px 80px 80px"}}>
+          <div className=" bg-black" style={{height:"1000px",width:"30%",margin:"80px 0px 80px 80px"}}>
              <p className="fw-bold fs-2 text-white" style={{marginLeft:"110px"}}>VEGAN BÁNH MÌ</p>
           </div>
-          <div className="d-flex flex-wrap justify-contant-evenly bg-black w-60" style={{height:"800px",width:"70%",margin:"80px 80px 80px 0px"}}>
+          <div className="d-flex flex-wrap justify-contant-evenly bg-black w-60" style={{height:"1000px",width:"70%",margin:"80px 80px 80px 0px"}}>
              
              <div className="d-flex  flex-column" style={{height:"300px",width:"27%",margin:"10px"}}>
               <img className="" src="sandwitch2.jpeg" alt="" style={{height:"220px"}} />
@@ -109,15 +109,15 @@ export default function Vegan() {
              </div>
           </div>
       </div>
-      <div className="w-100 bg-black h-1">
-         <p className="w-100 text-white " style={{margin:"0px 250px 0px 250px"}}>________________________________________________________________________________________________________________________________________________________________________</p>
+      <div className=" bg-black h-1" style={{width:"100%"}}>
+         <p className=" text-white " style={{margin:"0px 250px 0px 250px"}}>________________________________________________________________________________________________________________________________________________________________________</p>
       </div>
       {/* -------------------------------------------------------------------------------section no 2------------------------------------------------------------------------------------- */}
-      <div className="d-flex flex-row  w-100 bg-black" style={{height:'1100px'}}>
-          <div className=" bg-black" style={{height:"900px",width:"30%",margin:"80px 0px 80px 80px"}}>
+      <div className="d-flex flex-row  w-100 bg-black" style={{height:'1150px'}}>
+          <div className=" bg-black" style={{height:"1050px",width:"30%",margin:"80px 0px 80px 80px"}}>
              <p className="fw-bold fs-2 text-white" style={{marginLeft:"110px"}}>VEGAN PASTRIES</p>
           </div>
-          <div className="d-flex flex-wrap justify-contant-evenly bg-black w-60" style={{height:"800px",width:"70%",margin:"80px 80px 80px 0px"}}>
+          <div className="d-flex flex-wrap justify-contant-evenly bg-black w-60" style={{height:"1050px",width:"70%",margin:"80px 80px 80px 0px"}}>
              <div className="d-flex  flex-column" style={{height:"320px",width:"27%",margin:"10px"}}>
               <img className="" src="hotb4.jpeg" alt="" style={{height:"230px",objectFit:"cover"}} />
                <div className="d-flex justify-content-center align-items-left flex-column"style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}}>
@@ -182,16 +182,16 @@ export default function Vegan() {
              </div>
           </div>
       </div>
-      <div className="w-100 bg-black h-1">
-         <p className="w-100 text-white " style={{margin:"0px 250px 0px 250px"}}>________________________________________________________________________________________________________________________________________________________________________</p>
+      <div className=" bg-black h-1" style={{width:"100%"}}>
+         <p className="text-white " style={{margin:"0px 250px 0px 250px"}}>________________________________________________________________________________________________________________________________________________________________________</p>
       </div>
       {/* -------------------------------------------------------------------------------section no 3------------------------------------------------------------------------------------- */}
                <div className="d-flex flex-row  w-100 bg-black" style={{height:'1100px'}}>
-          <div className=" bg-black" style={{height:"900px",width:"30%",margin:"80px 0px 80px 80px"}}>
+          <div className=" bg-black" style={{height:"1000px",width:"30%",margin:"80px 0px 80px 80px"}}>
              <p className="fw-bold fs-2 text-white" style={{marginLeft:"110px"}}>VEGAN VIETNAMESE PASTRY</p>
           </div>
-          <div className="d-flex flex-wrap justify-contant-evenly bg-black w-60" style={{height:"800px",width:"70%",margin:"80px 80px 80px 0px"}}>
-             <div className="d-flex  flex-column" style={{height:"320px",width:"27%",margin:"10px"}}>
+          <div className="d-flex flex-wrap justify-contant-evenly bg-black w-60" style={{height:"1000px",width:"70%",margin:"80px 80px 80px 0px"}}>
+             <div className="d-flex  flex-column" style={{height:"300px",width:"27%",margin:"10px"}}>
               <img className="" src="pastry5.jpeg" alt="" style={{height:"220px"}} />
                <div className="d-flex justify-content-center align-items-center flex-column "style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                 <p className="text-white mb-0 mt-2">VEGAN VIETNAMESES BONUT</p>
@@ -199,7 +199,7 @@ export default function Vegan() {
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"320px",width:"27%",margin:"10px"}}>
+             <div className="d-flex flex-column" style={{height:"300px",width:"27%",margin:"10px"}}>
                <img className="" src="pastry2.jpeg" alt="" style={{height:"220px"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column " style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mb-0 mt-2">VEGAN STEAMED BUN</p>
@@ -207,7 +207,7 @@ export default function Vegan() {
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"320px",width:"27%",margin:"10px"}}>
+             <div className="d-flex flex-column" style={{height:"300px",width:"27%",margin:"10px"}}>
                <img className="" src="buns1.jpeg" alt="" style={{height:"220px"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column "style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mb-0 mt-2">VEGAN PUFF PASTRY</p>
@@ -215,7 +215,7 @@ export default function Vegan() {
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"320px",width:"27%",margin:"10px"}}>
+             <div className="d-flex flex-column" style={{height:"300px",width:"27%",margin:"10px"}}>
                <img className="" src="buns2.jpeg" alt="" style={{height:"220px"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column "style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mb-0 mt-2">VEGAN BEEF PUFF PASTRY</p>
@@ -223,7 +223,7 @@ export default function Vegan() {
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"320px",width:"27%",margin:"10px"}}>
+             <div className="d-flex flex-column" style={{height:"300px",width:"27%",margin:"10px"}}>
                <img className="" src="pastry1.jpeg" alt="" style={{height:"220px"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column " style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}}>
                  <p className="text-white mb-0 mt-2">VEGAN SAVORY EMPANADA</p>
@@ -231,7 +231,7 @@ export default function Vegan() {
                </div>
              </div> 
 
-             <div className="d-flex flex-column" style={{height:"320px",width:"27%",margin:"10px"}}>
+             <div className="d-flex flex-column" style={{height:"300px",width:"27%",margin:"10px"}}>
                <img className="" src="pastry3.jpeg" alt="" style={{height:"220px"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column " style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mb-0 mt-2">VEGAN SWEET EMPANADA</p>
@@ -239,7 +239,7 @@ export default function Vegan() {
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"320px",width:"27%",margin:"10px"}}>
+             <div className="d-flex flex-column" style={{height:"300px",width:"27%",margin:"10px"}}>
                <img className="" src="pastry4.jpeg" alt="" style={{height:"220px"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column"style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mb-0 mt-2">VEGAN SOFT MINI BUNS</p>
@@ -248,8 +248,8 @@ export default function Vegan() {
              </div>
           </div>
       </div>
-      <div className="w-100 bg-black h-1">
-         <p className="w-100 text-white " style={{margin:"0px 250px 0px 250px"}}>_______________________________________________________________________________________________________________________________________________________________________</p>
+      <div className=" bg-black h-1" style={{width:"100%"}}>
+         <p className=" text-white " style={{margin:"0px 250px 0px 250px"}}>_______________________________________________________________________________________________________________________________________________________________________</p>
        </div>
       {/* -------------------------------------------------------------------------------section no 4------------------------------------------------------------------------------------- */}
         <div className="d-flex flex-row  w-100 bg-black" style={{height:'540px'}}>
@@ -257,7 +257,7 @@ export default function Vegan() {
              <p className="fw-bold fs-2 text-white" style={{marginLeft:"110px"}}>VEGAN DRINKS</p>
           </div>
           <div className="d-flex flex-wrap justify-contant-evenly bg-black w-60" style={{height:"380px",width:"70%",margin:"80px 80px 80px 0px"}}>
-             <div className="d-flex  flex-column" style={{height:"350px",width:"27%",margin:"10px"}}>
+             <div className="d-flex  flex-column " style={{height:"335px",width:"27%",margin:"10px"}}>
               <img className="" src="coffee1.jpeg" alt="" style={{height:"240px",objectFit:"cover"}} />
                <div className="d-flex align-items-center flex-column " style={{height:"90px",backgroundColor:"rgb(40, 51, 65)"}} >
                 <p className="text-white mt-2 fw-semibold">VEGAN VIETNAMESES COFFEE</p>
@@ -265,7 +265,7 @@ export default function Vegan() {
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"340px",width:"27%",margin:"10px"}}>
+             <div className="d-flex flex-column" style={{height:"335px",width:"27%",margin:"10px"}}>
                <img className="" src="coffee2.jpeg" alt="" style={{height:"240px",objectFit:"cover"}} />
                 <div className="d-flex align-items-center flex-column " style={{height:"90px",backgroundColor:"rgb(40, 51, 65)"}}>
                  <p className="text-white mt-2 fw-semibold">VIETNAMESES BEAUTY ELIXIR</p>
@@ -273,7 +273,7 @@ export default function Vegan() {
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"350px",width:"27%",margin:"10px"}}>
+             <div className="d-flex flex-column" style={{height:"335px",width:"27%",margin:"10px"}}>
                <img className="" src="coffee3.jpeg" alt="" style={{height:"240px",objectFit:"cover"}} />
                 <div className="d-flex align-items-center justify-content-center flex-column " style={{height:"90px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mt-2 fw-semibold">VIETNAMESES HERBAL DESSERT</p>

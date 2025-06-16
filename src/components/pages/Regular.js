@@ -30,10 +30,10 @@ export default function Regular() {
       </div>
   {/* -------------------------------------------------------------section no 1 ----------------------------------------------------------------- */}    
       <div className="d-flex flex-row  w-100 bg-black" style={{height:'1100px'}}>
-          <div className=" bg-black" style={{height:"900px",width:"30%",margin:"80px 0px 80px 80px"}}>
+          <div className=" bg-black" style={{height:"1100px",width:"30%",padding:"80px 0px 80px 80px"}}>
              <p className="fw-bold fs-2 text-white" style={{marginLeft:"110px"}}>BÁNH MÌ</p>
           </div>
-          <div className="d-flex flex-wrap justify-contant-evenly bg-black w-60" style={{height:"800px",width:"70%",margin:"80px 80px 80px 0px"}}>
+          <div className="d-flex flex-wrap justify-contant-evenly bg-black w-60" style={{height:"800px",width:"70%",padding:"80px 80px 80px 0px"}}>
              <div className="d-flex  flex-column" style={{height:"300px",width:"27%",margin:"10px"}}>
               <img className="" src="sandwitch.jpeg" alt="" style={{height:"220px"}} />
                <div className="d-flex justify-content-center align-items-center flex-column " style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
@@ -42,7 +42,7 @@ export default function Regular() {
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"300px",width:"25%",margin:"10px"}}>
+             <div className="d-flex flex-column" style={{height:"300px",width:"27%",margin:"10px"}}>
                <img className="" src="burger2.jpeg" alt="" style={{height:"220px"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column " style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mb-0 mt-2">SHREDDED CHICKEN</p>
@@ -50,7 +50,7 @@ export default function Regular() {
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"300px",width:"25%",margin:"10px"}}>
+             <div className="d-flex flex-column" style={{height:"300px",width:"27%",margin:"10px"}}>
                <img className="" src="sandwitch.jpeg" alt="" style={{height:"220px"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column " style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}}>
                  <p className="text-white mb-0 mt-2">PAT PORK MEAT LOAF</p>
@@ -58,7 +58,7 @@ export default function Regular() {
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"300px",width:"25%",margin:"10px"}}>
+             <div className="d-flex flex-column" style={{height:"300px",width:"27%",margin:"10px"}}>
                <img className="" src="burger2.jpeg" alt="" style={{height:"220px"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column"style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mb-0 mt-2">GRILLED PORK</p>
@@ -66,7 +66,7 @@ export default function Regular() {
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"300px",width:"25%",margin:"10px"}}>
+             <div className="d-flex flex-column" style={{height:"300px",width:"27%",margin:"10px"}}>
                <img className="" src="sandwitch.jpeg" alt="" style={{height:"220px"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column"style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mb-0 mt-2">GRILLED CHICKEN</p>
@@ -74,15 +74,15 @@ export default function Regular() {
                </div>
              </div> 
 
-             <div className="d-flex flex-column" style={{height:"300px",width:"25%",margin:"10px"}}>
-               <img className="" src="sandwitch2.jpeg" alt="" style={{height:"220px"}} />
+             <div className="d-flex flex-column" style={{height:"300px",width:"27%",margin:"10px"}}>
+               <img className="" src="sandwitch.jpeg" alt="" style={{height:"220px"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column "style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mb-0 mt-2">SPECIAL COMBINATION</p>
                  <p className="text-warning mt-0">Đặc Biệt</p>
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"300px",width:"25%",margin:"10px"}}>
+             <div className="d-flex flex-column" style={{height:"300px",width:"27%",margin:"10px"}}>
                <img className="" src="sandwitch.jpeg" alt="" style={{height:"220px"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column "style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mb-0 mt-2">FRIED EGG</p>
@@ -90,8 +90,8 @@ export default function Regular() {
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"300px",width:"25%",margin:"10px"}}>
-               <img className="" src="sandwitch2.jpeg" alt="" style={{height:"220px"}} />
+             <div className="d-flex flex-column" style={{height:"300px",width:"27%",margin:"10px"}}>
+               <img className="" src="sandwitch.jpeg" alt="" style={{height:"220px"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column" style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mb-0 mt-2">GRILLED BEEF</p>
                  <p className="text-warning mt-0">Bò Nướng</p>
@@ -99,15 +99,15 @@ export default function Regular() {
              </div>
           </div>
       </div>
-      <div className="w-100 bg-black h-1">
-         <p className="w-100 text-white " style={{margin:"0px 250px 0px 250px"}}>_______________________________________________________________________________________________________________________________________________________________________</p>
+      <div className="bg-black h-1" style={{width:'100%'}}>
+         <p className="text-white " style={{margin:"0px 0px 0px 250px",padding:"0px 250px 0px 0px"}}>_______________________________________________________________________________________________________________________________________________________________________</p>
       </div>
       {/* -----------------------------------------------------section no 2----------------------------------------------------------------------- */}
         <div className="d-flex flex-row  w-100 bg-black" style={{height:'800px'}}>
-          <div className=" bg-black" style={{height:"540px",width:"30%",margin:"80px 0px 80px 80px"}}>
+          <div className=" bg-black" style={{height:"800px",width:"30%",padding:"80px 0px 80px 80px"}}>
              <p className="fw-bold fs-2 text-white" style={{marginLeft:"110px"}}>PASTRIES</p>
           </div>
-          <div className="d-flex flex-wrap justify-contant-evenly bg-black w-60" style={{height:"540px",width:"70%",margin:"80px 80px 80px 0px"}}>
+          <div className="d-flex flex-wrap justify-contant-evenly bg-black w-60" style={{height:"800px",width:"70%",padding:"80px 80px 80px 0px"}}>
              <div className="d-flex  flex-column" style={{height:"300px",width:"27%",margin:"10px"}}>
               <img className="" src="hotb4.jpeg" alt="" style={{height:"220px",objectFit:"cover"}} />
                <div className="d-flex justify-content-center align-items-center flex-column " style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}}  >
@@ -144,15 +144,15 @@ export default function Regular() {
              </div> 
           </div>
       </div>
-      <div className="w-100 bg-black h-1">
-         <p className="w-100 text-white " style={{margin:"0px 250px 0px 250px"}}>_______________________________________________________________________________________________________________________________________________________________________</p>
+      <div className="bg-black h-1"style={{width:"100%"}}>
+         <p className=" text-white "style={{margin:"0px 0px 0px 250px",padding:"0px 250px 0px 0px"}}>_______________________________________________________________________________________________________________________________________________________________________</p>
       </div>
       {/* -----------------------------------------------------------------------------section no 3---------------------------------------------------------------------------------------- */}
        <div className="d-flex flex-row  w-100 bg-black" style={{height:'540px'}}>
-          <div className=" bg-black" style={{height:"380px",width:"30%",margin:"80px 0px 80px 80px"}}>
+          <div className=" bg-black" style={{height:"540px",width:"30%",padding:"80px 0px 80px 80px"}}>
              <p className="fw-bold fs-2 text-white" style={{marginLeft:"110px"}}>VIETNAMEES PASTRIESE</p>
           </div>
-          <div className="d-flex flex-wrap justify-contant-evenly bg-black w-60" style={{height:"380px",width:"70%",margin:"80px 80px 80px 0px"}}>
+          <div className="d-flex flex-wrap justify-contant-evenly bg-black w-60" style={{height:"540px",width:"70%",padding:"80px 80px 80px 0px"}}>
              <div className="d-flex  flex-column" style={{height:"350px",width:"27%",margin:"10px"}}>
               <img className="" src="sec3-1.jpeg" alt="" style={{height:"250px",objectFit:"cover"}} />
                <div className="d-flex justify-content-center align-items-center flex-column " style={{height:"100px",backgroundColor:"rgb(40, 51, 65)"}} >
@@ -162,7 +162,7 @@ export default function Regular() {
              </div>
 
              <div className="d-flex flex-column" style={{height:"350px",width:"27%",margin:"10px"}}>
-               <img className="" src="sec3-2.jpeg" alt="" style={{height:"250px",objectFit:"cover"}} />
+               <img className="" src="sec3-3.jpeg" alt="" style={{height:"250px",objectFit:"cover"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column " style={{height:"100px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mt-4 fw-semibold">VIETNAMESES PUFF PASTRY</p>
                  <p className="text-warning ">PORK,CHICKEN</p>
@@ -178,17 +178,17 @@ export default function Regular() {
              </div>
           </div>
        </div>
-        <div className="w-100 bg-black h-1">
-         <p className="w-100 text-white " style={{margin:"0px 250px 0px 250px"}}>_______________________________________________________________________________________________________________________________________________________________________</p>
+        <div className="bg-black h-1" style={{width:"100%"}}>
+         <p className="text-white mb-0" style={{padding:"0px 0px 0px 250px"}}>_______________________________________________________________________________________________________________________________________________________________________</p>
       </div>
     {/* ------------------------------------------------------------------------------section no 4----------------------------------------------------------------------------------------- */}
       <div className="d-flex flex-row  w-100 bg-black" style={{height:'540px'}}>
-          <div className=" bg-black" style={{height:"380px",width:"30%",margin:"80px 0px 80px 80px"}}>
+          <div className=" bg-black" style={{height:"540px",width:"30%",padding:"80px 0px 80px 80px"}}>
              <p className="fw-bold fs-2 text-white" style={{marginLeft:"110px"}}>DRINKS</p>
           </div>
-          <div className="d-flex flex-wrap justify-contant-evenly bg-black w-60" style={{height:"380px",width:"70%",margin:"80px 80px 80px 0px"}}>
-             <div className="d-flex  flex-column" style={{height:"340px",width:"27%",margin:"10px"}}>
-              <img className="" src="coffee2.jpeg" alt="" style={{height:"260px",objectFit:"cover"}} />
+          <div className="d-flex flex-wrap justify-contant-evenly bg-black w-60" style={{height:"540px",width:"70%",padding:"80px 80px 80px 0px"}}>
+             <div className="d-flex  flex-column" style={{height:"347px",width:"27%",margin:"10px"}}>
+              <img className="" src="coffee3.jpeg" alt="" style={{height:"260px",objectFit:"cover"}} />
                <div className="d-flex justify-content-center align-items-center flex-column "style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                 <p className="text-white mt-3 fw-semibold">VIETNAMESES COFFEE</p>
                 <p className="text-warning mx-2">CÀ PHÊ SỮA ĐÁ</p>
@@ -199,23 +199,23 @@ export default function Regular() {
         {/* ---------------------------------------------------------------------------------section no 5------------------------------------------------------------------------------------ */}
        <div className="d-flex flex-row  bg-dark w-100" style={{height: "180px"}}>
 
-        <div className="d-flex flex-column " style={{height:"160px",width:"200px",margin:"20px 10px 10px 10px"}}>
+        <div className="d-flex flex-column " style={{height:"160px",width:"200px",padding:"20px 10px 10px 10px"}}>
            <p className="mx-3 fs-5 fw-semibold text-white "> Address</p>
            <p className="mx-3 fw-semibold text-white ">  
                8536 Westminster Blvd,
                Westminster CA 92683</p>    
         </div>
-        <div className="d-flex flex-column " style={{height:"160px",width:"220px",margin:"20px 5px 10px 5px"}}>
+        <div className="d-flex flex-column " style={{height:"160px",width:"220px",padding:"20px 5px 10px 5px"}}>
           <p className="mx-2 fs-6 fw-semibold text-white">HOURS OF OPERATION</p>
           <p  className="mx-2 fs-6 fw-normal text-white">Daily: 6AM - 8PM</p>
         </div>
 
-        <div className="d-flex flex-column" style={{height:"160px",width:"200px",margin:"20px 5px 10px 5px"}}>
+        <div className="d-flex flex-column" style={{height:"160px",width:"200px",padding:"20px 5px 10px 5px"}}>
           <p className="mx-2 fs-6 fw-semibold text-white">PHONE NUMBER</p>
           <p  className="mx-2 fs-6 fw-normal text-primary">(714) 891-4404</p>
         </div>
 
-        <div className="d-flex flex-column" style={{height:"160px",width:"200px",margin:"20px 5px 10px 0px"}}>
+        <div className="d-flex flex-column" style={{height:"160px",width:"200px",padding:"20px 5px 10px 0px"}}>
           <p className="mx-3 fs-6 fw-semibold text-white">FOLLOW</p>
             <div className="d-flex justify-content-evenly mx-0" style={{width:"160px"}}>
               <img className="ms-2 rounded-4" src="tiktok-36.png" alt="icon2" />
@@ -224,10 +224,10 @@ export default function Regular() {
             </div>
         </div>
 
-        <div  style={{height:"160px",width:"200px",margin:"20px 5px 10px 0px"}}>
+        <div  style={{height:"160px",width:"200px",padding:"20px 5px 10px 0px"}}>
           <p  className="mx-1 fs-6 fw-semibold text-white">ABOUT US</p>
         </div>
-        <div style={{height:"160px",width:"200px",margin:"20px 5px 10px 0px"}}>
+        <div style={{height:"160px",width:"200px",padding:"20px 5px 10px 0px"}}>
            <p  className="mx-1 fs-6 fw-semibold text-white">CONTACT US</p>
         </div>
        </div>

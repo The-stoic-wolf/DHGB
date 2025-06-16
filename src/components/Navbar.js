@@ -32,12 +32,12 @@ export default function Navbar() {
           <nav className={`navbar navbar-expand-lg ${style ? "bg-dark bg-opacity-75" : "bg-transparent"} fixed-top`}>
   <div className="container-fluid">
     <div className="logo1">
-       <img src="cooking-logo.png" alt="logo" style={{margin:"0px 0px 0px 80px"}} />
+       <img src="cooking-logo.png" alt="logo" style={{padding:"0px 0px 0px 80px"}} />
     </div>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
-    <div className="collapse navbar-collapse fw-bold " id="navbarNav" style={{margin:"0px 0px 0px 180px"}}>
+    <div className="collapse navbar-collapse fw-bold " id="navbarNav" style={{padding:"0px 0px 0px 180px"}}>
       <ul className="navbar-nav" >
         {menus.map((menus,index)=>(
            <li className="nav-item" key={index} >
@@ -53,7 +53,7 @@ export default function Navbar() {
         
       </ul>
     </div>
-    <div style={{margin:"0px 100px 0px 0px"}}>
+    <div style={{padding:"0px 100px 0px 0px"}}>
       <div className="d-flex justify-content-evenly " style={{width:"200px"}}>
       <img className="ms-2 rounded-4" src="tiktok-36.png" alt="icon2" />
        <img className="ms-2 rounded-4" src="insta-36.png" alt="icon3" />
