@@ -66,7 +66,7 @@ export default function Teac() {
                  <input style={{height:"40px"}} className="rounded-3 pb-1" type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
              </div>
   {/* --------------------------------------------------------section no 3--------------------------------------------------------- */}
-            <div className="ms-2 mt-3" style={{height:"30px",border:"3px solid red"}}>
+            <div className="ms-2 mt-1" style={{height:"30px",border:"3px solid red"}}>
               <p className="fs-6 fw-semibold text-white  ">SELECT WHICH ITEMS YOU’D LIKE TO ORDER FOR YOUR EVENT: *</p>
             </div>
             <div className="d-flex flex-row" style={{width:"100%",border:"3px solid red"}}>
@@ -114,7 +114,7 @@ export default function Teac() {
                    </div>
                  </div>     
             </div>
-            <div className="d-flex flex-column pt-2 mx-1" style={{width:"98%",height:"230px",border:"3px solid red"}}>
+            <div className="d-flex flex-column pt-2 mx-1" style={{width:"98%",height:"200px",border:"3px solid red"}}>
                  <label  htmlFor="fname" className='ms-1 fs-6 fw-semibold'>DESCRIBE YOUR EVENT (Are there any additional details you would like us to be aware of?)*</label><br></br>
                  <textarea className="form-control rounded-3 " id="exampleFormControlTextarea1" rows="5"></textarea><br></br>
              </div>
