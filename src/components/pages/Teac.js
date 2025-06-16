@@ -31,39 +31,39 @@ export default function Teac() {
 {/* -----------------------------------------------------section no 2----------------------------------------------------------------------------- */}
           <div className="d-flex flex-column mt-4"  style={{height:"1200px",width:"100%",border:"3px solid red"}}>
             <div className="d-flex flex-row" style={{height:"80px",border:"3px solid red"}}>
-               <div className="d-flex flex-column ps-1 pb-2" style={{width:"48%",border:"3px solid red"}}>
-                 <label  htmlFor="fname" className='mx-1 fs-5 fw-normal mb-1'style={{height:"10px"}}>First name</label><br></br>
-                 <input style={{height:"40px"}} className="rounded-3 mt-1" type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
+               <div className="d-flex flex-column ps-1 pt-2" style={{width:"48%",border:"3px solid red"}}>
+                 <label  htmlFor="fname" className='mx-1 fs-5 fw-normal pb-1'style={{height:"10px"}}>First name</label><br></br>
+                 <input style={{height:"40px"}} className="rounded-3 pb-1" type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
                </div>
-               <div className="d-flex flex-column ms-4 pb-2 pt-2" style={{width:"48%",border:"3px solid red"}}>
-                 <label  htmlFor="fname" className='fs-5 fw-normal mb-1' style={{height:"10px"}}>Last name</label><br></br>
-                 <input style={{height:"40px"}} className="rounded-3 mt-1" type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
+               <div className="d-flex flex-column ms-4 ps-3 pt-2" style={{width:"48%",border:"3px solid red"}}>
+                 <label  htmlFor="fname" className=' mx-1 fs-5 fw-normal pb-1' style={{height:"10px"}}>Last name</label><br></br>
+                 <input style={{height:"40px"}} className="rounded-3 pb-1-1" type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
                </div>
              </div>
 
              <div className="d-flex flex-column mt-2 mb-2 mx-1" style={{width:"98%",height:"80px",border:"3px solid red"}} >
-                 <label  htmlFor="fname" className='ms-1 fs-5 fw-normal mb-1' style={{height:"10px"}}>Email</label><br></br>
-                 <input style={{height:"40px"}} className="rounded-3 mt-1" type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
+                 <label  htmlFor="fname" className='ms-1 fs-5 fw-normal pb-1' style={{height:"10px"}}>Email</label><br></br>
+                 <input style={{height:"40px"}} className="rounded-3 pb-1" type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
              </div>
 
              <div className="d-flex flex-column mt-2 mb-2 mx-1" style={{width:"98%",height:"80px",border:"3px solid red"}}>
-                 <label  htmlFor="fname" className='ms-1 fs-5 fw-normal mb-1' style={{height:"10px"}}>Phone</label><br></br>
-                 <input style={{height:"40px"}} className="rounded-3 mt-1" type="text" id="fname" name="fname"/><br></br>
+                 <label  htmlFor="fname" className='ms-1 fs-5 fw-normal pb-1' style={{height:"10px"}}>Phone</label><br></br>
+                 <input style={{height:"40px"}} className="rounded-3 pb-1" type="text" id="fname" name="fname"/><br></br>
              </div>
 
              <div className="d-flex flex-column mt-2 mb-2 mx-1" style={{width:"98%",height:"80px"}}>
-                 <label  htmlFor="fname" className='ms-1 fs-5 fw-normal mb-2' style={{height:"10px"}}>Date Of Event</label><br></br>
-                 <input style={{height:"40px"}} className="rounded-3 mt-1" type="text" id="fname" name="fname" placeholder='mm/dd/yyyy'/><br></br>
+                 <label  htmlFor="fname" className='ms-1 fs-5 fw-normal pb-2' style={{height:"10px"}}>Date Of Event</label><br></br>
+                 <input style={{height:"40px"}} className="rounded-3 pb-1" type="text" id="fname" name="fname" placeholder='mm/dd/yyyy'/><br></br>
              </div>
 
              <div className="d-flex flex-column mt-2 mb-2 mx-1" style={{width:"98%",height:"80px",border:"3px solid red"}}>
-                 <label  htmlFor="fname" className='ms-1 fs-5 fw-normal mb-1' style={{height:"10px"}}>Time Of Event</label><br></br>
-                 <input style={{height:"40px"}} className="rounded-3 mt-1" type="text" id="fname" name="fname" placeholder='--:-- --'/><br></br>
+                 <label  htmlFor="fname" className='ms-1 fs-5 fw-normal pb-1' style={{height:"10px"}}>Time Of Event</label><br></br>
+                 <input style={{height:"40px"}} className="rounded-3 pb-1" type="text" id="fname" name="fname" placeholder='--:-- --'/><br></br>
              </div>
 
              <div className="d-flex flex-column mt-2 mb-2 mx-1" style={{width:"98%",height:"80px",border:"3px solid red"}}>
-                 <label  htmlFor="fname" className='ms-1 fs-5 fw-normal mb-1' style={{height:"10px"}}>Number Of Guests</label><br></br>
-                 <input style={{height:"40px"}} className="rounded-3 mt-1" type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
+                 <label  htmlFor="fname" className='ms-1 fs-5 fw-normal pb-1' style={{height:"10px"}}>Number Of Guests</label><br></br>
+                 <input style={{height:"40px"}} className="rounded-3 pb-1" type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
              </div>
   {/* --------------------------------------------------------section no 3--------------------------------------------------------- */}
             <div className="ms-2 mt-3" style={{height:"30px",border:"3px solid red"}}>
