@@ -24,7 +24,7 @@ function App() {
            <Route path='/protein' element={<Protein/>}/>
            <Route path='/tea' element={<Teac/>}/>
 
-         <Route path="/" element={<Navigate to="/home" replace/>}/>
+         <Route path="/" element={<Home/>}/>
        </Routes>
     </BrowserRouter>
     </>
