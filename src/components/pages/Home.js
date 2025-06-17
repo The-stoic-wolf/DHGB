@@ -1,12 +1,41 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function Navbar() {
+   const images =[
+        "hotb2.jpeg",
+        "food1-logo.png",
+        "pastry8.jpeg",
+        "fried-chik.jpeg"
+      ]
+      const [index,setIndex] =useState(0);
+
+      const handlePrev =()=>{
+        setIndex((currentindex)=>(currentindex === 0 ? images.length - 1 : currentindex - 1));
+      }
+      const handleNext=()=>{
+        setIndex((currentindex)=>(currentindex === images.length - 1 ? 0 : currentindex + 1));
+      }
+      useState(()=>{
+       const interval = setInterval(()=>{
+           setIndex((currentindex)=>(currentindex === images.length - 1 ? 0 : currentindex + 1));
+       },3000);
+
+        return ()=> clearInterval(interval);
+      },[])
+
   return (
     <>
     <header>
  <div className="image1">
-  <div className="d-flex w-100 " style={{height:"750px"}} >
-  <img src="food1-logo.png" alt="logo2" style={{objectFit:"cover",width:"100%"}}  />
+  <div className="d-flex w-100 " style={{height:"750px"}}>
+   <img src={images[index]} alt="logo2" className="img-fluid" style={{objectFit:"cover",width:"100%"}} />
+    <button onClick={handlePrev} className="text-white fs-3 fw-bold bg-dark bg-opacity-75  position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",left:'10px'}}> ‹ </button>
+    <button onClick={handleNext} className="text-white fs-3 fw-bold bg-dark bg-opacity-75  position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",right:"10px"}}> › </button>
+    <div className="d-flex flex-column position-absolute bg-dark bg-opacity-75 rounded-5" style={{height:"200px",width:"650px",top:'36%',left:"30%"}}>
+      <p className="text-white fs-2 fw-bold fst-italic ps-4 pt-2">IT'S BETTER VEGAN</p>
+      <h5 className="ps-4 text-white ">Experience our one-of-a-kind signature vegan coconut croissant.</h5>
+      <button className=" btn btn-primary rounded-5 " style={{height:'45px',width:"200px",margin:"20px 0px 0px 10px"}}>Learn More</button>
+      </div>
   </div>
 </div>
 </header>
@@ -17,7 +46,7 @@ export default function Navbar() {
 </div>
 <div style={{height:"190px",backgroundColor:"rgb(40, 51, 65)"}}>
   <div className="d-flex flex-column justify-content-center align-items-center">
-   <p className="fs-2 fw-medium text-white mt-3">COME VISIT US</p>
+   <p className="fs-2 fw-medium text-white pt-3">COME VISIT US</p>
    <button type="button" className="btn btn-primary rounded-4 mt-5 fw-bold fs-5"  style={{height:"45px",width:"300px"}}>Contact Us</button>
    </div>
 </div>

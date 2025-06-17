@@ -75,7 +75,7 @@ export default function Regular() {
              </div> 
 
              <div className="d-flex flex-column" style={{height:"300px",width:"27%",margin:"10px"}}>
-               <img className="" src="sandwitch.jpeg" alt="" style={{height:"220px"}} />
+               <img className="" src="sandwitch7.jpeg" alt="" style={{height:"220px"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column "style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mb-0 mt-2">SPECIAL COMBINATION</p>
                  <p className="text-warning mt-0">Đặc Biệt</p>
@@ -83,7 +83,7 @@ export default function Regular() {
              </div>
 
              <div className="d-flex flex-column" style={{height:"300px",width:"27%",margin:"10px"}}>
-               <img className="" src="sandwitch.jpeg" alt="" style={{height:"220px"}} />
+               <img className="" src="sandwitch6.jpeg" alt="" style={{height:"220px"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column "style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mb-0 mt-2">FRIED EGG</p>
                  <p className="text-warning mt-0">Trứng Ốp La</p>
@@ -162,7 +162,7 @@ export default function Regular() {
              </div>
 
              <div className="d-flex flex-column" style={{height:"350px",width:"27%",margin:"10px"}}>
-               <img className="" src="sec3-3.jpeg" alt="" style={{height:"250px",objectFit:"cover"}} />
+               <img className="" src="buns2.jpeg" alt="" style={{height:"250px",objectFit:"cover"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column " style={{height:"100px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mt-4 fw-semibold">VIETNAMESES PUFF PASTRY</p>
                  <p className="text-warning ">PORK,CHICKEN</p>
