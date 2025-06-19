@@ -78,14 +78,14 @@ const boxes =[
     <>
     <header>
  <div className="images h-100">
-  <div className="d-flex position-relative w-100" style={{ height:"570px" ,overflow:"hidden",border:"3px solid red"}}>
+  <div className="d-flex position-relative w-100" style={{ height:"600px",marginTop: window.innerWidth <= 550 ?"100px":"0px",overflow:"hidden",border:"3px solid red"}}>
    <img src={images[index]} alt="logo2" className="img-fluid" style={{objectFit:"cover",width:"100%",height:"100%"}} />
     <button onClick={handlePrev} className="text-white fs-3 fw-bold bg-dark bg-opacity-75  position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",left:'2px',transform:"translateY(-50%)",zIndex:2}}> ‹ </button>
     <button onClick={handleNext} className="text-white fs-3 fw-bold bg-dark bg-opacity-75 position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",right:"2px",transform:"translateY(-50%)",zIndex:2}}> › </button>
     <div className="d-flex flex-column position-absolute bg-dark bg-opacity-75 rounded-5 ms-5" style={{maxHeight:"200px",height:"80%",width:"80%",maxWidth:"647px",top:'50%',left : largescreen?"30%" :"1%",transform : largescreen  ? "none":"translateY(-50%)",zIndex:2}}>
        <p className="text-white fs-2 fw-bold fst-italic ps-4 mt-1">IT'S BETTER VEGAN</p>
-       <h5 className="ps-4 text-white ">Experience our one-of-a-kind signature vegan coconut croissant.</h5>
-       <button className=" btn btn-primary rounded-5 " style={{height:'40px',width:"200px",margin: window.innerWidth <= 547 ?"6px 0px 0px 6px":"20px 0px 0px 10px"}}>Learn More</button>
+       <h5 className="ps-4 text-white" style={{ fontWeight: window.innerWidth <= 550 ?"normal":"semibold"}}>Experience our one-of-a-kind signature vegan coconut croissant.</h5>
+       <button className=" btn btn-primary rounded-5 " style={{height:'40px',width:"200px",margin: window.innerWidth <= 550 ?"6px 0px 0px 6px":"20px 0px 0px 10px"}}>Learn More</button>
      </div>
   </div>
 </div>
@@ -103,7 +103,7 @@ const boxes =[
 </div>
 {/* ---------------------------------------------------------------------section no 1 ------------------------------------------------------------------------------------------- */}
 <div className="bg-black d-flex flex-row" style={{height:"500px",border:"3px solid red"}}>
-   <div className="d-flex flex-column text-white " style={{width:"25%",height:"500px",padding:"150px 0px 50px 120px"}}>
+   <div className="d-flex flex-column text-white " style={{width:"25%",height:"500px",padding:window.innerWidth <= 550?"80px 0px 80px 30px":"150px 0px 50px 120px"}}>
     <h5 className="fw-bold fs-4 ps-5">4.5</h5>
     <p className="fs-5 fw-semibold ">Based on 265 reviews</p>
     <p className="mt-0 ps-3">powered by google</p>
