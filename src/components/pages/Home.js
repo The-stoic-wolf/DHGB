@@ -78,7 +78,7 @@ const boxes =[
     <>
     <header>
  <div className="images">
-  <div className="d-flex position-relative w-100 h-100" style={{height:"750px",overflow:"hidden"}}>
+  <div className="d-flex position-relative w-100 h-100" style={{ height:window.innerWidth <= 576 ?"800px":"570px" ,overflow:"hidden"}}>
    <img src={images[index]} alt="logo2" className="img-fluid" style={{objectFit:"cover",width:"100%",height:"100%"}} />
     <button onClick={handlePrev} className="text-white fs-3 fw-bold bg-dark bg-opacity-75  position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",left:'2px',transform:"translateY(-50%)",zIndex:2}}> ‹ </button>
     <button onClick={handleNext} className="text-white fs-3 fw-bold bg-dark bg-opacity-75 position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",right:"2px",transform:"translateY(-50%)",zIndex:2}}> › </button>
@@ -129,7 +129,7 @@ const boxes =[
    </div>
 </div>
 {/* -----------------------------------------------------------------------------section no 2------------------------------------------------------------- */}
-     <div className={`d-flex ${window.innerWidth <= 547?"flex-column":"flex-row"}  bg-dark w-100`} style={{height : window.innerWidth >= 547 ? "180px": "600px"}}>
+     <div className={`d-flex ${window.innerWidth <= 547?"flex-column":"flex-row"}  bg-dark w-100`} style={{height : window.innerWidth <= 547 ? "620px": "180px"}}>
 
         <div className="d-flex flex-column " style={{height:"160px",width:"200px",padding:"20px 10px 10px 10px"}}>
            <p className="mx-3 fs-5 fw-semibold text-white "> Address</p>
@@ -164,7 +164,7 @@ const boxes =[
         </div>
        </div>
        {/* ------------------------------------------------------------------------section no 6------------------------------------------------------------------------------------------ */}
-      <div className="d-flex flex-wrap w-100 bg-black align-items-center"  style={{height:"80px"}}>
+      <div className="d-flex flex-wrap w-100 bg-black align-items-center"  style={{height:"100px"}}>
          <p className=" fs-5 text-white mt-3 mx-5">© 2025 Đông Hưng Viên Bakery – All Rights Reserved.</p>
       </div>
 </>
