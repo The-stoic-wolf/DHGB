@@ -4,6 +4,8 @@ export default function Navbar() {
    const images =[
         "food1-logo.png",
         "fried-chik.jpeg",
+        "hotb3.jpeg",
+        "pastry7.jpeg"
       ]
       const [index,setIndex] =useState(0);
 
@@ -75,20 +77,20 @@ const boxes =[
   return (
     <>
     <header>
- <div className="images">
-  <div className="d-flex position-relative w-100 h-100" style={{ height:"570px" ,overflow:"hidden",border:"3px solid red"}}>
+ <div className="images h-100">
+  <div className="d-flex position-relative w-100" style={{ height:"570px" ,overflow:"hidden",border:"3px solid red"}}>
    <img src={images[index]} alt="logo2" className="img-fluid" style={{objectFit:"cover",width:"100%",height:"100%"}} />
     <button onClick={handlePrev} className="text-white fs-3 fw-bold bg-dark bg-opacity-75  position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",left:'2px',transform:"translateY(-50%)",zIndex:2}}> ‹ </button>
     <button onClick={handleNext} className="text-white fs-3 fw-bold bg-dark bg-opacity-75 position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",right:"2px",transform:"translateY(-50%)",zIndex:2}}> › </button>
-    <div className="d-flex flex-column position-absolute bg-dark bg-opacity-75 rounded-5 ms-5" style={{maxHeight:"200px",height:"80%",width:"80%",maxWidth:"647px",top:'50%',left : largescreen?"30%" :"2%",transform : largescreen  ? "none":"translateY(-50%)",zIndex:2}}>
+    <div className="d-flex flex-column position-absolute bg-dark bg-opacity-75 rounded-5 ms-5" style={{maxHeight:"200px",height:"80%",width:"80%",maxWidth:"647px",top:'50%',left : largescreen?"30%" :"1%",transform : largescreen  ? "none":"translateY(-50%)",zIndex:2}}>
        <p className="text-white fs-2 fw-bold fst-italic ps-4 mt-1">IT'S BETTER VEGAN</p>
        <h5 className="ps-4 text-white ">Experience our one-of-a-kind signature vegan coconut croissant.</h5>
-       <button className=" btn btn-primary rounded-5 " style={{height:'40px',width:"200px",margin: window.innerWidth <= 547 ?"2px 0px 0px 6px":"20px 0px 0px 10px"}}>Learn More</button>
+       <button className=" btn btn-primary rounded-5 " style={{height:'40px',width:"200px",margin: window.innerWidth <= 547 ?"6px 0px 0px 6px":"20px 0px 0px 10px"}}>Learn More</button>
      </div>
   </div>
 </div>
 </header>
-<div className="d-flex justify-content-center align-items-center type1 w-100 bg-black" style={{height:"130px",border:"3px solid red"}}>
+<div className="d-flex justify-content-center align-items-center type1 w-100 bg-black" style={{height:"150px",border:"3px solid red"}}>
   <div className="text1">
     <p className="text-bold text-white fs-3 px-3">Vegan-friendly Vietnamese bakery serving both traditional & vegan bánh mì, pastries, desserts & coffee.</p>
   </div>
