@@ -71,14 +71,14 @@ const boxes =[
     <header>
  <div className="image1 ">
   <div className="d-flex position-relative w-100 " style={{height:"750px"}}>
-   <img src={images[index]} alt="logo2" className="img-fluid" style={{objectFit:"cover",width:"100%"}} />
+   <img src={images[index]} alt="logo2" className="img-fluid col-12" style={{objectFit:"cover",width:"100%"}} />
     <button onClick={handlePrev} className="text-white fs-3 fw-bold bg-dark bg-opacity-75  position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",left:'2px'}}> ‹ </button>
     <button onClick={handleNext} className="text-white fs-3 fw-bold bg-dark bg-opacity-75  position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",right:"2px"}}> › </button>
-    <div className="d-flex flex-column position-absolute bg-dark bg-opacity-75 rounded-5" style={{height:"200px",width:"650px",top:'36%',left:"30%"}}>
+    <div className="d-flex flex-column position-absolute bg-dark bg-opacity-75 rounded-5 col-12" style={{height:"200px",width:"650px",top:'36%',left:"30%"}}>
       <p className="text-white fs-2 fw-bold fst-italic ps-4 pt-2">IT'S BETTER VEGAN</p>
       <h5 className="ps-4 text-white ">Experience our one-of-a-kind signature vegan coconut croissant.</h5>
       <button className=" btn btn-primary rounded-5 " style={{height:'45px',width:"200px",margin:"20px 0px 0px 10px"}}>Learn More</button>
-      </div>
+     </div>
   </div>
 </div>
 </header>
