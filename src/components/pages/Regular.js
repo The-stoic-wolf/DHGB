@@ -33,7 +33,7 @@ export default function Regular() {
           <div className=" bg-black" style={{height:window.innerWidth <= 700 ?"2700px":"1100px",width:window.innerWidth <= 700 ?"40%":"30%",padding:window.innerWidth <= 700 ?"80px 0px 80px 20px":"80px 0px 80px 80px",border:"3px solid red"}}>
              <p className="fw-bold fs-2 text-white" style={{marginLeft:window.innerWidth <= 700 ?"60px":"110px"}}>BÁNH MÌ</p>
           </div>
-          <div className={`d-flex ${window.innerWidth <= 700 ? "flex-column" : "flex-wrap"} justify-contant-evenly bg-black `} style={{height:window.innerWidth <= 700 ?"2700px":"800px",width:window.innerWidth <= 700 ?"60%":"70%",padding:"80px 80px 80px 0px",border:"3px solid red"}}>
+          <div className={`d-flex ${window.innerWidth <= 700 ? "flex-column" : "flex-wrap"} justify-contant-evenly bg-black `} style={{height:window.innerWidth <= 700 ?"2700px":"1100px",width:window.innerWidth <= 700 ?"60%":"70%",padding:"80px 80px 80px 0px",border:"3px solid red"}}>
              <div className="d-flex  flex-column" style={{height:"300px",width:window.innerWidth <= 700 ?"95%":"27%",margin:window.innerWidth <= 700 ?"10px 0px 10px 20px":"10px",border:"3px solid red"}}>
               <img className="h-100 w-100" src="sandwitch.jpeg" alt="" style={{height:"220px"}} />
                <div className="d-flex justify-content-center align-items-center flex-column " style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
@@ -103,11 +103,11 @@ export default function Regular() {
          <p className="text-white " style={{margin:"0px 0px 0px 250px",padding:"0px 250px 0px 0px"}}>_______________________________________________________________________________________________________________________________________________________________________</p>
       </div>
       {/* -----------------------------------------------------section no 2----------------------------------------------------------------------- */}
-        <div className="d-flex flex-row  w-100 bg-black" style={{height:window.innerWidth <= 700 ?"1700px":"600px",border:"3px solid red"}}>
-          <div className=" bg-black" style={{height:window.innerWidth <= 700 ?"1700px":"600px",width:window.innerWidth <= 700 ?"40%":"30%",padding:window.innerWidth <= 700 ?"80px 0px 80px 20px":"80px 0px 80px 80px",border:"3px solid red"}}>
+        <div className="d-flex flex-row  w-100 bg-black" style={{height:window.innerWidth <= 700 ?"1700px":"800px",border:"3px solid red"}}>
+          <div className=" bg-black" style={{height:window.innerWidth <= 700 ?"1700px":"800px",width:window.innerWidth <= 700 ?"40%":"30%",padding:window.innerWidth <= 700 ?"80px 0px 80px 20px":"80px 0px 80px 80px",border:"3px solid red"}}>
              <p className="fw-bold fs-2 text-white" style={{marginLeft:window.innerWidth <= 700 ?"60px":"110px"}}>PASTRIES</p>
           </div>
-          <div className={`d-flex ${window.innerWidth <= 700 ? "flex-column" : "flex-wrap"} justify-contant-evenly bg-black w-60`} style={{height:window.innerWidth <= 700 ?"1700px":"600px",width:window.innerWidth <= 700 ?"60%":"70%",padding:"80px 80px 80px 0px",border:"3px solid red"}}>
+          <div className={`d-flex ${window.innerWidth <= 700 ? "flex-column" : "flex-wrap"} justify-contant-evenly bg-black `} style={{height:window.innerWidth <= 700 ?"1700px":"800px",width:window.innerWidth <= 700 ?"60%":"70%",padding:"80px 80px 80px 0px",border:"3px solid red"}}>
              <div className="d-flex  flex-column" style={{height:"300px",width:window.innerWidth <= 700 ?"95%":"27%",margin:window.innerWidth <= 700 ?"10px 0px 10px 20px":"10px",border:"3px solid red"}}>
               <img className="h-100 w-100" src="hotb4.jpeg" alt="" style={{height:"220px",objectFit:"cover"}} />
                <div className="d-flex justify-content-center align-items-center flex-column " style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}}  >
@@ -152,7 +152,7 @@ export default function Regular() {
           <div className=" bg-black" style={{height:window.innerWidth <= 700 ?"1200px":"540px",width:window.innerWidth <= 700 ?"40%":"30%",padding:window.innerWidth <= 700 ?"80px 0px 80px 20px":"80px 0px 80px 80px",border:"3px solid red"}}>
              <p className="fw-bold fs-2 text-white" style={{marginLeft:window.innerWidth <= 700 ?"45px":"110px"}}>VIETNAMESE PASTRIESE</p>
           </div>
-          <div className={`d-flex  ${window.innerWidth <= 700 ? "flex-column" : "flex-wrap"} justify-contant-evenly bg-black w-60`} style={{height:window.innerWidth <= 700 ?"1200px":"540px",width:window.innerWidth <= 700 ?"60%":"70%",padding:"80px 80px 80px 0px",border:"3px solid red"}}>
+          <div className={`d-flex  ${window.innerWidth <= 700 ? "flex-column" : "flex-wrap"} justify-contant-evenly bg-black `} style={{height:window.innerWidth <= 700 ?"1200px":"540px",width:window.innerWidth <= 700 ?"60%":"70%",padding:"80px 80px 80px 0px",border:"3px solid red"}}>
              <div className="d-flex  flex-column" style={{height:"350px",width:window.innerWidth <= 700 ?"95%":"27%",margin:window.innerWidth <= 700 ?"10px 0px 10px 20px":"10px",border:"3px solid red"}}>
               <img className="h-100 w-100" src="sec3-1.jpeg" alt="" style={{height:"250px",objectFit:"cover"}} />
                <div className="d-flex justify-content-center align-items-center flex-column " style={{height:"100px",backgroundColor:"rgb(40, 51, 65)"}} >
@@ -162,7 +162,7 @@ export default function Regular() {
              </div>
 
              <div className="d-flex flex-column" style={{height:"350px",width:window.innerWidth <= 700 ?"95%":"27%",margin:window.innerWidth <= 700 ?"10px 0px 10px 20px":"10px",border:"3px solid red"}}>
-               <img className="h-100 w-100" src="buns2.jpeg" alt="" style={{height:"250px",objectFit:"cover"}} />
+               <img className="h-100 w-100" src="buns2.jpeg" alt="" style={{height:"240px",objectFit:"cover"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column " style={{height:"100px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mt-4 fw-semibold">VIETNAMESES PUFF PASTRY</p>
                  <p className="text-warning ">PORK,CHICKEN</p>
@@ -186,9 +186,9 @@ export default function Regular() {
           <div className=" bg-black" style={{height:window.innerWidth <= 700 ?"500px":"540px",width:window.innerWidth <= 700 ?"40%":"30%",padding:window.innerWidth <= 700 ?"80px 0px 80px 20px":"80px 0px 80px 80px",border:"3px solid red"}}>
              <p className="fw-bold fs-2 text-white" style={{marginLeft:window.innerWidth <= 700 ?"60px":"110px"}}>DRINKS</p>
           </div>
-          <div className={`d-flex  ${window.innerWidth <= 700 ? "flex-column" : "flex-wrap"} justify-contant-evenly bg-black w-60`} style={{height:window.innerWidth <= 700 ?"500px":"540px",width:window.innerWidth <= 700 ?"60%":"70%",padding:"80px 80px 80px 0px",border:"3px solid red"}}>
+          <div className={`d-flex  ${window.innerWidth <= 700 ? "flex-column" : "flex-wrap"} justify-contant-evenly bg-black `} style={{height:window.innerWidth <= 700 ?"500px":"540px",width:window.innerWidth <= 700 ?"60%":"70%",padding:"80px 80px 80px 0px",border:"3px solid red"}}>
              <div className="d-flex  flex-column" style={{height:"347px",width:window.innerWidth <= 700 ?"95%":"27%",margin:window.innerWidth <= 700 ?"10px 0px 10px 20px":"10px",border:"3px solid red"}}>
-              <img className="h-100 w-100" src="coffee3.jpeg" alt="" style={{height:"260px",objectFit:"cover"}} />
+              <img className="h-100 w-100" src="coffee3.jpeg" alt="" style={{height:"250px",objectFit:"cover"}} />
                <div className="d-flex justify-content-center align-items-center flex-column "style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                 <p className="text-white mt-3 fw-semibold">VIETNAMESES COFFEE</p>
                 <p className="text-warning mx-2">CÀ PHÊ SỮA ĐÁ</p>
