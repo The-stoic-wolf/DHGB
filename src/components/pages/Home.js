@@ -74,11 +74,11 @@ const boxes =[
    <img src={images[index]} alt="logo2" className="img-fluid col-12" style={{objectFit:"cover",width:"100%"}} />
     <button onClick={handlePrev} className="text-white fs-3 fw-bold bg-dark bg-opacity-75  position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",left:'2px'}}> ‹ </button>
     <button onClick={handleNext} className="text-white fs-3 fw-bold bg-dark bg-opacity-75  position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",right:"2px"}}> › </button>
-    <div className="d-flex flex-column position-absolute bg-dark bg-opacity-75 rounded-5 col-12" style={{height:"200px",width:"650px",top:'36%',left:"30%"}}>
+    {/* <div className="d-flex flex-column position-absolute bg-dark bg-opacity-75 rounded-5 col-12" style={{height:"200px",width:"650px",top:'36%',left:"30%"}}>
       <p className="text-white fs-2 fw-bold fst-italic ps-4 pt-2">IT'S BETTER VEGAN</p>
       <h5 className="ps-4 text-white ">Experience our one-of-a-kind signature vegan coconut croissant.</h5>
       <button className=" btn btn-primary rounded-5 " style={{height:'45px',width:"200px",margin:"20px 0px 0px 10px"}}>Learn More</button>
-     </div>
+     </div> */}
   </div>
 </div>
 </header>
@@ -102,7 +102,7 @@ const boxes =[
    </div>
 
    <div className="d-flex flex-row position-relative" style={{height:"500px",width:"75%"}}>
-    <button onClick={prevbox} className="text-white fs-3 fw-bold  bg-dark bg-opacity-75 position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",left:'10px'}}> ‹ </button>
+    {/* <button onClick={prevbox} className="text-white fs-3 fw-bold  bg-dark bg-opacity-75 position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",left:'10px'}}> ‹ </button>
      {visibleboxes.map((boxes,i)=>(
       <div className="d-flex flex-column rounded-4" key={i} style={{height:"380px",width:"320px",margin:"50px 0px 50px 40px",backgroundColor:"lightblue", border:"2px solid blue"}}>
         <div className="d-flex flex-row pt-3 ps-4" style={{height:"80px"}}>
@@ -117,13 +117,13 @@ const boxes =[
         )
        )
       }
-       <button onClick={nextBox} className="text-white fs-3 fw-bold  bg-dark bg-opacity-75 position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",right:"10px"}}> › </button>
+       <button onClick={nextBox} className="text-white fs-3 fw-bold  bg-dark bg-opacity-75 position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",right:"10px"}}> › </button> */}
    </div>
 </div>
 {/* -----------------------------------------------------------------------------section no 2------------------------------------------------------------- */}
      <div className="d-flex flex-row  bg-dark w-100" style={{height: "180px"}}>
 
-        <div className="d-flex flex-column " style={{height:"160px",width:"200px",padding:"20px 10px 10px 10px"}}>
+        {/* <div className="d-flex flex-column " style={{height:"160px",width:"200px",padding:"20px 10px 10px 10px"}}>
            <p className="mx-3 fs-5 fw-semibold text-white "> Address</p>
            <p className="mx-3 fw-semibold text-white ">  
                8536 Westminster Blvd,
@@ -153,7 +153,7 @@ const boxes =[
         </div>
         <div style={{height:"160px",width:"200px",padding:"20px 5px 10px 0px"}}>
            <p  className="mx-1 fs-6 fw-semibold text-white">CONTACT US</p>
-        </div>
+        </div> */}
        </div>
        {/* ------------------------------------------------------------------------section no 6------------------------------------------------------------------------------------------ */}
       <div className="d-flex flex-wrap w-100 bg-black align-items-center"  style={{height:"80px"}}>
