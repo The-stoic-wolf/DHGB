@@ -129,7 +129,7 @@ const boxes =[
    </div>
 </div>
 {/* -----------------------------------------------------------------------------section no 2------------------------------------------------------------- */}
-     <div className={`d-flex ${window.innerWidth <= 547?"flex-column":"flex-row"}  bg-dark w-100`} style={{height : window.innerWidth <= 547 ? "620px": "180px",border:"3px solid red"}}>
+     <div className={`d-flex ${window.innerWidth <= 547?"flex-column":"flex-row"}  bg-dark w-100`} style={{height : window.innerWidth <= 550 ? "620px": "180px",border:"3px solid red"}}>
 
         <div className="d-flex flex-column " style={{height:"160px",width:"200px",padding:"20px 10px 10px 10px"}}>
            <p className="mx-3 fs-5 fw-semibold text-white "> Address</p>

@@ -29,7 +29,7 @@ export default function Navbar() {
    
   return (
     <div>
-          <nav className={`navbar navbar-expand-lg ${style ? "bg-dark bg-opacity-75" : "bg-transparent", window.innerWidth <= 550 ?"bg-dark":"bg-transparent"} fixed-top `}>
+          <nav className={`navbar navbar-expand-lg ${style ? "bg-dark bg-opacity-75" : "bg-transparent", window.innerWidth <= 550 ? "bg-dark" :"bg-transparent"} fixed-top `}>
   <div className="container-fluid"> 
     <div className="logo1 ">
       <a href="/">
