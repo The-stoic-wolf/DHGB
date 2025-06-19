@@ -2,10 +2,8 @@ import React, { useEffect, useState } from 'react'
 
 export default function Navbar() {
    const images =[
-        "hotb2.jpeg",
         "food1-logo.png",
-        "pastry8.jpeg",
-        "fried-chik.jpeg"
+        "fried-chik.jpeg",
       ]
       const [index,setIndex] =useState(0);
 
@@ -78,19 +76,19 @@ const boxes =[
     <>
     <header>
  <div className="images">
-  <div className="d-flex position-relative w-100 h-100" style={{ height:window.innerWidth <= 576 ?"800px":"570px" ,overflow:"hidden"}}>
+  <div className="d-flex position-relative w-100 h-100" style={{ height:"570px" ,overflow:"hidden",border:"3px solid red"}}>
    <img src={images[index]} alt="logo2" className="img-fluid" style={{objectFit:"cover",width:"100%",height:"100%"}} />
     <button onClick={handlePrev} className="text-white fs-3 fw-bold bg-dark bg-opacity-75  position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",left:'2px',transform:"translateY(-50%)",zIndex:2}}> ‹ </button>
     <button onClick={handleNext} className="text-white fs-3 fw-bold bg-dark bg-opacity-75 position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",right:"2px",transform:"translateY(-50%)",zIndex:2}}> › </button>
-    <div className="d-flex flex-column position-absolute bg-dark bg-opacity-75 rounded-5 ms-5" style={{maxHeight:"200px",height:"90%",width:"80%",maxWidth:"647px",top:'50%',left : largescreen?"30%" :"2%",transform : largescreen  ? "none":"translateY(-50%)",zIndex:2}}>
-       <p className="text-white fs-2 fw-bold fst-italic ps-4 mt-2">IT'S BETTER VEGAN</p>
+    <div className="d-flex flex-column position-absolute bg-dark bg-opacity-75 rounded-5 ms-5" style={{maxHeight:"200px",height:"80%",width:"80%",maxWidth:"647px",top:'50%',left : largescreen?"30%" :"2%",transform : largescreen  ? "none":"translateY(-50%)",zIndex:2}}>
+       <p className="text-white fs-2 fw-bold fst-italic ps-4 mt-1">IT'S BETTER VEGAN</p>
        <h5 className="ps-4 text-white ">Experience our one-of-a-kind signature vegan coconut croissant.</h5>
-       <button className=" btn btn-primary rounded-5 " style={{height:'45px',width:"200px",margin:"20px 0px 0px 10px"}}>Learn More</button>
+       <button className=" btn btn-primary rounded-5 " style={{height:'40px',width:"200px",margin:"20px 0px 0px 10px"}}>Learn More</button>
      </div>
   </div>
 </div>
 </header>
-<div className="d-flex justify-content-center align-items-center type1 w-100 bg-black" style={{height:"130px"}}>
+<div className="d-flex justify-content-center align-items-center type1 w-100 bg-black" style={{height:"130px",border:"3px solid red"}}>
   <div className="text1">
     <p className="text-bold text-white fs-3 px-3">Vegan-friendly Vietnamese bakery serving both traditional & vegan bánh mì, pastries, desserts & coffee.</p>
   </div>
@@ -102,14 +100,14 @@ const boxes =[
    </div>
 </div>
 {/* ---------------------------------------------------------------------section no 1 ------------------------------------------------------------------------------------------- */}
-<div className="bg-black d-flex flex-row" style={{height:"500px"}}>
+<div className="bg-black d-flex flex-row" style={{height:"500px",border:"3px solid red"}}>
    <div className="d-flex flex-column text-white " style={{width:"25%",height:"500px",padding:"150px 0px 50px 120px"}}>
     <h5 className="fw-bold fs-4 ps-5">4.5</h5>
     <p className="fs-5 fw-semibold ">Based on 265 reviews</p>
     <p className="mt-0 ps-3">powered by google</p>
    </div>
 
-   <div className="d-flex flex-row position-relative" style={{height:"500px",width:"75%"}}>
+   <div className="d-flex flex-row position-relative" style={{height:"500px",width:"75%",border:"3px solid red"}}>
     <button onClick={prevbox} className="text-white fs-3 fw-bold  bg-dark bg-opacity-75 position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",left:'10px'}}> ‹ </button>
      {visibleboxes.map((boxes,i)=>(
       <div className="d-flex flex-column rounded-4" key={i} style={{height:"380px",width:"320px",margin:"50px 0px 50px 40px",backgroundColor:"lightblue", border:"2px solid blue"}}>
@@ -129,7 +127,7 @@ const boxes =[
    </div>
 </div>
 {/* -----------------------------------------------------------------------------section no 2------------------------------------------------------------- */}
-     <div className={`d-flex ${window.innerWidth <= 547?"flex-column":"flex-row"}  bg-dark w-100`} style={{height : window.innerWidth <= 547 ? "620px": "180px"}}>
+     <div className={`d-flex ${window.innerWidth <= 547?"flex-column":"flex-row"}  bg-dark w-100`} style={{height : window.innerWidth <= 547 ? "620px": "180px",border:"3px solid red"}}>
 
         <div className="d-flex flex-column " style={{height:"160px",width:"200px",padding:"20px 10px 10px 10px"}}>
            <p className="mx-3 fs-5 fw-semibold text-white "> Address</p>
@@ -164,7 +162,7 @@ const boxes =[
         </div>
        </div>
        {/* ------------------------------------------------------------------------section no 6------------------------------------------------------------------------------------------ */}
-      <div className="d-flex flex-wrap w-100 bg-black align-items-center"  style={{height:"100px"}}>
+      <div className="d-flex flex-wrap w-100 bg-black align-items-center"  style={{height:"100px",border:"3px solid red"}}>
          <p className=" fs-5 text-white mt-3 mx-5">© 2025 Đông Hưng Viên Bakery – All Rights Reserved.</p>
       </div>
 </>
