@@ -83,7 +83,7 @@ const boxes =[
     <div className="d-flex flex-column position-absolute bg-dark bg-opacity-75 rounded-5 ms-5" style={{maxHeight:"200px",height:"80%",width:"80%",maxWidth:"647px",top:'50%',left : largescreen?"30%" :"2%",transform : largescreen  ? "none":"translateY(-50%)",zIndex:2}}>
        <p className="text-white fs-2 fw-bold fst-italic ps-4 mt-1">IT'S BETTER VEGAN</p>
        <h5 className="ps-4 text-white ">Experience our one-of-a-kind signature vegan coconut croissant.</h5>
-       <button className=" btn btn-primary rounded-5 " style={{height:'40px',width:"200px",margin:"20px 0px 0px 10px"}}>Learn More</button>
+       <button className=" btn btn-primary rounded-5 " style={{height:'40px',width:"200px",margin: window.innerWidth <= 547 ?"2px 0px 0px 6px":"20px 0px 0px 10px"}}>Learn More</button>
      </div>
   </div>
 </div>
