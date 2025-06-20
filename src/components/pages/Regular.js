@@ -171,9 +171,9 @@ export default function Regular() {
 
              <div className="d-flex flex-column" style={{height:"350px",width:window.innerWidth <= 700 ?"95%":"27%",margin:window.innerWidth <= 700 ?"10px 0px 10px 20px":"10px",border:"3px solid red"}}>
                <img className="h-100 w-100" src="sec3-3.jpeg" alt="" style={{height:"250px",objectFit:"cover"}} />
-                <div className="d-flex justify-content-center align-items-center flex-column " style={{height:"100px",backgroundColor:"rgb(40, 51, 65)"}} >
-                 <p className="text-white mx-3 mt-4 fw-semibold">SOFT MINI BUNS</p>
-                 <p className="text-warning  mx-3 ">INCLUDES EGG.COCONUT TARO,MUNG BEAN,DURIAN</p>
+                <div className="d-flex justify-content-center align-items-center flex-column " style={{height:window.innerwidth <= 500 ?"130px":"100px",backgroundColor:"rgb(40, 51, 65)"}} >
+                 <p className="text-white mx-3 pt-4 fw-semibold">SOFT MINI BUNS</p>
+                 <p className="text-warning mx-2 ">INCLUDES EGG.COCONUT TARO,MUNG BEAN,DURIAN</p>
                </div>
              </div>
           </div>
