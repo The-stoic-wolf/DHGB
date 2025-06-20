@@ -55,7 +55,7 @@ export default function Navbar() {
       </ul>
     </div>
     <div className="icons">
-      <div className="d-flex justify-content-evenly  me-5 " style={{width:"200px"}}>
+      <div className="d-flex justify-content-evenly d-none d-md-flex me-5  d-md-none" style={{width:"200px"}}>
         <img className="ms-2 rounded-4" src="tiktok-36.png" alt="icon2" />
         <img className="ms-2 rounded-4" src="insta-36.png" alt="icon3" />
         <img className="ms-2 rounded-4" src="face-36.png" alt="icon4" />
