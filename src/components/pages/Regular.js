@@ -7,7 +7,7 @@ export default function Regular() {
         <p className=" fw-bold fs-1 text-white mb-2">REGULAR MENU</p>
       </div>
       {/* this is next div */}
-      <div className={`d-flex bg-black align-items-center ${window.innerWidth <= 600 ? "flex-column" : "flex-row" } w-100 justify-content-evenly`} style={{height:window.innerWidth <= 500 ?"600px":'200px'}}>
+      <div className={`d-flex bg-black align-items-center ${window.innerWidth <= 576 ? "flex-column" : "flex-row" } w-100 justify-content-evenly`} style={{height:window.innerWidth <= 576 ?"600px":'200px'}}>
         <div className="d-flex flex-column justify-content-center align-items-center  " style={{height:'130px',width:'180px'}}>
            <img className=" mt-3" src="bur.png" alt="" style={{height:"100px",width:"100px"}} />
            <p className="text-white fs-6 fw-light" >BÁNH MÌ</p>
@@ -29,12 +29,12 @@ export default function Regular() {
         </div>
       </div>
   {/* -------------------------------------------------------------section no 1 ----------------------------------------------------------------- */}    
-      <div className="d-flex flex-row w-100 bg-black" style={{height :window.innerWidth <= 600 ?"2700px":"1100px",border:"3px solid red"}}>
-          <div className=" bg-black" style={{height:window.innerWidth <= 700 ?"2700px":"1100px",width:window.innerWidth <= 700 ?"40%":"30%",padding:window.innerWidth <= 700 ?"80px 0px 80px 20px":"80px 0px 80px 80px",border:"3px solid red"}}>
-             <p className="fw-bold fs-2 text-white" style={{marginLeft:window.innerWidth <= 700 ?"20px":"110px"}}>BÁNH MÌ</p>
+      <div className="d-flex flex-row w-100 bg-black" style={{height :window.innerWidth <= 576 ?"2700px":window.innerWidth >576 && window.innerWidth <=992 ?" 1700px":"1100px",border:"3px solid red"}}>
+          <div className=" bg-black" style={{height:window.innerWidth <= 576 ?"2700px":window.innerWidth >576 && window.innerWidth <=992 ?" 1700px":"1100px",width:window.innerWidth <= 992 ?"40%":"30%",padding:window.innerWidth <= 576 ?"80px 0px 30px 20px":window.innerWidth >576 && window.innerWidth <= 992 ?"80px 20px 80px 30px":"80px 0px 80px 80px",border:"3px solid red"}}>
+             <p className="fw-bold fs-2 text-white" style={{marginLeft:window.innerWidth <= 576 ?"20px":window.innerWidth > 576 && window.innerWidth <=992 ?" 40px":"110px"}}>BÁNH MÌ</p>
           </div>
-          <div className={`d-flex ${window.innerWidth <= 700 ? "flex-column" : "flex-wrap"} justify-contant-evenly bg-black `} style={{height:window.innerWidth <= 700 ?"2700px":"1100px",width:window.innerWidth <= 700 ?"60%":"70%",padding:window.innerWidth <= 700 ?"20px 20px 20px 0px":"80px 80px 80px 0px",border:"3px solid red"}}>
-             <div className="d-flex  flex-column" style={{height:"300px",width:window.innerWidth <= 700 ?"95%":"27%",margin:window.innerWidth <= 700 ?"10px 0px 10px 20px":"10px",border:"3px solid red"}}>
+          <div className={`d-flex ${window.innerWidth <= 576 ? "flex-column":window.innerWidth > 576 && window.innerWidth  <=992 ?" flex-wrap": "flex-wrap"} justify-contant-evenly bg-black `} style={{height:window.innerWidth <= 576 ?"2700px":window.innerWidth >576 && window.innerWidth  <=992 ?" 1700px":"1100px",width:window.innerWidth <= 992 ?"60%":"70%",padding:window.innerWidth <= 992 ?"20px 20px 0px 0px":"80px 80px 80px 0px",border:"3px solid red"}}>
+             <div className="d-flex  flex-column" style={{height:"300px",width:window.innerWidth <= 576 ?"95%":window.innerWidth > 576 && window.innerWidth  <=992 ?" 45%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 20px":window.innerWidth >576 && window.innerWidth  <=992 ?"10px 0px 10px 10px":"10px",border:"3px solid red"}}>
               <img className="h-100 w-100" src="sandwitch.jpeg" alt="" style={{height:"220px"}} />
                <div className="d-flex justify-content-center align-items-center flex-column " style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                 <p className="text-white mb-0 mt-2">COLD CUT HAM</p>
@@ -42,7 +42,7 @@ export default function Regular() {
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"300px",width:window.innerWidth <= 700 ?"95%":"27%",margin:window.innerWidth <= 700 ?"10px 0px 10px 20px":"10px",border:"3px solid red"}}>
+             <div className="d-flex flex-column" style={{height:"300px",width:window.innerWidth <= 576 ?"95%":window.innerWidth > 576 && window.innerWidth  <=992 ?" 45%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 20px":window.innerWidth >576 && window.innerWidth  <=992 ?"10px 0px 10px 10px":"10px",border:"3px solid red"}}>
                <img className="h-100 w-100" src="burger2.jpeg" alt="" style={{height:"220px"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column " style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mb-0 mt-2">SHREDDED CHICKEN</p>
@@ -50,7 +50,7 @@ export default function Regular() {
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"300px",width:window.innerWidth <= 700 ?"95%":"27%",margin:window.innerWidth <= 700 ?"10px 0px 10px 20px":"10px",border:"3px solid red"}}>
+             <div className="d-flex flex-column" style={{height:"300px",width:window.innerWidth <= 576 ?"95%":window.innerWidth >576 && window.innerWidth  <=992 ?" 45%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 20px":window.innerWidth >576 && window.innerWidth  <=992 ?"10px 0px 10px 10px":"10px",border:"3px solid red"}}>
                <img className="h-100 w-100" src="sandwitch.jpeg" alt="" style={{height:"220px"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column " style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}}>
                  <p className="text-white mb-0 mt-2">PAT PORK MEAT LOAF</p>
@@ -58,15 +58,15 @@ export default function Regular() {
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"300px",width:window.innerWidth <= 700 ?"95%":"27%",margin:window.innerWidth <= 700 ?"10px 0px 10px 20px":"10px",border:"3px solid red"}}>
+             <div className="d-flex flex-column" style={{height:"300px",width:window.innerWidth <= 576 ?"95%":window.innerWidth > 576 && window.innerWidth  <=992 ?" 45%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 20px":window.innerWidth >576 && window.innerWidth  <=992 ?"10px 0px 10px 10px":"10px",border:"3px solid red"}}>
                <img className="h-100 w-100" src="burger2.jpeg" alt="" style={{height:"220px"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column"style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
-                 <p className="text-white mb-0 mt-2">GRILLED PORK</p>
+                 <p className="text-white mb-0 mt-2">GRILLED PORK</p>8
                  <p className="text-warning mt-0">Thịt Nguội</p>
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"300px",width:window.innerWidth <= 700 ?"95%":"27%",margin:window.innerWidth <= 700 ?"10px 0px 10px 20px":"10px",border:"3px solid red"}}>
+             <div className="d-flex flex-column" style={{height:"300px",width:window.innerWidth <= 576 ?"95%":window.innerWidth > 576 && window.innerWidth  <=992 ?" 45%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 20px":window.innerWidth >576 && window.innerWidth  <=992 ?"10px 0px 10px 10px":"10px",border:"3px solid red"}}>
                <img className="h-100 w-100" src="sandwitch.jpeg" alt="" style={{height:"220px"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column"style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mb-0 mt-2">GRILLED CHICKEN</p>
@@ -74,7 +74,7 @@ export default function Regular() {
                </div>
              </div> 
 
-             <div className="d-flex flex-column" style={{height:"300px",width:window.innerWidth <= 700 ?"95%":"27%",margin:window.innerWidth <= 700 ?"10px 0px 10px 20px":"10px",border:"3px solid red"}}>
+             <div className="d-flex flex-column" style={{height:"300px",width:window.innerWidth <= 576 ?"95%":window.innerWidth > 576 && window.innerWidth  <=992 ?" 45%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 20px":window.innerWidth >576 && window.innerWidth  <=992 ?"10px 0px 10px 10px":"10px",border:"3px solid red"}}>
                <img className="h-100 w-100" src="sandwitch7.jpeg" alt="" style={{height:"220px"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column "style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mb-0 mt-2">SPECIAL COMBINATION</p>
@@ -82,7 +82,7 @@ export default function Regular() {
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"300px",width:window.innerWidth <= 700 ?"95%":"27%",margin:window.innerWidth <= 700 ?"10px 0px 10px 20px":"10px",border:"3px solid red"}}>
+             <div className="d-flex flex-column" style={{height:"300px",width:window.innerWidth <= 576 ?"95%":window.innerWidth > 576 && window.innerWidth  <=992 ?" 45%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 20px":window.innerWidth >576 && window.innerWidth  <=992 ?"10px 0px 10px 10px":"10px",border:"3px solid red"}}>
                <img className="h-100 w-100" src="sandwitch6.jpeg" alt="" style={{height:"220px"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column "style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mb-0 mt-2">FRIED EGG</p>
@@ -90,7 +90,7 @@ export default function Regular() {
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"300px",width:window.innerWidth <= 700 ?"95%":"27%",margin:window.innerWidth <= 700 ?"10px 0px 10px 20px":"10px",border:"3px solid red"}}>
+             <div className="d-flex flex-column" style={{height:"300px",width:window.innerWidth <= 576 ?"95%":window.innerWidth  > 576 && window.innerWidth  <=992 ?" 45%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 20px":window.innerWidth >576 && window.innerWidth  <=992 ?"10px 0px 10px 10px":"10px",border:"3px solid red"}}>
                <img className="h-100 w-100" src="sandwitch.jpeg" alt="" style={{height:"220px"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column" style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mb-0 mt-2">GRILLED BEEF</p>
@@ -103,40 +103,40 @@ export default function Regular() {
          <p className="text-white " style={{margin:"0px 0px 0px 250px",padding:"0px 250px 0px 0px"}}>_______________________________________________________________________________________________________________________________________________________________________</p>
       </div>
       {/* -----------------------------------------------------section no 2----------------------------------------------------------------------- */}
-        <div className="d-flex flex-row  w-100 bg-black" style={{height:window.innerWidth <= 700 ?"1700px":"800px",border:"3px solid red"}}>
-          <div className=" bg-black" style={{height:window.innerWidth <= 700 ?"1700px":"800px",width:window.innerWidth <= 700 ?"40%":"30%",padding:window.innerWidth <= 700 ?"80px 0px 80px 20px":"80px 0px 80px 80px",border:"3px solid red"}}>
-             <p className="fw-bold fs-2 text-white" style={{marginLeft:window.innerWidth <= 700 ?"60px":"110px"}}>PASTRIES</p>
+        <div className="d-flex flex-row  w-100 bg-black" style={{height:window.innerWidth <= 576 ?"1700px":window.innerWidth >576 && window.innerWidth <=992 ?" 1100px":"800px",border:"3px solid red"}}>
+          <div className=" bg-black" style={{height:window.innerWidth <= 576 ?"1700px":window.innerWidth >576 && window.innerWidth <=992 ?" 1100px":"800px",width:window.innerWidth <= 992 ?"40%":"30%",padding:window.innerWidth <= 576 ?"80px 0px 30px 20px":window.innerWidth >576 && window.innerWidth <= 992 ?"80px 20px 80px 30px":"80px 0px 80px 80px",border:"3px solid red"}}>
+             <p className="fw-bold fs-2 text-white" style={{marginLeft:window.innerWidth <= 700 ?"20px":window.innerWidth > 576 && window.innerWidth <=992 ?" 40px":"110px"}}>PASTRIES</p>
           </div>
-          <div className={`d-flex ${window.innerWidth <= 700 ? "flex-column" : "flex-wrap"} justify-contant-evenly bg-black `} style={{height:window.innerWidth <= 700 ?"1700px":"800px",width:window.innerWidth <= 700 ?"60%":"70%",padding:window.innerWidth <= 700 ?"20px 20px 20px 0px":"80px 80px 80px 0px",border:"3px solid red"}}>
-             <div className="d-flex  flex-column" style={{height:"300px",width:window.innerWidth <= 700 ?"95%":"27%",margin:window.innerWidth <= 700 ?"10px 0px 10px 20px":"10px",border:"3px solid red"}}>
-              <img className="h-100 w-100" src="hotb4.jpeg" alt="" style={{height:"220px",objectFit:"cover"}} />
+          <div className={`d-flex ${window.innerWidth <= 576 ? "flex-column":window.innerWidth > 576 && window.innerWidth  <=992 ?" flex-wrap": "flex-wrap"} justify-contant-evenly bg-black `} style={{height:window.innerWidth <= 576 ?"1700px":window.innerWidth >576 && window.innerWidth <=992 ?" 1100px":"800px",width:window.innerWidth <= 992 ?"60%":"70%",padding:window.innerWidth <= 992 ?"20px 20px 0px 0px":"80px 80px 80px 0px",border:"3px solid red"}}>
+             <div className="d-flex  flex-column" style={{height:"300px",width:window.innerWidth <= 576 ?"95%":window.innerWidth > 576 && window.innerWidth  <=992 ?" 45%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 20px":window.innerWidth >576 && window.innerWidth  <=992 ?"10px 0px 10px 10px":"10px",border:"3px solid red"}}>
+              <img className="h-100 w-100" src="hotb4.jpeg" alt="" style={{height:"220px"}} />
                <div className="d-flex justify-content-center align-items-center flex-column " style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}}  >
                 <p className="text-white mt-2 fw-semibold">HAM & CHEESE HOT BAKE</p>
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"300px",width:window.innerWidth <= 700 ?"95%":"27%",margin:window.innerWidth <= 700 ?"10px 0px 10px 20px":"10px",border:"3px solid red"}}>
+             <div className="d-flex flex-column" style={{height:"300px",width:window.innerWidth <= 576 ?"95%":window.innerWidth > 576 && window.innerWidth  <=992 ?" 45%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 20px":window.innerWidth >576 && window.innerWidth  <=992 ?"10px 0px 10px 10px":"10px",border:"3px solid red"}}>
                <img className="h-100 w-100" src="hotb2.jpeg" alt="" style={{height:"220px",objectFit:"cover"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column "style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mt-2 fw-semibold">CHICKEN HOT BAKE</p>
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"300px",width:window.innerWidth <= 700 ?"95%":"27%",margin:window.innerWidth <= 700 ?"10px 0px 10px 20px":"10px",border:"3px solid red"}}>
+             <div className="d-flex flex-column" style={{height:"300px",width:window.innerWidth <= 576 ?"95%":window.innerWidth > 576 && window.innerWidth  <=992 ?" 45%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 20px":window.innerWidth >576 && window.innerWidth  <=992 ?"10px 0px 10px 10px":"10px",border:"3px solid red"}}>
                <img className="h-100 w-100" src="croi1.jpeg" alt="" style={{height:"220px",objectFit:"cover"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column"style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mt-2 fw-semibold">CROISSANT</p>
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"300px",width:window.innerWidth <= 700 ?"95%":"27%",margin:window.innerWidth <= 700 ?"10px 0px 10px 20px":"10px",border:"3px solid red"}}>
+             <div className="d-flex flex-column" style={{height:"300px",width:window.innerWidth <= 576 ?"95%":window.innerWidth > 576 && window.innerWidth  <=992 ?" 45%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 20px":window.innerWidth >576 && window.innerWidth  <=992 ?"10px 0px 10px 10px":"10px",border:"3px solid red"}}>
                <img className="h-100 w-100" src="hotb1.jpeg" alt="" style={{height:"220px",objectFit:"cover"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column"style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mt-2 fw-semibold">HAM & CHEESE CROISSANT</p>
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"300px",width:window.innerWidth <= 700 ?"95%":"27%",margin:window.innerWidth <= 700 ?"10px 0px 10px 20px":"10px",border:"3px solid red"}}>
+             <div className="d-flex flex-column" style={{height:"300px",width:window.innerWidth <= 576 ?"95%":window.innerWidth > 576 && window.innerWidth  <=992 ?" 45%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 20px":window.innerWidth >576 && window.innerWidth  <=992 ?"10px 0px 10px 10px":"10px",border:"3px solid red"}}>
                <img className="h-100 w-100" src="hotb3.jpeg" alt="" style={{height:"220px",objectFit:"cover"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column "style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mt-2 fw-semibold">COCONUT CROISSANT</p>
@@ -148,12 +148,12 @@ export default function Regular() {
          <p className=" text-white "style={{margin:"0px 0px 0px 250px",padding:"0px 250px 0px 0px"}}>_______________________________________________________________________________________________________________________________________________________________________</p>
       </div>
       {/* -----------------------------------------------------------------------------section no 3---------------------------------------------------------------------------------------- */}
-       <div className="d-flex flex-row  w-100 bg-black" style={{height:window.innerWidth <= 700 ?"1200px":"540px",border:"3px solid red"}}>
-          <div className=" bg-black" style={{height:window.innerWidth <= 700 ?"1200px":"540px",width:window.innerWidth <= 700 ?"40%":"30%",padding:window.innerWidth <= 700 ?"80px 0px 80px 20px":"80px 0px 80px 80px",border:"3px solid red"}}>
-             <p className="fw-bold fs-2 text-white" style={{marginLeft:window.innerWidth <= 700 ?"45px":"110px"}}>VIETNAMESE PASTRIESE</p>
+       <div className="d-flex flex-row  w-100 bg-black" style={{height:window.innerWidth <= 576 ?"1200px":window.innerWidth >576 && window.innerWidth <=992 ?" 800px":"540px",border:"3px solid red"}}>
+          <div className=" bg-black" style={{height:window.innerWidth <= 576 ?"1200px":window.innerWidth >576 && window.innerWidth <=992 ?" 800px":"540px",width:window.innerWidth <= 992 ?"40%":"30%",padding:window.innerWidth <= 576 ?"80px 0px 30px 20px":window.innerWidth >576 && window.innerWidth <= 992 ?"80px 20px 80px 30px":"80px 0px 80px 80px",border:"3px solid red"}}>
+             <p className="fw-bold fs-2 text-white" style={{marginLeft:window.innerWidth <= 576 ?"20px":window.innerWidth > 576 && window.innerWidth <=992 ?" 40px":"110px"}}>VIETNAMESE PASTRIESE</p>
           </div>
-          <div className={`d-flex  ${window.innerWidth <= 700 ? "flex-column" : "flex-wrap"} justify-contant-evenly bg-black `} style={{height:window.innerWidth <= 700 ?"1200px":"540px",width:window.innerWidth <= 700 ?"60%":"70%",padding:window.innerWidth <= 700 ?"20px 20px 20px 0px":"80px 80px 80px 0px",border:"3px solid red"}}>
-             <div className="d-flex  flex-column" style={{height:"350px",width:window.innerWidth <= 700 ?"95%":"27%",margin:window.innerWidth <= 700 ?"10px 0px 10px 20px":"10px",border:"3px solid red"}}>
+          <div className={`d-flex  ${window.innerWidth <= 576 ? "flex-column":window.innerWidth > 576 && window.innerWidth  <=992 ?" flex-wrap": "flex-wrap"} justify-contant-evenly bg-black `} style={{height:window.innerWidth <= 576 ?"1200px":window.innerWidth >576 && window.innerWidth <=992 ?" 800px":"540px",width:window.innerWidth <= 992 ?"60%":"70%",padding:window.innerWidth <= 994 ?"20px 20px 0px 0px":"80px 80px 80px 0px",border:"3px solid red"}}>
+             <div className="d-flex  flex-column" style={{height:"350px",width:window.innerWidth <= 576 ?"95%":window.innerWidth > 576 && window.innerWidth  <=992 ?" 45%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 20px":window.innerWidth >576 && window.innerWidth  <=992 ?"10px 0px 10px 10px":"10px",border:"3px solid red"}}>
               <img className="h-100 w-100" src="sec3-1.jpeg" alt="" style={{height:"250px",objectFit:"cover"}} />
                <div className="d-flex justify-content-center align-items-center flex-column " style={{height:"100px",backgroundColor:"rgb(40, 51, 65)"}} >
                 <p className="text-white mt-4 fw-semibold">VIETNAMESES STEAMED BUN</p>
@@ -161,34 +161,34 @@ export default function Regular() {
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"350px",width:window.innerWidth <= 700 ?"95%":"27%",margin:window.innerWidth <= 700 ?"10px 0px 10px 20px":"10px",border:"3px solid red"}}>
+             <div className="d-flex flex-column" style={{height:"350px",width:window.innerWidth <= 576 ?"95%":window.innerWidth > 576 && window.innerWidth  <=992 ?" 45%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 20px":window.innerWidth >576 && window.innerWidth  <=992 ?"10px 0px 10px 10px":"10px",border:"3px solid red"}}>
                <img className="h-100 w-100" src="buns2.jpeg" alt="" style={{height:"240px",objectFit:"cover"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column " style={{height:"90px",backgroundColor:"rgb(40, 51, 65)"}} >
-                 <p className="text-white mt-4 fw-semibold">VIETNAMESES PUFF PASTRY</p>
+                 <p className="text-white mt-3 fw-semibold">VIETNAMESES PUFF PASTRY</p>
                  <p className="text-warning ">PORK,CHICKEN</p>
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"350px",width:window.innerWidth <= 700 ?"95%":"27%",margin:window.innerWidth <= 700 ?"10px 0px 10px 20px":"10px",border:"3px solid red"}}>
+             <div className="d-flex flex-column" style={{height:"350px",width:window.innerWidth <= 576 ?"95%":window.innerWidth > 576 && window.innerWidth  <=992 ?" 45%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 20px":window.innerWidth >576 && window.innerWidth  <=992 ?"10px 0px 10px 10px":"10px",border:"3px solid red"}}>
                <img className="h-100 w-100" src="sec3-3.jpeg" alt="" style={{height:"250px",objectFit:"cover"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column " style={{height:window.innerwidth <= 500 ?"130px":"100px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mx-3 pt-4 fw-semibold">SOFT MINI BUNS</p>
-                 <p className="text-warning mx-2 ">INCLUDES EGG.COCONUT TARO,MUNG BEAN,DURIAN</p>
+                 <p className="text-warning mx-2 fw-normal">INCLUDES EGG.COCONUT TARO,MUNG BEAN,DURIAN</p>
                </div>
              </div>
-          </div>
+          </div> 
        </div>
         <div className="bg-black h-1" style={{width:"100%"}}>
          <p className="text-white mb-0" style={{padding:"0px 0px 0px 250px"}}>_______________________________________________________________________________________________________________________________________________________________________</p>
       </div>
     {/* ------------------------------------------------------------------------------section no 4----------------------------------------------------------------------------------------- */}
-      <div className="d-flex flex-row  w-100 bg-black" style={{height:window.innerWidth <= 700 ?"500px":"540px",border:"3px solid red"}}>
-          <div className=" bg-black" style={{height:window.innerWidth <= 700 ?"500px":"540px",width:window.innerWidth <= 700 ?"40%":"30%",padding:window.innerWidth <= 700 ?"80px 0px 80px 20px":"80px 0px 80px 80px",border:"3px solid red"}}>
-             <p className="fw-bold fs-2 text-white" style={{marginLeft:window.innerWidth <= 700 ?"60px":"110px"}}>DRINKS</p>
+      <div className="d-flex flex-row  w-100 bg-black" style={{height:window.innerWidth <= 576 ?"500px":window.innerWidth >576 && window.innerWidth <=992 ?" 500px":"540px",border:"3px solid red"}}>
+          <div className=" bg-black" style={{height:window.innerWidth <= 576 ?"500px":window.innerWidth >576 && window.innerWidth <=992 ?" 500px":"540px",width:window.innerWidth <= 992 ?"40%":"30%",padding:window.innerWidth <= 576 ?"80px 0px 30px 20px":window.innerWidth >576 && window.innerWidth <= 992 ?"80px 20px 80px 30px":"80px 0px 80px 80px",border:"3px solid red"}}>
+             <p className="fw-bold fs-2 text-white" style={{marginLeft:window.innerWidth <= 576 ?"20px":window.innerWidth > 576 && window.innerWidth <=992 ?" 40px":"110px"}}>DRINKS</p>
           </div>
-          <div className={`d-flex  ${window.innerWidth <= 700 ? "flex-column" : "flex-wrap"} justify-contant-evenly bg-black `} style={{height:window.innerWidth <= 700 ?"500px":"540px",width:window.innerWidth <= 700 ?"60%":"70%",padding:window.innerWidth <= 700 ?"20px 20px 20px 0px":"80px 80px 80px 0px",border:"3px solid red"}}>
-             <div className="d-flex  flex-column" style={{height:"347px",width:window.innerWidth <= 700 ?"95%":"27%",margin:window.innerWidth <= 700 ?"10px 0px 10px 20px":"10px",border:"3px solid red"}}>
-              <img className="h-100 w-100" src="coffee3.jpeg" alt="" style={{height:"240px",objectFit:"cover"}} />
+          <div className={`d-flex justify-contant-evenly bg-black `} style={{height:window.innerWidth <= 576 ?"500px":window.innerWidth >576 && window.innerWidth <=992 ?" 500px":"540px",width:window.innerWidth <= 700 ?"60%":"70%",padding:window.innerWidth <= 994 ?"20px 20px 0px 0px":"80px 80px 80px 0px",border:"3px solid red"}}>
+             <div className="d-flex  flex-column" style={{height:"350px",width:window.innerWidth <= 576 ?"95%":window.innerWidth > 576 && window.innerWidth  <=992 ?" 45%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 20px":window.innerWidth >576 && window.innerWidth  <=992 ?"10px 0px 10px 10px":"10px",border:"3px solid red"}}>
+              <img className="h-100 w-100" src="coffee1.jpeg" alt="" style={{height:"240px",objectFit:"cover"}} />
                <div className="d-flex justify-content-center align-items-center flex-column "style={{height:"80px",backgroundColor:"rgb(40, 51, 65)"}} >
                 <p className="text-white mt-3 fw-semibold">VIETNAMESES COFFEE</p>
                 <p className="text-warning mx-2">CÀ PHÊ SỮA ĐÁ</p>
@@ -197,7 +197,7 @@ export default function Regular() {
            </div>
         </div>
         {/* ---------------------------------------------------------------------------------section no 5------------------------------------------------------------------------------------ */}
-       <div className={`d-flex ${window.innerWidth <=500 ? "flex-column":" flex-row"}  bg-dark w-100`} style={{height: window.innerWidth <= 500 ?"620px":"180px",border:"3px solid red"}}>
+       <div className={`d-flex ${window.innerWidth <=576 ? "flex-column":" flex-row"}  bg-dark w-100`} style={{height: window.innerWidth <= 576 ?"620px":window.innerWidth ? "220px":"180px",border:"3px solid red"}}>
 
         <div className="d-flex flex-column " style={{height:"160px",width:"200px",padding:"20px 10px 10px 10px"}}>
            <p className="mx-3 fs-5 fw-semibold text-white "> Address</p>
