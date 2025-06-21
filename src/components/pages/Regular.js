@@ -163,7 +163,7 @@ export default function Regular() {
                </div>
              </div>
 
-             <div className="d-flex flex-column" style={{height:"340px",width:window.innerWidth <= 576 ?"95%":window.innerWidth > 576 && window.innerWidth  <=992 ?" 45%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 20px":window.innerWidth >576 && window.innerWidth  <=992 ?"10px 0px 10px 10px":"10px"}}>
+             <div className="d-flex flex-column" style={{height:"350px",width:window.innerWidth <= 576 ?"95%":window.innerWidth > 576 && window.innerWidth  <=992 ?" 45%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 20px":window.innerWidth >576 && window.innerWidth  <=992 ?"10px 0px 10px 10px":"10px"}}>
                <img className="h-100 w-100" src="buns2.jpeg" alt="" style={{height:"240px",objectFit:"cover"}} />
                 <div className="d-flex justify-content-center align-items-center flex-column " style={{height:"100px",backgroundColor:"rgb(40, 51, 65)"}} >
                  <p className="text-white mt-3 fw-semibold">VIETNAMESES PUFF PASTRY</p>
