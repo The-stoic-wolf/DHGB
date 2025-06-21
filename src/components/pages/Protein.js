@@ -3,6 +3,7 @@ import React from 'react'
 export default function protein() {
   return (
     <>
+    <h1>HELLO MRS ABDULLAH</h1>
     <div className={`d-flex ${window.innerWidth <= 900 ?"flex-column":"flex-row flex-wrap"} bg-warning w-100 bg-black h-100`} style={{height:window.innerWidth <= 900 ? "1600px":"1100px",objectFit:"cover"}}>
         <div  style={{height:window.innerWidth <= 700 ?"450px":window.innerWidth > 700 && window.innerWidth <= 900 ?"500px":"800px",width:window.innerWidth <= 700 ?"100%":window.innerWidth > 700 && window.innerWidth <= 900 ?"80%":"40%", margin :window.innerWidth <= 700 ?"100px 0px 0px 0px":window.innerWidth > 700 && window.innerWidth  <=900 ?"100px 0px 0px 50px":"150px 0px 150px 0px",padding:window.innerWidth <= 700 ?"15% 15% 10% 15%":window.innerWidth > 700 && window.innerWidth <= 900 ?"20% 5% 10% 5%":"0px 0px 0px 100px"}}>
           <div className="d-flex " style={{margin:window.innerWidth <= 900 ?"0px":"40px 0px 0px 0px",padding:window.innerWidth <= 900 ?"0px":"0px 0px 0px 40px",height:window.innerWidth <= 900 ?"300px":"500px"}}>
