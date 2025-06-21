@@ -3,7 +3,7 @@ import React from 'react'
 export default function Teac() {
   return (
     <>
-      <div className="bg-black d-flex flex-row" style={{height:"850px",width:"100%"}}>
+      <div className={` ${window.innerWidth }bg-black d-flex flex-row`} style={{height:"850px",width:"100%"}}>
          <div className="d-flex  " style={{height:"700px",width:"40%",margin:"80px 0px 0px 80px"}}>
            <img src="teac.png" alt="T-logo" style={{height:"500px",width:"100%",margin:"100px 0px 50px 50px",objectFit:"cover"}}/>
          </div>
