@@ -42,27 +42,27 @@ export default function Teac() {
                </div>
              </div>
 
-             <div className={`${window.innerWidth <= 900 ?"mt-0":"mt-2"} d-flex flex-wrap  pb-2 mx-1`} style={{width:"98%",height:"60px"}} >
+             <div className={`${window.innerWidth <= 900 ?"mt-0":"mt-2"} d-flex flex-column  pb-2 mx-1`} style={{width:"98%",height:"60px"}} >
                  <label  htmlFor="fname" className={`${window.innerWidth <= 900 ?" fs-6 fst-italic ":"fs-5 fw-normal"} mx-1 `} style={{height:window.innerWidth <= 900 ?"20px":"25px"}}>Email:</label><br></br>
-                 <input style={{height:"40px"}} className="rounded-3 mb-1" type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
+                 <input  className="rounded-3 mb-1" type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
              </div>
 
-             <div className={`${window.innerWidth <= 900 ?"mt-0":"mt-2"} d-flex flex-wrap  pb-2 mx-1`} style={{width:"98%",height:"60px"}}>
+             <div className={`${window.innerWidth <= 900 ?"mt-0":"mt-2"} d-flex flex-column  pb-2 mx-1`} style={{width:"98%",height:"60px"}}>
                  <label  htmlFor="fname" className={`${window.innerWidth <= 900 ?" fs-6 fst-italic ":"fs-5 fw-normal"} mx-1 `} style={{height:window.innerWidth <= 900 ?"20px":"25px"}}>Phone:</label><br></br>
                  <input style={{height:"40px"}} className="rounded-3 mb-1" type="text" id="fname" name="fname"/><br></br>
              </div>
 
-             <div className={`${window.innerWidth <= 900 ?"mt-0":"mt-2"} d-flex flex-wrap  pb-2 mx-1`} style={{width:"98%",height:"60px"}}>
+             <div className={`${window.innerWidth <= 900 ?"mt-0":"mt-2"} d-flex flex-column  pb-2 mx-1`} style={{width:"98%",height:"60px"}}>
                  <label  htmlFor="fname" className={`${window.innerWidth <= 900 ?" fs-6 fst-italic ":"fs-5 fw-normal"} mx-1 `} style={{height:window.innerWidth <= 900 ?"20px":"25px"}}>Date Of Event:</label><br></br>
                  <input style={{height:"40px"}} className="rounded-3 mb-1" type="text" id="fname" name="fname" placeholder='mm/dd/yyyy'/><br></br>
              </div>
 
-             <div className={`${window.innerWidth <= 900 ?"mt-0":"mt-2"} d-flex flex-wrap  pb-2 mx-1`} style={{width:"98%",height:"60px"}}>
+             <div className={`${window.innerWidth <= 900 ?"mt-0":"mt-2"} d-flex flex-column  pb-2 mx-1`} style={{width:"98%",height:"60px"}}>
                  <label  htmlFor="fname" className={`${window.innerWidth <= 900 ?" fs-6 fst-italic ":"fs-5 fw-normal"} mx-1 `} style={{height:window.innerWidth <= 900 ?"20px":"25px"}}>Time Of Event:</label><br></br>
                  <input style={{height:"40px"}} className="rounded-3 mb-1" type="text" id="fname" name="fname" placeholder='--:-- --'/><br></br>
              </div>
 
-             <div className={`${window.innerWidth <= 900 ?"mt-0":"mt-2"} d-flex flex-wrap  pb-2 mx-1`} style={{width:"98%",height:"60px"}}>
+             <div className={`${window.innerWidth <= 900 ?"mt-0":"mt-2"} d-flex flex-column  pb-2 mx-1`} style={{width:"98%",height:"60px"}}>
                  <label  htmlFor="fname" className={`${window.innerWidth <= 900 ?" fs-6 fst-italic ":"fs-5 fw-normal"} mx-1 `} style={{height:window.innerWidth <= 900 ?"20px":"25px"}}>Number Of Guests:</label><br></br>
                  <input style={{height:"40px"}} className="rounded-3 mb-1" type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
              </div>
