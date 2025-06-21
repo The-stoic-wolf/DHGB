@@ -10,7 +10,7 @@ export default function protein() {
           </div>
         </div>
 
-        <div className="d-flex flex-column"  style={{height:window.innerWidth <= 700 ?"600px":window.innerWidth > 700 && window.innerWidth <= 900 ?"700px":"800px",width:window.innerWidth <= 900 ?"100%":"60%",margin:window.innerWidth <= 900 ?"10px 5px 10px 5px":"150px 0px 150px 0px",padding:window.innerWidth <= 900 ?"0px":'0px 0px 0px 80px'}}>
+        <div className="d-flex flex-column"  style={{height:window.innerWidth <= 700 ?"800px":window.innerWidth > 700 && window.innerWidth <= 900 ?"700px":"800px",width:window.innerWidth <= 900 ?"100%":"60%",margin:window.innerWidth <= 900 ?"10px 5px 10px 5px":"150px 0px 150px 0px",padding:window.innerWidth <= 900 ?"0px":'0px 0px 0px 80px'}}>
             <div className="d-flex flex-column text-white" style={{height:window.innerWidth <= 576 ?"300px":window.innerWidth > 576 && window.innerWidth  <=900 ?"230px":"400px"}}>
                 <p className={` text-white ${window.innerWidth <= 900 ?"ps-3 fw-bold fs-5 ":"fw-bold fs-3"} `} >VEGAN PROTEIN TO-GO</p>
                 <p className={` ${window.innerWidth <= 900 ?"fw-semibold fs-6 ps-3 ":"fw-semibold fs-5 ps-2 mt-1"}  text-white`}>Customize your meals at home with our vegan ingredients.</p>
