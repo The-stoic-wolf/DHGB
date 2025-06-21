@@ -3,22 +3,22 @@
 export default function Teac() {
   return (
     <>
-      <div className={` d-flex ${window.innerWidth  <= 900 ? "flex-column":"flex-row"} bg-black`} style={{height:window.innerWidth <= 900 ?"1200px":"850px",width:"100%",border:"2px solid red"}}>
-         <div className="d-flex " style={{height:window.innerWidth <= 900 ?"500px":"900px",width:window.innerWidth <= 900 ?"90%":"40%",margin:window.innerWidth <= 750 ?"20% 10% 0% 10%":window.innerWidth > 750 && window.innerWidth > 750 ?"10% 15% 0% 15%":"80px 0px 0px 80px",border:"2px solid red"}}>
+      <div className={` d-flex ${window.innerWidth  <= 900 ? "flex-column":"flex-row"} bg-black`} style={{height:window.innerWidth <= 900 ?"1100px":"850px",width:"100%",border:"2px solid red"}}>
+         <div className="d-flex " style={{height:window.innerWidth <= 900 ?"500px":"850px",width:window.innerWidth <= 900 ?"90%":"40%",margin:window.innerWidth <= 750 ?"20% 10% 0% 10%":window.innerWidth > 750 && window.innerWidth > 750 ?"10% 15% 0% 15%":"80px 0px 0px 80px",border:"2px solid red"}}>
            <img src="teac.png" alt="T-logo" style={{height:"450px",width:"90%",padding:window.innerWidth <= 750 ?"10% 5% 5% 5%":window.innerWidth > 750 && window.innerWidth > 750 ?"10% 15% 0% 0%":"10% 5% 5% 5%",objectFit:"cover",border:"2px solid red"}}/>
          </div>
 
-         <div className="d-flex flex-column" style={{height:window.innerWidth <= 900 ?"600px":"900px",width:window.innerWidth <= 900 ?"100%":"40%",margin:window.innerWidth <= 900 ?"20px 50px 10px 10px":"80px 80px 0px 100px",border:"2px solid red"}}>
+         <div className="d-flex flex-column" style={{height:window.innerWidth <= 900 ?"600px":"850px",width:window.innerWidth <= 900 ?"100%":"40%",margin:window.innerWidth <= 900 ?"20px 50px 10px 10px":"80px 80px 0px 100px",border:"2px solid red"}}>
             <div className={`d-flex ${window.innerWidth <= 900 ?"ps-2 mt-2":"mx-3 mt-4"} flex-column text-white`} style={{border:"2px solid red"}}>
               <p className={`${window.innerWidth <= 900 ?"fw-bold fs-4":"fs-3 fw-bold"}`} style={{border:"2px solid red"}}>VIETNAMESE TEA CEREMONY (ĐÁM HỎI)</p>
             </div>
-            <p className={` ${window.innerWidth <= 900 ?"ps-1":"mx-3"} text-white`} style={{border:"2px solid red"}}>_________________________________________________________________</p>
+            <p className={` ${window.innerWidth <= 900 ?"ps-1 d-none":"mx-3"} text-white`} style={{border:"2px solid red"}}>_________________________________________________________________</p>
             <p className={`${window.innerWidth <= 900 ?"ps-2 fs-6 fst-italic ":"mx-3 fs-5 "}  fw-semibold text-white`} style={{border:"2px solid red"}}>A Vietnamese tea ceremony, commonly known as ‘Đám Hỏi’, is a profound blend of tradition and symbolism, celebrating not only the union of two souls but also the coming together of two families.</p>
 
-             <p className={` ${window.innerWidth <= 900 ?"ps-2 fs-6 fst-italic ":"mx-3 fs-5 "} fw-semibold text-white `} style={{border:"2px solid red"}}>Vietnamese Tea Ceremony Rental Policy: A $200 deposit is required to secure your Vietnamese tea ceremony rentals. This deposit will be returned in full once all rental items are returned within 48 hours of the event. If any item is not returned within that timeframe, the corresponding deposit will be forfeited. By renting our Vietnamese tea ceremony items, you agree to these terms.</p>
-             <p className={`${window.innerWidth <= 900 ?"ps-1":"mx-3"} text-white`} style={{border:"2px solid red"}}>__________________________________________________________________</p>
+             <p className={` ${window.innerWidth <= 900 ?"ps-2 fs-6 fst-italic":"mx-3 fs-5 "} fw-semibold text-white `} style={{border:"2px solid red"}}>Vietnamese Tea Ceremony Rental Policy: A $200 deposit is required to secure your Vietnamese tea ceremony rentals. This deposit will be returned in full once all rental items are returned within 48 hours of the event. If any item is not returned within that timeframe, the corresponding deposit will be forfeited. By renting our Vietnamese tea ceremony items, you agree to these terms.</p>
+             <p className={`${window.innerWidth <= 900 ?"ps-1 d-none":"mx-3"} text-white`} style={{border:"2px solid red"}}>__________________________________________________________________</p>
              <div className="" style={{height:window.innerWidth <= 900 ?"80px":"100px",border:"2px solid red"}}>
-                <button className={ `${window.innerWidth <= 900 ?"ps-2 pt-1 fw-normal ":"mx-3 mt-3 fw-bold"} btn btn-primary fs-6`} style={{height:"60px",width:window.innerWidth <= 900 ?"320px":"400px",borderRadius:"35px"}}>VIEW VIETNAMESE TEA CERMONY MENU</button>
+                <button className={ `${window.innerWidth <= 900 ?"ps-2 pt-1 fw-normal ":"mx-3 mt-3 fw-bold"} btn btn-primary fs-6`} style={{height:"50px",width:window.innerWidth <= 900 ?"320px":"400px",borderRadius:"35px"}}>VIEW VIETNAMESE TEA CERMONY MENU</button>
              </div>
          </div>
       </div>
