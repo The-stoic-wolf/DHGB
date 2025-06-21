@@ -3,8 +3,8 @@ import React from 'react'
 export default function protein() {
   return (
     <>
-    <div className={`d-flex ${window.width <= 900 ?"flex-column":"flex-row flex-wrap"} bg-warning w-100 bg-black h-100`} style={{height:window.innerWidth <= 900 ? "1600px":"1100px",objectFit:"cover"}}>
-        <div  style={{height:window.innerWidth <= 700 ?"450px":window.innerWidth > 700 && window.innerWidth <= 900 ?"500px":"800px",width:window.innerWidth <= 700 ?"100%":window.innerWidth > 700 && window.innerWidth <= 900 ?"80%":"40%", margin :window.innerWidth <= 700 ?"100px 0px 0px 0px":window.innerWidth > 700 && window.innerWidth  <=900 ?"100px 0px 0px 50px":"150px 0px 150px 0px",padding:window.innerWidth <= 700 ?"15% 15% 10% 15%":window.innerWidth > 700 && window.innerWidth <= 900 ?"20% 5% 10% 5%":"0px 0px 0px 100px"}}>
+    <div className={`d-flex ${window.innerWidth <= 900 ?"flex-column":"flex-row flex-wrap"} bg-warning w-100 bg-black h-100`} style={{height:window.innerWidth <= 900 ? "1550px":"1100px",objectFit:"cover"}}>
+        <div  style={{height:window.innerWidth <= 700 ?"450px":window.innerWidth > 700 && window.innerWidth <= 900 ?"450px":"800px",width:window.innerWidth <= 700 ?"100%":window.innerWidth > 700 && window.innerWidth <= 900 ?"80%":"40%", margin :window.innerWidth <= 700 ?"100px 0px 0px 0px":window.innerWidth > 700 && window.innerWidth  <=900 ?"50px 0px 0px 50px":"150px 0px 150px 0px",padding:window.innerWidth <= 700 ?"15% 15% 10% 15%":window.innerWidth > 700 && window.innerWidth <= 900 ?"15% 5% 10% 5%":"0px 0px 0px 100px"}}>
           <div className="d-flex " style={{margin:window.innerWidth <= 900 ?"0px":"40px 0px 0px 0px",padding:window.innerWidth <= 900 ?"0px":"0px 0px 0px 40px",height:window.innerWidth <= 900 ?"300px":"500px"}}>
                <img className="h-100 w-100 img-fluid" style={{objectFit:"cover",width:"100%"}} src="pro-to-go.png" alt="" />
           </div>
@@ -15,7 +15,7 @@ export default function protein() {
                 <p className={` text-white ${window.innerWidth <= 900 ?"ps-3 fw-bold fs-5 ":"fw-bold fs-3"} `} >VEGAN PROTEIN TO-GO</p>
                 <p className={` ${window.innerWidth <= 900 ?"fw-semibold fs-6 ps-3 ":"fw-semibold fs-5 ps-2 mt-1"}  text-white`}>Customize your meals at home with our vegan ingredients.</p>
                 <p className="d-none d-lg-block">___________________________________________________________________________________________</p>
-                 <p className={`${window.innerWidth <= 900 ?"px-3":"d-none"}`}>_______________________________________________</p>
+                 <p className={`${window.innerWidth <= 900 ?"px-3":"d-none"}`}>________________________________________</p>
                 <p className={`${window.innerWidth <= 900 ?"pt-1 fs-6 px-3 fst-italic ":"mt-2 fs-5 "} fw-normal  text-white`}>Your favorite vegan proteins are now available in convenient To-Go boxes for purchase, allowing you to create any meal you desire in the comfort of your home. Fully   prepared & ready to be added to your favorite recipes. Options include:</p>
             </div>
             <div className={`${window.innerWidth <= 900 ?"pt-1 ps-3":"pt-3 ms-2"} d-flex flex-column`} style={{height:window.innerWidth <= 400 ?"100px":window.innerWidth > 400 && window.innerWidth  <= 900 ?"100px":"130px"}}>
@@ -53,7 +53,7 @@ export default function protein() {
               <p >Perfect for sandwiches, salads, bowls or other creative dishes.</p>
             </div>
             <p className="text-white mt-2 d-none d-lg-block">___________________________________________________________________________________________</p>
-             <p className={`${window.innerWidth <= 900 ?"px-3":"d-none"}`}>_______________________________________________</p>
+             <p className={`${window.innerWidth <= 900 ?"px-3":"d-none"}`}>_______________________________________</p>
              <button type="button" className={`${window.innerWidth <= 700 ?"px-3 mt-2 fw-semibold fs-6 btn btn-primary ":window.innerWidth > 700 && window.innerWidth <= 900 ?"px-1 mt-0 fw-semibold fs-6 btn btn-primary ":"mt-3 fw-bold fs-5 btn btn-primary "} `}  style={{height:window.innerWidth <= 900 ?"50px":"70px" , width:window.innerWidth <= 900 ?"250px":"300px",borderRadius:"70px"}}>View All Vegan Bánh Mì</button>
         </div>
     </div>
