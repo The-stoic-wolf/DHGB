@@ -100,8 +100,8 @@ export default function Regular() {
           </div>
       </div>
       <div className="bg-black h-1" style={{width:'100%'}}>
-        <p className="text-white  d-none d-lg-block" style={{margin:"0px 0px 0px 250px",padding:"0px 250px 0px 0px"}}>_______________________________________________________________________________________________________________________________________________________________________</p>
-        <p className="d-none d-lg-none w-100 ps-5">___________________________________________________</p>
+        <p className="text-white  d-none d-lg-block" style={{margin:"0px 0px 0px 250px",padding:"0px 250px 0px 0px"}}>____________________________________________________________________________________________________________________________________________</p>
+        <p className={`${window.innerWidth <= 992 ? "text-white w-98":"d-none"}`} style={{margin:"0px 0px 0px 100px",padding:"0px 0px 0px 0px"}}>_____________________________________________________</p>
       </div>
       {/* -----------------------------------------------------section no 2----------------------------------------------------------------------- */}
         <div className="d-flex flex-row  w-100 bg-black" style={{height:window.innerWidth <= 576 ?"1700px":window.innerWidth >576 && window.innerWidth <=992 ?" 1100px":"800px"}}>
@@ -146,8 +146,8 @@ export default function Regular() {
           </div>
       </div>
       <div className="bg-black h-1"style={{width:"100%"}}>
-         <p className=" text-white  d-none d-lg-block"style={{margin:"0px 0px 0px 250px",padding:"0px 250px 0px 0px"}}>_______________________________________________________________________________________________________________________________________________________________________</p>
-          <p className="d-none d-lg-none w-100 ps-5">___________________________________________________</p>
+         <p className=" text-white  d-none d-lg-block"style={{margin:"0px 0px 0px 250px",padding:"0px 250px 0px 0px"}}>______________________________________________________________________________________________________________________________________________</p>
+          <p className={`${window.innerWidth <= 992 ? "text-white w-98":"d-none"}`} style={{margin:"0px 0px 0px 100px",padding:"0px 0px 0px 0px"}}>___________________________________________________</p>
       </div>
       {/* -----------------------------------------------------------------------------section no 3---------------------------------------------------------------------------------------- */}
        <div className="d-flex flex-row  w-100 bg-black" style={{height:window.innerWidth <= 576 ?"1200px":window.innerWidth >576 && window.innerWidth <=992 ?" 800px":"540px"}}>
@@ -181,8 +181,8 @@ export default function Regular() {
           </div> 
        </div>
         <div className="bg-black h-1" style={{width:"100%"}}>
-         <p className="text-white mb-0  d-none d-lg-block" style={{padding:"0px 0px 0px 250px"}}>_______________________________________________________________________________________________________________________________________________________________________</p>
-         <p className="d-none d-lg-none w-100 ps-5">___________________________________________________</p>
+         <p className="text-white mb-0  d-none d-lg-block" style={{padding:"0px 0px 0px 250px"}}>_____________________________________________________________________________________________________________________________________________</p>
+         <p className={`${window.innerWidth <= 992 ? "text-white w-98":"d-none"}`} style={{margin:"0px 0px 0px 100px",padding:"0px 0px 0px 0px"}}>___________________________________________________</p>
       </div>
     {/* ------------------------------------------------------------------------------section no 4----------------------------------------------------------------------------------------- */}
       <div className="d-flex flex-row  w-100 bg-black" style={{height:window.innerWidth <= 576 ?"500px":window.innerWidth >576 && window.innerWidth <=992 ?" 500px":"540px"}}>
