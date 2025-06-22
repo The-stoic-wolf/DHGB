@@ -9,30 +9,30 @@ export default function Vegan() {
       {/* this is a text */}
        <div className={`d-flex bg-dark align-items-center ${window.innerWidth <= 576? "flex-column": " flex-row"} w-100 justify-content-evenly`} style={{height:window.innerWidth <= 576 ?"600px":'200px'}}>
 
-        <div className="d-flex flex-column justify-content-center align-items-center  " style={{height:'130px',width:'180px'}}>
-           <img className=" mt-3" src="bur.png" alt="logo1" style={{height:"100px",width:"100px"}} />
+        <div className="d-flex flex-column justify-content-center align-items-center  " style={{height:'130px',width:window.innerWidth <= 576 ?"100%":'180px'}}>
+           <img className=" mt-3" src="bur.png" alt="logo1" style={{height:"100px",width:window.innerWidth <= 576 ?"150px":"100px"}} />
            <p className="text-white fs-6 fw-light ">VEGAN BÁNH MÌ</p>
         </div>
 
-        <div className="d-flex flex-column justify-content-center align-items-center " style={{height:'130px',width:'180px'}}>
-             <img className=" mt-3" src="bread1.png" alt="" style={{height:"100px",width:"100px"}}  />
+        <div className="d-flex flex-column justify-content-center align-items-center " style={{height:'130px',width:window.innerWidth <= 576 ?"100%":'180px'}}>
+             <img className=" mt-3" src="bread1.png" alt="" style={{height:"100px",width:window.innerWidth <= 576 ?"150px":"100px"}}  />
             <p className="text-white fs-6 fw-light ">VEGAN Pastries</p>
         </div>
 
-        <div className="d-flex flex-column justify-content-center align-items-center " style={{height:'130px',width:'200px'}}>
-            <img className="mt-3" src="pastry.png" alt="" style={{height:"100px",width:"100px"}}  />
+        <div className="d-flex flex-column justify-content-center align-items-center " style={{height:'130px',width:window.innerWidth <= 576 ?"100%":'180px'}}>
+            <img className="mt-3" src="pastry.png" alt="" style={{height:"100px",width:window.innerWidth <= 576 ?"150px":"100px"}}  />
             <p className="text-white fs-6 fw-light">VEGAN Vietnamese Pastries</p>
         </div>
 
-        <div className="d-flex flex-column justify-content-center align-items-center " style={{height:'130px',width:'180px'}}>
-             <img className="mt-3" src="coffee.png" alt="" style={{height:"100px",width:"100px"}}  />
+        <div className="d-flex flex-column justify-content-center align-items-center " style={{height:'130px',width:window.innerWidth <= 576 ?"100%":'180px'}}>
+             <img className="mt-3" src="coffee.png" alt="" style={{height:"100px",width:window.innerWidth <= 576 ?"150px":"100px"}}  />
             <p className="text-white  fs-6 fw-light">VEGAN Drinks</p>
         </div>
       </div>
       {/* -------------------------------------------------------------------------------section no 1------------------------------------------------------------------------------------- */}
          <div className="d-flex flex-row  w-100 bg-black" style={{height:window.innerWidth <= 576 ?"3250px":'1100px',border:"2px solid red"}}>
           <div className=" bg-black" style={{height:window.innerWidth <= 576 ?"3200px":"1000px",width:window.innerWidth <= 576 ?"40%":"30%",margin:window.innerWidth <= 576 ?"30px 0px 8px 10px":"40px 0px 80px 80px",border:"2px solid red"}}>
-             <p className="fw-bold fs-2 text-white" style={{margin:window.innerWidth <= 576 ?"40px 0px 0px 20px":"110px"}}>VEGAN BÁNH MÌ</p>
+             <p className="fw-bold fs-2 text-white" style={{margin:window.innerWidth <= 576 ?"40px 0px 0px 0px":"110px"}}>VEGAN BÁNH MÌ</p>
           </div>
           <div className={` ${window.innerWidth <= 576 ?"flex-column ":"flex-wrap"} d-flex justify-contant-evenly bg-black `} style={{height:window.innerWidth <= 576 ?"3200px":"1000px",width:window.innerWidth <= 576 ?"60%":"70%",margin:window.innerWidth <= 576 ?"30px 10px 10px 10px":"40px 80px 80px 10px",padding:window.innerWidth <= 992 ?"20px 20px 0px 0px":"20px 40px 40px 0px",border:"2px solid red"}}>
              
@@ -111,12 +111,12 @@ export default function Vegan() {
       </div>
       <div className=" bg-black h-1" style={{width:"100%"}}>
          <p className="text-white mb-0  d-none d-lg-block" style={{margin:"0px 250px 0px 250px"}}>________________________________________________________________________________________________________________________________________________________________________</p>
-        <p className={`${window.innerWidth <= 992 ? "text-white w-98":"d-none"}`} style={{margin:"0px 0px 0px 60px"}}>____________________________________________</p>
+        <p className={`${window.innerWidth <= 992 ? "text-white w-98":"d-none"}`} style={{margin:"0px 0px 0px 60px"}}>_______________________________________</p>
       </div>
       {/* -------------------------------------------------------------------------------section no 2------------------------------------------------------------------------------------- */}
       <div className="d-flex flex-row  w-100 bg-black" style={{height:window.innerWidth <= 576 ? "2980px":'1150px',border:"2px solid red"}}>
           <div className=" bg-black" style={{height:window.innerWidth <= 576 ?"2930px":"1050px",width:window.innerWidth <= 576 ?"40%":"30%",margin:window.innerWidth <= 576 ?"30px 0px 8px 10px":"40px 0px 80px 80px",border:"2px solid red"}}>
-             <p className="fw-bold fs-2 text-white" style={{margin:window.innerWidth <= 576 ?"40px 0px 0px 10px":"110px"}}>VEGAN PASTRIES</p>
+             <p className="fw-bold fs-2 text-white" style={{margin:window.innerWidth <= 576 ?"40px 0px 0px 0px":"110px"}}>VEGAN PASTRIES</p>
           </div>
           <div className={`d-flex ${window.innerWidth <= 576 ?"flex-column":"flex-wrap"} justify-contant-evenly bg-black `} style={{height:window.innerWidth <= 576 ?"2930px":"1050px",width:window.innerWidth <= 576 ?"60%":"70%",margin:window.innerWidth <= 576 ?"30px 10px 10px 10px":"40px 80px 80px 10px",padding:window.innerWidth <= 992 ?"20px 20px 0px 0px":"40px 20px 40px 0px",border:"2px solid red"}}>
 
@@ -186,12 +186,12 @@ export default function Vegan() {
       </div>
       <div className=" bg-black h-1" style={{width:"100%"}}>
          <p className="text-white mb-0 d-none d-lg-block" style={{margin:"0px 250px 0px 250px"}}>________________________________________________________________________________________________________________________________________________________________________</p>
-         <p className={`${window.innerWidth <= 992 ? "text-white w-98":"d-none"}`} style={{margin:"0px 0px 0px 60px"}}>____________________________________________</p>
+         <p className={`${window.innerWidth <= 992 ? "text-white w-98":"d-none"}`} style={{margin:"0px 0px 0px 60px"}}>_______________________________________</p>
       </div>
       {/* -------------------------------------------------------------------------------section no 3------------------------------------------------------------------------------------- */}
                <div className="d-flex flex-row  w-100 bg-black" style={{height:window.innerWidth <= 576 ?"2550px":'1100px',border:"2px solid red"}}>
           <div className=" bg-black" style={{height:window.innerWidth <= 576 ?"2500px":"1000px",width:window.innerWidth <= 576 ?"40%":"30%",margin:window.innerWidth <= 576 ?"30px 0px 8px 10px":"40px 0px 80px 80px",border:"2px solid red"}}>
-             <p className={` ${window.innerWidth <= 576 ?" fw-normal fs-4":" fw-bold fs-2"} text-white `} style={{margin:window.innerWidth <= 576 ?"40px 0px 0px 0px":"80px"}}>VEGAN VIETNAMESE PASTRY</p>
+             <p className={` ${window.innerWidth <= 576 ?" fw-normal fs-5":" fw-bold fs-2"} text-white `} style={{margin:window.innerWidth <= 576 ?"40px 0px 0px 0px":"80px"}}>VEGAN VIETNAMESE PASTRY</p>
           </div>
           <div className={`${window.innerWidth <= 576 ?"flex-column":"flex-wrap"}  d-flex justify-contant-evenly bg-black `} style={{height:window.innerWidth <= 576 ?"2500px":"1000px",width:window.innerWidth <= 576 ?"60%":"70%",margin:window.innerWidth <= 576 ?"30px 10px 10px 10px":"40px 80px 80px 0px",padding:window.innerWidth <= 992 ?"20px 20px 0px 0px":"40px 20px 40px 10px",border:"2px solid red"}}>
 
@@ -253,12 +253,13 @@ export default function Vegan() {
           </div>
       </div>
       <div className=" bg-black h-1" style={{width:"100%"}}>
-         <p className=" text-white " style={{margin:"0px 250px 0px 250px"}}>_______________________________________________________________________________________________________________________________________________________________________</p>
+         <p className=" text-white d-none d-lg-block" style={{margin:"0px 250px 0px 250px"}}>_______________________________________________________________________________________________________________________________________________________________________</p>
+          <p className={`${window.innerWidth <= 992 ? "text-white w-98":"d-none"}`} style={{margin:"0px 0px 0px 60px"}}>_______________________________________</p>
        </div>
       {/* -------------------------------------------------------------------------------section no 4------------------------------------------------------------------------------------- */}
         <div className="d-flex flex-row  w-100 bg-black" style={{height:window.innerWidth <= 576 ?"1150px":'540px',border:"2px solid red"}}>
           <div className=" bg-black" style={{height:window.innerWidth <= 576 ?"1100px":"400px",width:window.innerWidth <= 576 ?"40%":"30%",margin:window.innerWidth <= 576 ?"30px 0px 8px 10px":"40px 0px 80px 80px",border:"2px solid red"}}>
-             <p className="fw-bold fs-2 text-white" style={{margin:window.innerWidth <= 576 ?"40px 0px 0px 20px":"110px"}}>VEGAN DRINKS</p>
+             <p className="fw-bold fs-2 text-white" style={{margin:window.innerWidth <= 576 ?"40px 0px 0px 0px":"110px"}}>VEGAN DRINKS</p>
           </div>
           <div className={` ${window.innerWidth <= 576 ?"flex-column":"flex-wrap"} d-flex justify-contant-evenly bg-black`} style={{height:window.innerWidth <= 576 ?"1100px":"400px",width:window.innerWidth <= 576 ?"60%":"70%",margin:window.innerWidth <= 576 ?"30px 10px 10px 10px":"40px 80px 80px 0px",padding:window.innerWidth <= 992 ?"20px 20px 0px 0px":"40px 20px 0px 10px",border:"2px solid red"}}>
              <div className="d-flex  flex-column " style={{height:"335px",width:window.innerWidth <= 576 ?"95%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 10px":"10px"}}>
