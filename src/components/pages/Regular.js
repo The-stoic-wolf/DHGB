@@ -4,10 +4,10 @@ export default function Regular() {
   return (
     <>
       <div className=" d-flex align-items-center justify-content-center bg-black " style={{height: "250px"}}>
-        <p className=" fw-bold fs-1 text-white mb-2">REGULAR MENU</p>
+        <p className={` ${window.innerWidth <= 576 ?"pt-4":"pt-1"} fw-bold fs-1 text-white mb-2`}>REGULAR MENU</p>
       </div>
       {/* this is next div */}
-      <div className={`d-flex bg-black align-items-center ${window.innerWidth <= 576 ? "flex-column" : "flex-row" } w-100 justify-content-evenly`} style={{height:window.innerWidth <= 576 ?"600px":'200px'}}>
+      <div className={`d-flex bg-black align-items-center ${window.innerWidth <= 576 ? "flex-column" : "flex-row" } w-100 justify-content-evenly`} style={{height:window.innerWidth <= 576 ?"700px":'200px'}}>
         <div className="d-flex flex-column justify-content-center align-items-center  " style={{height:'130px',width:'180px'}}>
            <img className=" mt-3" src="bur.png" alt="" style={{height:"100px",width:"100px"}} />
            <p className="text-white fs-6 fw-light" >BÁNH MÌ</p>
@@ -29,7 +29,7 @@ export default function Regular() {
         </div>
       </div>
   {/* -------------------------------------------------------------section no 1 ----------------------------------------------------------------- */}    
-      <div className="d-flex flex-row w-100 bg-black" style={{height :window.innerWidth <= 576 ?"2700px":window.innerWidth >576 && window.innerWidth <=992 ?" 1700px":"1100px"}}>
+      <div className="d-flex flex-row w-100 bg-black" style={{height :window.innerWidth <= 576 ?"2700px":window.innerWidth >576 && window.innerWidth <=992 ?" 1700px":"1100px",border:"2px solid red"}}>
           <div className=" bg-black" style={{height:window.innerWidth <= 576 ?"2700px":window.innerWidth >576 && window.innerWidth <=992 ?" 1700px":"1100px",width:window.innerWidth <= 992 ?"40%":"30%",padding:window.innerWidth <= 576 ?"80px 0px 30px 20px":window.innerWidth >576 && window.innerWidth <= 992 ?"80px 20px 80px 20px":"80px 0px 80px 80px"}}>
              <p className="fw-bold fs-2 text-white" style={{marginLeft:window.innerWidth <= 576 ?"20px":window.innerWidth > 576 && window.innerWidth <=992 ?" 40px":"110px"}}>BÁNH MÌ</p>
           </div>
@@ -102,7 +102,7 @@ export default function Regular() {
       </div>
       <div className="bg-black h-1" style={{width:'100%'}}>
         <p className="text-white  d-none d-lg-block" style={{margin:"0px 0px 0px 250px",padding:"0px 250px 0px 0px"}}>_____________________________________________________________________________________________________________________________________________________________________</p>
-        <p className={`${window.innerWidth <= 992 ? "text-white w-98":"d-none"}`} style={{margin:"0px 0px 0px 100px",padding:"0px 0px 0px 0px"}}>_____________________________________________________</p>
+        <p className={`${window.innerWidth <= 992 ? "text-white w-98":"d-none"}`} style={{margin:"0px 0px 0px 110px",padding:"0px 0px 0px 0px"}}>_________________________________________________</p>
       </div>
       {/* -----------------------------------------------------section no 2----------------------------------------------------------------------- */}
         <div className="d-flex flex-row  w-100 bg-black" style={{height:window.innerWidth <= 576 ?"1700px":window.innerWidth >576 && window.innerWidth <=992 ?" 1100px":"800px"}}>

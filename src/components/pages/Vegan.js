@@ -7,7 +7,7 @@ export default function Vegan() {
         <p className=" fw-bold fs-1 text-white mb-2">VEGAN MENU</p>
       </div>
       {/* this is a text */}
-       <div className={`d-flex bg-dark align-items-center ${window.innerWidth <= 576? "flex-column": " flex-row"} w-100 justify-content-evenly`} style={{height:window.innerWidth <= 576 ?"600px":'200px'}}>
+       <div className={`d-flex bg-dark align-items-center ${window.innerWidth <= 576? "flex-column": " flex-row"} w-100 justify-content-evenly`} style={{height:window.innerWidth <= 576 ?"650px":'200px'}}>
 
         <div className="d-flex flex-column justify-content-center align-items-center  " style={{height:'130px',width:window.innerWidth <= 576 ?"100%":'180px'}}>
            <img className=" mt-3" src="bur.png" alt="logo1" style={{height:"100px",width:window.innerWidth <= 576 ?"150px":"100px"}} />
@@ -31,10 +31,10 @@ export default function Vegan() {
       </div>
       {/* -------------------------------------------------------------------------------section no 1------------------------------------------------------------------------------------- */}
          <div className="d-flex flex-row  w-100 bg-black" style={{height:window.innerWidth <= 576 ?"3250px":'1100px',border:"2px solid red"}}>
-          <div className=" bg-black" style={{height:window.innerWidth <= 576 ?"3200px":"1000px",width:window.innerWidth <= 576 ?"40%":"30%",margin:window.innerWidth <= 576 ?"30px 0px 8px 10px":"40px 0px 80px 80px",border:"2px solid red"}}>
+          <div className=" bg-black" style={{height:window.innerWidth <= 576 ?"3200px":"1000px",width:window.innerWidth <= 576 ?"40%":"30%",margin:window.innerWidth <= 576 ?"10px 0px 5px 10px":"40px 0px 80px 80px",border:"2px solid red"}}>
              <p className="fw-bold fs-2 text-white" style={{margin:window.innerWidth <= 576 ?"40px 0px 0px 0px":"110px"}}>VEGAN BÁNH MÌ</p>
           </div>
-          <div className={` ${window.innerWidth <= 576 ?"flex-column ":"flex-wrap"} d-flex justify-contant-evenly bg-black `} style={{height:window.innerWidth <= 576 ?"3200px":"1000px",width:window.innerWidth <= 576 ?"60%":"70%",margin:window.innerWidth <= 576 ?"30px 10px 10px 10px":"40px 80px 80px 10px",padding:window.innerWidth <= 992 ?"20px 20px 0px 0px":"20px 40px 40px 0px",border:"2px solid red"}}>
+          <div className={` ${window.innerWidth <= 576 ?"flex-column ":"flex-wrap"} d-flex justify-contant-evenly bg-black `} style={{height:window.innerWidth <= 576 ?"3200px":"1000px",width:window.innerWidth <= 576 ?"60%":"70%",margin:window.innerWidth <= 576 ?"10px 2px 10px 10px":"40px 80px 80px 10px",padding:window.innerWidth <= 992 ?"20px 20px 0px 0px":"20px 40px 40px 0px",border:"2px solid red"}}>
              
              <div className="d-flex  flex-column" style={{height:window.innerWidth <= 576 ?"330px":"300px",width:window.innerWidth <= 576 ?"95%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 10px":"10px"}}>
               <img className="" src="sandwitch2.jpeg" alt="" style={{height:window.innerWidth <= 576 ?"240px":"220px"}} />
@@ -115,10 +115,10 @@ export default function Vegan() {
       </div>
       {/* -------------------------------------------------------------------------------section no 2------------------------------------------------------------------------------------- */}
       <div className="d-flex flex-row  w-100 bg-black" style={{height:window.innerWidth <= 576 ? "2980px":'1150px',border:"2px solid red"}}>
-          <div className=" bg-black" style={{height:window.innerWidth <= 576 ?"2930px":"1050px",width:window.innerWidth <= 576 ?"40%":"30%",margin:window.innerWidth <= 576 ?"30px 0px 8px 10px":"40px 0px 80px 80px",border:"2px solid red"}}>
+          <div className=" bg-black" style={{height:window.innerWidth <= 576 ?"2930px":"1050px",width:window.innerWidth <= 576 ?"40%":"30%",margin:window.innerWidth <= 576 ?"10px 0px 5px 10px":"40px 0px 80px 80px",border:"2px solid red"}}>
              <p className="fw-bold fs-2 text-white" style={{margin:window.innerWidth <= 576 ?"40px 0px 0px 0px":"110px"}}>VEGAN PASTRIES</p>
           </div>
-          <div className={`d-flex ${window.innerWidth <= 576 ?"flex-column":"flex-wrap"} justify-contant-evenly bg-black `} style={{height:window.innerWidth <= 576 ?"2930px":"1050px",width:window.innerWidth <= 576 ?"60%":"70%",margin:window.innerWidth <= 576 ?"30px 10px 10px 10px":"40px 80px 80px 10px",padding:window.innerWidth <= 992 ?"20px 20px 0px 0px":"40px 20px 40px 0px",border:"2px solid red"}}>
+          <div className={`d-flex ${window.innerWidth <= 576 ?"flex-column":"flex-wrap"} justify-contant-evenly bg-black `} style={{height:window.innerWidth <= 576 ?"2930px":"1050px",width:window.innerWidth <= 576 ?"60%":"70%",margin:window.innerWidth <= 576 ?"10px 10px 5px 10px":"40px 80px 80px 10px",padding:window.innerWidth <= 992 ?"20px 20px 0px 0px":"40px 20px 40px 0px",border:"2px solid red"}}>
 
              <div className="d-flex  flex-column" style={{height:window.innerWidth <= 576 ?"300px":"320px",width:window.innerWidth <= 576 ?"95%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 10px":"10px"}}>
               <img className="" src="hotb4.jpeg" alt="" style={{height:"230px",objectFit:"cover"}} />
@@ -190,10 +190,10 @@ export default function Vegan() {
       </div>
       {/* -------------------------------------------------------------------------------section no 3------------------------------------------------------------------------------------- */}
                <div className="d-flex flex-row  w-100 bg-black" style={{height:window.innerWidth <= 576 ?"2550px":'1100px',border:"2px solid red"}}>
-          <div className=" bg-black" style={{height:window.innerWidth <= 576 ?"2500px":"1000px",width:window.innerWidth <= 576 ?"40%":"30%",margin:window.innerWidth <= 576 ?"30px 0px 8px 10px":"40px 0px 80px 80px",border:"2px solid red"}}>
+          <div className=" bg-black" style={{height:window.innerWidth <= 576 ?"2500px":"1000px",width:window.innerWidth <= 576 ?"40%":"30%",margin:window.innerWidth <= 576 ?"10px 0px 5px 10px":"40px 0px 80px 80px",border:"2px solid red"}}>
              <p className={` ${window.innerWidth <= 576 ?" fw-normal fs-5":" fw-bold fs-2"} text-white `} style={{margin:window.innerWidth <= 576 ?"40px 0px 0px 0px":"80px"}}>VEGAN VIETNAMESE PASTRY</p>
           </div>
-          <div className={`${window.innerWidth <= 576 ?"flex-column":"flex-wrap"}  d-flex justify-contant-evenly bg-black `} style={{height:window.innerWidth <= 576 ?"2500px":"1000px",width:window.innerWidth <= 576 ?"60%":"70%",margin:window.innerWidth <= 576 ?"30px 10px 10px 10px":"40px 80px 80px 0px",padding:window.innerWidth <= 992 ?"20px 20px 0px 0px":"40px 20px 40px 10px",border:"2px solid red"}}>
+          <div className={`${window.innerWidth <= 576 ?"flex-column":"flex-wrap"}  d-flex justify-contant-evenly bg-black `} style={{height:window.innerWidth <= 576 ?"2500px":"1000px",width:window.innerWidth <= 576 ?"60%":"70%",margin:window.innerWidth <= 576 ?"10px 10px 5px 10px":"40px 80px 80px 0px",padding:window.innerWidth <= 992 ?"20px 20px 0px 0px":"40px 20px 40px 10px",border:"2px solid red"}}>
 
              <div className="d-flex  flex-column" style={{height:window.innerWidth <= 576 ?"330px":"300px",width:window.innerWidth <= 576 ?"95%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 10px":"10px"}}>
               <img className="" src="pastry5.jpeg" alt="" style={{height:window.innerWidth <= 576 ?"240px":"220px"}} />
@@ -258,10 +258,10 @@ export default function Vegan() {
        </div>
       {/* -------------------------------------------------------------------------------section no 4------------------------------------------------------------------------------------- */}
         <div className="d-flex flex-row  w-100 bg-black" style={{height:window.innerWidth <= 576 ?"1150px":'540px',border:"2px solid red"}}>
-          <div className=" bg-black" style={{height:window.innerWidth <= 576 ?"1100px":"400px",width:window.innerWidth <= 576 ?"40%":"30%",margin:window.innerWidth <= 576 ?"30px 0px 8px 10px":"40px 0px 80px 80px",border:"2px solid red"}}>
+          <div className=" bg-black" style={{height:window.innerWidth <= 576 ?"1100px":"400px",width:window.innerWidth <= 576 ?"40%":"30%",margin:window.innerWidth <= 576 ?"10px 0px 5px 10px":"40px 0px 80px 80px",border:"2px solid red"}}>
              <p className="fw-bold fs-2 text-white" style={{margin:window.innerWidth <= 576 ?"40px 0px 0px 0px":"110px"}}>VEGAN DRINKS</p>
           </div>
-          <div className={` ${window.innerWidth <= 576 ?"flex-column":"flex-wrap"} d-flex justify-contant-evenly bg-black`} style={{height:window.innerWidth <= 576 ?"1100px":"400px",width:window.innerWidth <= 576 ?"60%":"70%",margin:window.innerWidth <= 576 ?"30px 10px 10px 10px":"40px 80px 80px 0px",padding:window.innerWidth <= 992 ?"20px 20px 0px 0px":"40px 20px 0px 10px",border:"2px solid red"}}>
+          <div className={` ${window.innerWidth <= 576 ?"flex-column":"flex-wrap"} d-flex justify-contant-evenly bg-black`} style={{height:window.innerWidth <= 576 ?"1100px":"400px",width:window.innerWidth <= 576 ?"60%":"70%",margin:window.innerWidth <= 576 ?"10px 10px 5px 10px":"40px 80px 80px 0px",padding:window.innerWidth <= 992 ?"20px 20px 0px 0px":"40px 20px 0px 10px",border:"2px solid red"}}>
              <div className="d-flex  flex-column " style={{height:"335px",width:window.innerWidth <= 576 ?"95%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 10px":"10px"}}>
               <img className="" src="coffee1.jpeg" alt="" style={{height:"240px",objectFit:"cover"}} />
                <div className={`${window.innerWidth <= 576 ? "align-items-left":"align-items-center"} d-flex  flex-column `} style={{height:"90px",backgroundColor:"rgb(40, 51, 65)"}} >
