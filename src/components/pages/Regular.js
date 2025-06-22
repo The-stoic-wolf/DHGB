@@ -3,7 +3,7 @@ import React from 'react'
 export default function Regular() {
   return (
     <>
-      <div className=" d-flex align-items-center justify-content-center bg-black " style={{height:window.innerWidth <= 576 ?"650px":"250px"}}>
+      <div className=" d-flex align-items-center justify-content-center bg-black " style={{height:"250px"}}>
         <p className={` ${window.innerWidth <= 576 ?"pt-4":"pt-1"} fw-bold fs-1 text-white mb-2`}>REGULAR MENU</p>
       </div>
       {/* this is next div */}
@@ -29,7 +29,7 @@ export default function Regular() {
         </div>
       </div>
   {/* -------------------------------------------------------------section no 1 ----------------------------------------------------------------- */}    
-      <div className="d-flex flex-row w-100 bg-black" style={{height :window.innerWidth <= 576 ?"2700px":window.innerWidth >576 && window.innerWidth <=992 ?" 1700px":"1100px",border:"2px solid red"}}>
+      <div className="d-flex flex-row w-100 bg-black" style={{height :window.innerWidth <= 576 ?"2700px":window.innerWidth >576 && window.innerWidth <=992 ?" 1700px":"1100px"}}>
           <div className=" bg-black" style={{height:window.innerWidth <= 576 ?"2700px":window.innerWidth >576 && window.innerWidth <=992 ?" 1700px":"1100px",width:window.innerWidth <= 992 ?"40%":"30%",padding:window.innerWidth <= 576 ?"80px 0px 30px 20px":window.innerWidth >576 && window.innerWidth <= 992 ?"80px 20px 80px 20px":"80px 0px 80px 80px"}}>
              <p className="fw-bold fs-2 text-white" style={{margin:window.innerWidth <= 576 ?"40px 0px 0px 0px":window.innerWidth > 576 && window.innerWidth <=992 ?" 40px":"110px"}}>BÁNH MÌ</p>
           </div>
@@ -153,7 +153,7 @@ export default function Regular() {
       {/* -----------------------------------------------------------------------------section no 3---------------------------------------------------------------------------------------- */}
        <div className="d-flex flex-row  w-100 bg-black" style={{height:window.innerWidth <= 576 ?"1200px":window.innerWidth >576 && window.innerWidth <=992 ?" 800px":"540px"}}>
           <div className=" bg-black" style={{height:window.innerWidth <= 576 ?"1200px":window.innerWidth >576 && window.innerWidth <=992 ?" 800px":"540px",width:window.innerWidth <= 992 ?"40%":"30%",padding:window.innerWidth <= 576 ?"80px 0px 30px 20px":window.innerWidth >576 && window.innerWidth <= 992 ?"80px 20px 80px 20px":"80px 0px 80px 80px"}}>
-             <p className="fw-bold fs-2 text-white" style={{margin:window.innerWidth <= 576 ?"40px 0px 0px 0px":window.innerWidth > 576 && window.innerWidth <=992 ?" 40px":"110px"}}>VIETNAMESE PASTRIESE</p>
+             <p className={` ${window.innerWidth <= 576 ?" fw-normal fs-5":" fw-bold fs-2"} text-white `} style={{margin:window.innerWidth <= 576 ?"40px 0px 0px 0px":window.innerWidth > 576 && window.innerWidth <=992 ?" 40px":"110px"}}>VIETNAMESE PASTRIESE</p>
           </div>
           <div className={`d-flex  ${window.innerWidth <= 576 ? "flex-column":window.innerWidth > 576 && window.innerWidth  <=992 ?" flex-wrap": "flex-wrap"} justify-contant-evenly bg-black `} style={{height:window.innerWidth <= 576 ?"1200px":window.innerWidth >576 && window.innerWidth <=992 ?" 800px":"540px",width:window.innerWidth <= 992 ?"60%":"70%",padding:window.innerWidth <= 994 ?"20px 20px 0px 0px":"80px 80px 80px 0px"}}>
              <div className="d-flex  flex-column" style={{height:"350px",width:window.innerWidth <= 576 ?"95%":window.innerWidth > 576 && window.innerWidth  <=992 ?" 45%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 10px":window.innerWidth >576 && window.innerWidth  <=992 ?"10px 0px 10px 10px":"10px"}}>
