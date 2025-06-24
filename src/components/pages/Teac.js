@@ -23,7 +23,7 @@ export default function Teac() {
          </div>
       </div>
 {/* ----------------------------------------------------------section no 1---------------------------------------------------------------- */}
-      <div className={`${window.innerWidth <= 900 ? "pt-3":"pt-5"}`} style={{height:window.innerWidth <= 900 ?"1500px":"1400px",width:"100%",backgroundColor:"rgb(40, 51, 65)",border:"1px solid  red"}}> 
+      <div className={`${window.innerWidth <= 900 ? "pt-3":"pt-5"}`} style={{height:window.innerWidth <= 900 ?"1400px":"1400px",width:"100%",backgroundColor:"rgb(40, 51, 65)",border:"1px solid  red"}}> 
 
         <div className={`d-flex flex-column ${window.innerWidth <= 900 ?"pt-0":"pt-3"} text-white align-items-center `} style={{height:window.innerWidth <= 900 ?"1200px":"1200px", margin:window.innerWidth <= 900 ?"0px 20px 20px 10px":"0px 300px 50px 300px"}}>
             <p className={`${window.innerWidth <= 900 ?" fs-5 ps-2 fw-semibold ":"fs-3 fw-normal "}`} >BOOK YOUR VIETNAMESE TEA CEREMONY WITH US!</p>
