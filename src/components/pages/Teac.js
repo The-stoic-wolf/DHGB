@@ -12,13 +12,14 @@ export default function Teac() {
             <div className={`d-flex ${window.innerWidth <= 900 ?"ps-2 mt-2":"mx-3 mt-4"} flex-column text-white`} >
               <p className={`${window.innerWidth <= 900 ?"fw-semibold fs-4 px-1":"fs-3 fw-bold"}`} >VIETNAMESE TEA CEREMONY (ĐÁM HỎI)</p>
             </div>
-            <p className={` ${window.innerWidth <= 900 ?"ps-1 d-none":"mx-3"} text-white`} >_________________________________________________________________</p>
-            <p className={`${window.innerWidth <= 900 ?"px-1 fs-6 fst-italic ":"mx-3 fs-5 "}  fw-semibold text-white`} style={{height:"130px"}}>A Vietnamese tea ceremony, commonly known as ‘Đám Hỏi’, is a profound blend of tradition and symbolism, celebrating not only the union of two souls but also the coming together of two families.</p>
+            <p className={` ${window.innerWidth <= 900 ?"ps-2 d-none":"mx-3"} text-white`} >_________________________________________________________________</p>
+            <p className={`${window.innerWidth = 900 ?" justify-content-center align-items-center ":"d-none"}`}>______________________________</p>
+            <p className={`${window.innerWidth <= 900 ?"px-2 fs-6 fst-italic ":"mx-3 fs-5 "}  fw-semibold text-white`} style={{height:"150px",border:"1px solid  red"}}>A Vietnamese tea ceremony, commonly known as ‘Đám Hỏi’, is a profound blend of tradition and symbolism, celebrating not only the union of two souls but also the coming together of two families.</p>
 
-             <p className={` ${window.innerWidth <= 900 ?"px-1 fs-6 fst-italic":"mx-3 fs-5 "} fw-semibold text-white `} style={{height:"220px"}}>Vietnamese Tea Ceremony Rental Policy: A $200 deposit is required to secure your Vietnamese tea ceremony rentals. This deposit will be returned in full once all rental items are returned within 48 hours of the event. If any item is not returned within that timeframe, the corresponding deposit will be forfeited. By renting our Vietnamese tea ceremony items, you agree to these terms.</p>
+             <p className={` ${window.innerWidth <= 900 ?"px-1 fs-6 fst-italic":"mx-3 fs-5 "} fw-semibold text-white `} style={{height:"250px",border:"1px solid  red"}}>Vietnamese Tea Ceremony Rental Policy: A $200 deposit is required to secure your Vietnamese tea ceremony rentals. This deposit will be returned in full once all rental items are returned within 48 hours of the event. If any item is not returned within that timeframe, the corresponding deposit will be forfeited. By renting our Vietnamese tea ceremony items, you agree to these terms.</p>
              <p className={`${window.innerWidth <= 900 ?"ps-1 d-none":"mx-3"} text-white`} >__________________________________________________________________</p>
              <div className={` ${window.innerWidth <= 900 ?"d-flex justify-content-left align-items-center ps-2":"pt-1"}`} style={{height:window.innerWidth <= 900 ?"80px":"100px"}}>
-                <button className={ `${window.innerWidth <= 900 ?"ps-2 pt-1 fw-normal ":"mx-3 mt-3 fw-bold"} btn btn-primary fs-6`} style={{height:"50px",width:window.innerWidth <= 900 ?"320px":"400px",borderRadius:"35px"}}>VIEW VIETNAMESE TEA CERMONY MENU</button>
+                <button className={ `${window.innerWidth <= 900 ?"ps-2 pt-1 fw-normal ":"mx-3 mt-3 fw-bold"} btn btn-primary fs-6`} style={{height:"55px",width:window.innerWidth <= 900 ?"320px":"400px",borderRadius:"35px"}}>VIEW VIETNAMESE TEA CERMONY MENU</button>
              </div>
          </div>
       </div>
