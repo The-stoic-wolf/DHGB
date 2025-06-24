@@ -55,7 +55,8 @@ const boxes =[
     const visibleboxes = window.innerWidth <= 576 ? 
     boxes.slice(starindex, starindex + 1):window.innerWidth > 576  && window.innerWidth <= 992 ?
     boxes.slice(starindex, starindex + 2):boxes.slice(starindex, starindex + 3)
-    
+
+    const boxedView = window.innerWidth <= 576 ? 1 : 3;
 
     const nextBox = ()=>{
       if(starindex + 3 < boxes.length){
@@ -81,21 +82,21 @@ const boxes =[
     <>
     <header>
  <div className="images h-100">
-  <div className="d-flex position-relative w-100" style={{ height:"600px",marginTop: window.innerWidth <= 550 ?"100px":"0px",overflow:"hidden",border:"3px solid red"}}>
+  <div className="d-flex position-relative w-100 bg-dark" style={{ height:"600px",marginTop: window.innerWidth <= 550 ?"100px":"0px",overflow:"hidden",padding:window.innerWidth <= 576 ?"30px 0px 30px 0px":"0px",border:"3px solid red"}}>
    <img src={images[index]} alt="logo2" className="img-fluid" style={{objectFit:"cover",width:"100%",height:"100%"}} />
     <button onClick={handlePrev} className="text-white fs-3 fw-bold bg-dark bg-opacity-75  position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",left:'2px',transform:"translateY(-50%)",zIndex:2}}> ‹ </button>
     <button onClick={handleNext} className="text-white fs-3 fw-bold bg-dark bg-opacity-75 position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",right:"2px",transform:"translateY(-50%)",zIndex:2}}> › </button>
-    <div className="d-flex flex-column position-absolute bg-dark bg-opacity-75 rounded-5 ms-5" style={{maxHeight:"200px",height:"80%",width:"80%",maxWidth:"647px",top:'50%',left : largescreen?"30%" :"1%",transform : largescreen  ? "none":"translateY(-50%)",zIndex:2}}>
-       <p className="text-white fs-2 fw-bold fst-italic ps-4 mt-1">IT'S BETTER VEGAN</p>
+    <div className={` ${window.innerWidth <= 576 ?"justify-content-left":"ms-5"} d-flex flex-column position-absolute bg-dark bg-opacity-75 rounded-5`} style={{maxHeight:"200px",height:"80%",margin:window.innerWidth <= 576 ?"0px 0px 0px 20%":"",width:"80%",maxWidth:"647px",top:'50%',left : largescreen?"30%" :"1%",transform : largescreen  ? "none":"translateY(-50%)",zIndex:2}}>
+       <p className={`  text-white fs-2 fw-bold fst-italic ps-4 mt-1`}>IT'S BETTER VEGAN</p>
        <h5 className="ps-4 text-white" style={{ fontWeight: window.innerWidth <= 550 ?"normal":"semibold"}}>Experience our one-of-a-kind signature vegan coconut croissant.</h5>
        <button className=" btn btn-primary rounded-5 " style={{height:'40px',width:"200px",margin: window.innerWidth <= 550 ?"6px 0px 0px 6px":"20px 0px 0px 10px"}}>Learn More</button>
      </div>
   </div>
 </div>
 </header>
-<div className="d-flex justify-content-center align-items-center type1 w-100 bg-black" style={{height:"150px",border:"3px solid red"}}>
+<div className="d-flex justify-content-center align-items-center type1 w-100 bg-black" style={{height:window.innerWidth <= 576 ?"200px":"150px",border:"3px solid red"}}>
   <div className="text1">
-    <p className="text-bold text-white fs-3 px-3">Vegan-friendly Vietnamese bakery serving both traditional & vegan bánh mì, pastries, desserts & coffee.</p>
+    <p className={` ${window.innerWidth <= 576 ?"px-4 fst-italic":"px-3"} text-bold text-white fs-3 `}>Vegan-friendly Vietnamese bakery serving both traditional & vegan bánh mì, pastries, desserts & coffee.</p>
   </div>
 </div>
 <div style={{height:"180px",backgroundColor:"rgb(40, 51, 65)"}}>
@@ -105,17 +106,17 @@ const boxes =[
    </div>
 </div>
 {/* ---------------------------------------------------------------------section no 1 ------------------------------------------------------------------------------------------- */}
-<div className="bg-black d-flex flex-row" style={{height:"500px",border:"3px solid red"}}>
-   <div className="d-flex flex-column text-white " style={{width:"25%",height:"500px",padding:window.innerWidth <= 550?"80px 0px 80px 30px":"150px 0px 50px 120px"}}>
-    <h5 className="fw-bold fs-4 ps-5">4.5</h5>
+<div className={` ${window.innerWidth <= 576 ?"flex-column":"flex-row"} bg-black d-flex flex-row`} style={{height:window.innerWidth <= 576 ?"600px":"500px",border:"3px solid red"}}>
+   <div className={` ${window.innerWidth <= 576 ?"align-items-center justify-conmtent-center":"justify-content-left"} d-flex flex-column text-white`} style={{width:window.innerWidth <= 576 ?"100%":"25%",height:window.innerWidth <= 576 ?"150px":"500px",padding:window.innerWidth <= 576?"20px 0px 10px 10px":"150px 0px 50px 120px"}}>
+    <h5 className={`${window.innerWidth <= 576 ?"ps-2":"ps-5"} fw-bold fs-4 `}>4.5</h5>
     <p className="fs-5 fw-semibold ">Based on 265 reviews</p>
-    <p className="mt-0 ps-3">powered by google</p>
+    <p className={` ${window.innerWidth <= 576 ?"ps-1":"ps-3"} mt-0 `}>powered by google</p>
    </div>
 
-   <div className="d-flex flex-row position-relative" style={{height:"500px",width:"75%",border:"3px solid red"}}>
+   <div className="d-flex flex-row position-relative" style={{height:window.innerWidth <= 576 ?"400px":"500px",width:window.innerWidth <= 576 ?"100%":"75%",border:"3px solid red"}}>
     <button onClick={prevbox} className="text-white fs-3 fw-bold  bg-dark bg-opacity-75 position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",left:'10px'}}> ‹ </button>
      {visibleboxes.map((boxes,i)=>(
-      <div className="d-flex flex-column rounded-4" key={i} style={{height:"380px",width:"320px",margin:"50px 0px 50px 40px",backgroundColor:"lightblue", border:"2px solid blue"}}>
+      <div className="d-flex flex-column rounded-4" key={i} style={{height:"380px",width:"320px",margin:window.innerWidth <= 576 ?"10px 0px 20px 80px":"50px 0px 50px 40px",backgroundColor:"lightblue", border:"2px solid blue"}}>
         <div className="d-flex flex-row pt-3 ps-4" style={{height:"80px"}}>
           <img src="cooking-48.png" alt="logo"/>
             <div className="d-flex flex-column" style={{height:"120px",width:"150px"}}>
