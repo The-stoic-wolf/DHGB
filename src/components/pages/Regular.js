@@ -209,17 +209,17 @@ export default function Regular() {
                8536 Westminster Blvd,
                Westminster CA 92683</p>    
         </div>
-        <div className="d-flex flex-column " style={{height:"160px",width:"220px",padding:"20px 5px 10px 5px"}}>
+        <div className="d-flex flex-column " style={{height:"160px",width:"220px",padding :window.innerWidth <= 576 ?"20px 10px 10px 10px":"20px 5px 10px 5px"}}>
           <p className="mx-2 fs-6 fw-semibold text-white">HOURS OF OPERATION</p>
           <p  className="mx-2 fs-6 fw-normal text-white">Daily: 6AM - 8PM</p>
         </div>
 
-        <div className="d-flex flex-column" style={{height:"160px",width:"200px",padding:"20px 5px 10px 5px"}}>
+        <div className="d-flex flex-column" style={{height:"160px",width:"200px",padding:window.innerWidth <= 576 ?"20px 10px 10px 10px":"20px 5px 10px 5px"}}>
           <p className="mx-2 fs-6 fw-semibold text-white">PHONE NUMBER</p>
           <p  className="mx-2 fs-6 fw-normal text-primary">(714) 891-4404</p>
         </div>
 
-        <div className="d-flex flex-column" style={{height:"160px",width:"200px",padding:"20px 5px 10px 5px"}}>
+        <div className="d-flex flex-column" style={{height:"160px",width:"200px",padding:window.innerWidth <= 576 ?"20px 10px 10px 10px":"20px 5px 10px 5px"}}>
           <p className="mx-3 fs-6 fw-semibold text-white">FOLLOW</p>
             <div className="d-flex justify-content-evenly mx-0" style={{width:"160px"}}>
               <img className="ms-2 rounded-4" src="tiktok-36.png" alt="icon2" />
@@ -228,10 +228,10 @@ export default function Regular() {
             </div>
         </div>
 
-        <div  style={{height:"160px",width:"200px",padding:"20px 5px 10px 10px"}}>
+        <div  style={{height:"160px",width:"200px",padding:window.innerWidth <= 576 ?"20px 10px 10px 10px":"20px 5px 10px 10px"}}>
           <p  className="mx-1 fs-6 fw-semibold text-white">ABOUT US</p>
         </div>
-        <div style={{height:"160px",width:"200px",padding:"20px 5px 10px 10px"}}>
+        <div style={{height:"160px",width:"200px",padding:window.innerWidth <= 576 ?"20px 10px 10px 10px":"20px 5px 10px 10px"}}>
            <p  className="mx-1 fs-6 fw-semibold text-white">CONTACT US</p>
         </div>
        </div>

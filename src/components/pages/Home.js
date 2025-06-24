@@ -81,8 +81,8 @@ const boxes =[
   return (
     <>
     <header>
- <div className="images h-100">
-  <div className="d-flex position-relative w-100 bg-dark" style={{ height:"600px",marginTop: window.innerWidth <= 550 ?"100px":"0px",overflow:"hidden"}}>
+ <div className="images">
+  <div className="d-flex position-relative w-100 bg-dark" style={{ height:"500px",marginTop: window.innerWidth <= 550 ?"100px":"0px",overflow:"hidden"}}>
    <img src={images[index]} alt="logo2" className="img-fluid" style={{objectFit:"cover",width:"100%",height:"100%"}} />
     <button onClick={handlePrev} className="text-white fs-3 fw-bold bg-dark bg-opacity-75  position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",left:'2px',transform:"translateY(-50%)",zIndex:2}}> ‹ </button>
     <button onClick={handleNext} className="text-white fs-3 fw-bold bg-dark bg-opacity-75 position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",right:"2px",transform:"translateY(-50%)",zIndex:2}}> › </button>
@@ -116,7 +116,7 @@ const boxes =[
    <div className="d-flex flex-row position-relative" style={{height:window.innerWidth <= 576 ?"400px":"500px",width:window.innerWidth <= 576 ?"100%":"75%"}}>
     <button onClick={prevbox} className="text-white fs-3 fw-bold  bg-dark bg-opacity-75 position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",left:'10px'}}> ‹ </button>
      {visibleboxes.map((boxes,i)=>(
-      <div className="d-flex flex-column rounded-4" key={i} style={{height:"380px",width:window.innerWidth <= 576 ?"75%":"320px",margin:window.innerWidth <= 576 ?"10% 0px 20px 10px":"50px 0px 50px 40px",backgroundColor:"lightblue"}}>
+      <div className="d-flex flex-column rounded-4" key={i} style={{height:"380px",width:window.innerWidth <= 576 ?"70%":"320px",margin:window.innerWidth <= 576 ?"2% 15% 5% 15%":"50px 0px 50px 40px",backgroundColor:"lightblue"}}>
         <div className="d-flex flex-row pt-3 ps-4" style={{height:"80px"}}>
           <img src="cooking-48.png" alt="logo"/>
             <div className="d-flex flex-column" style={{height:"120px",width:"150px"}}>
@@ -141,17 +141,17 @@ const boxes =[
                8536 Westminster Blvd,
                Westminster CA 92683</p>    
         </div>
-        <div className="d-flex flex-column " style={{height:"160px",width:"220px",padding:"20px 5px 10px 5px"}}>
+        <div className="d-flex flex-column " style={{height:"160px",width:"220px",padding:window.innerWidth <= 576 ?"20px 10px 10px 10px":"20px 5px 10px 5px"}}>
           <p className="mx-2 fs-6 fw-semibold text-white">HOURS OF OPERATION</p>
           <p  className="mx-2 fs-6 fw-normal text-white">Daily: 6AM - 8PM</p>
         </div>
 
-        <div className="d-flex flex-column" style={{height:"160px",width:"200px",padding:"20px 5px 10px 5px"}}>
+        <div className="d-flex flex-column" style={{height:"160px",width:"200px",padding:window.innerWidth <= 576 ?"20px 10px 10px 10px":"20px 5px 10px 5px"}}>
           <p className="mx-2 fs-6 fw-semibold text-white">PHONE NUMBER</p>
           <p  className="mx-2 fs-6 fw-normal text-primary">(714) 891-4404</p>
         </div>
 
-        <div className="d-flex flex-column" style={{height:"160px",width:"200px",padding:"20px 5px 10px 0px"}}>
+        <div className="d-flex flex-column" style={{height:"160px",width:"200px",padding:window.innerWidth <= 576 ?"20px 10px 10px 10px":"20px 5px 10px 0px"}}>
           <p className="mx-3 fs-6 fw-semibold text-white">FOLLOW</p>
             <div className="d-flex justify-content-evenly mx-0" style={{width:"160px"}}>
              <img className="ms-2 rounded-4" src="tiktok-36.png" alt="icon2" />
@@ -160,10 +160,10 @@ const boxes =[
             </div>
         </div>
 
-        <div  style={{height:"160px",width:"200px",padding:"20px 5px 10px 0px"}}>
+        <div  style={{height:"160px",width:"200px",padding:window.innerWidth <= 576 ?"20px 10px 10px 10px":"20px 5px 10px 0px"}}>
           <p  className="mx-1 fs-6 fw-semibold text-white">ABOUT US</p>
         </div>
-        <div style={{height:"160px",width:"200px",padding:"20px 5px 10px 0px"}}>
+        <div style={{height:"160px",width:"200px",padding:window.innerWidth <= 576 ?"20px 10px 10px 10px":"20px 5px 10px 0px"}}>
            <p  className="mx-1 fs-6 fw-semibold text-white">CONTACT US</p>
         </div>
        </div>
