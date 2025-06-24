@@ -3,12 +3,12 @@
 export default function Teac() {
   return (
     <>
-      <div className={` d-flex ${window.innerWidth  <= 900 ? "flex-column":"flex-row"} bg-black`} style={{height:window.innerWidth <= 900 ?"1150px":"850px",width:"100%"}}>
+      <div className={` d-flex ${window.innerWidth  <= 900 ? "flex-column":"flex-row"} bg-black`} style={{height:window.innerWidth <= 900 ?"1150px":"850px",width:"100%",border:"1px solid  red"}}>
          <div className="d-flex " style={{height:window.innerWidth <= 900 ?"500px":"850px",width:window.innerWidth <= 900 ?"90%":"40%",margin:window.innerWidth <= 750 ?"20% 10% 0% 10%":window.innerWidth > 750 && window.innerWidth > 750 ?"10% 15% 0% 15%":"80px 0px 0px 80px"}}>
            <img src="teac.png" alt="T-logo" style={{height:"450px",width:"90%",padding:window.innerWidth <= 750 ?"20% 5% 5% 5%":window.innerWidth > 750 && window.innerWidth > 750 ?"10% 15% 0% 0%":"10% 5% 5% 5%",objectFit:"cover"}}/>
          </div>
 
-         <div className="d-flex flex-column" style={{height:window.innerWidth <= 900 ?"650px":"850px",width:window.innerWidth <= 900 ?"100%":"40%",margin:window.innerWidth <= 900 ?"20px 20px 10px 5px":"80px 80px 0px 100px"}}>
+         <div className="d-flex flex-column" style={{height:window.innerWidth <= 900 ?"650px":"850px",width:window.innerWidth <= 900 ?"100%":"40%",border:"1px solid  red",margin:window.innerWidth <= 900 ?"20px 20px 10px 5px":"80px 80px 0px 100px"}}>
             <div className={`d-flex ${window.innerWidth <= 900 ?"ps-2 mt-2":"mx-3 mt-4"} flex-column text-white`} >
               <p className={`${window.innerWidth <= 900 ?"fw-semibold fs-4 px-1":"fs-3 fw-bold"}`} >VIETNAMESE TEA CEREMONY (ĐÁM HỎI)</p>
             </div>
@@ -23,9 +23,9 @@ export default function Teac() {
          </div>
       </div>
 {/* ----------------------------------------------------------section no 1---------------------------------------------------------------- */}
-      <div className={`${window.innerWidth <= 900 ? "pt-3":"pt-5"}`} style={{height:window.innerWidth <= 900 ?"1600px":"1400px",width:"100%",backgroundColor:"rgb(40, 51, 65)"}}> 
+      <div className={`${window.innerWidth <= 900 ? "pt-3":"pt-5"}`} style={{height:window.innerWidth <= 900 ?"1500px":"1400px",border:"1px solid  red",width:"100%",backgroundColor:"rgb(40, 51, 65)"}}> 
 
-        <div className={`d-flex flex-column ${window.innerWidth <= 900 ?"pt-0":"pt-3"} text-white align-items-center `} style={{height:window.innerWidth <= 900 ?"1300px":"1200px", margin:window.innerWidth <= 900 ?"0px 20px 20px 10px":"0px 300px 50px 300px"}}>
+        <div className={`d-flex flex-column ${window.innerWidth <= 900 ?"pt-0":"pt-3"} text-white align-items-center `} style={{height:window.innerWidth <= 900 ?"1200px":"1200px", margin:window.innerWidth <= 900 ?"0px 20px 20px 10px":"0px 300px 50px 300px",border:"1px solid  red"}}>
             <p className={`${window.innerWidth <= 900 ?" fs-5 ps-2 fw-semibold ":"fs-3 fw-normal "}`} >BOOK YOUR VIETNAMESE TEA CEREMONY WITH US!</p>
             <p className={`${window.innerWidth <= 900 ?"fst-italic ps-2":"fs-5 fw-normal"} `} style={{margin:window.innerWidth <= 900 ?"10px 10px 0px 10px":"10px 120px 0px 120px"}}>At Đông Hưng Viên Bakery, we specialize in bringing to life the sweetness of  your engagement (Đám Hỏi) and wedding day with our bespoke cakes and personalized service.</p>
 
@@ -67,7 +67,7 @@ export default function Teac() {
                  <input className="rounded-3 mb-1" type="text" id="fname" name="fname" placeholder='Enter here'/>
              </div>
   {/* --------------------------------------------------------section no 3--------------------------------------------------------- */}
-            <div className="ms-2 mt-1" style={{height:window.innerWidth <= 900 ?"50px":"30px"}}>
+            <div className="mx-2 mt-1" style={{height:window.innerWidth <= 900 ?"50px":"30px"}}>
               <p className={`fs-6 ${window.innerWidth <= 900 ?"fst-italic fw-medium":" fw-semibold"} text-white `}>SELECT WHICH ITEMS YOU’D LIKE TO ORDER FOR YOUR EVENT: *</p>
             </div>
             <div className="d-flex flex-row pt-2" style={{width:"100%"}}>
@@ -115,7 +115,7 @@ export default function Teac() {
                    </div>
                  </div>     
             </div>
-            <div className="d-flex flex-column pt-2 mx-1" style={{width:"98%",height:"200px",border:"3px solid red"}}>
+            <div className="d-flex flex-column pt-2 mx-1" style={{width:"98%",height:"200px"}}>
                  <label  htmlFor="fname" className={`${window.innerWidth <= 900 ?"pt-1 pb-2 fst-italic fw-normal":"pt-1 fw-semibold"} ms-1 fs-6 `}>DESCRIBE YOUR EVENT (Are there any additional details you would like us to be aware of?)*</label>
                  <textarea className="form-control rounded-3" id="exampleFormControlTextarea1" rows="5"></textarea>
              </div>
