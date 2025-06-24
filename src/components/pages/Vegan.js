@@ -38,73 +38,73 @@ export default function Vegan() {
              
              <div className="d-flex  flex-column" style={{height:window.innerWidth <= 576 ?"330px":"300px",width:window.innerWidth <= 576 ?"95%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 10px":"10px"}}>
               <img className="" src="sandwitch2.jpeg" alt="" style={{height:window.innerWidth <= 576 ?"240px":"220px"}} />
-               <div className="d-flex justify-content-center align-items-center flex-column pt-4 pb-1"  style={{height:window.innerWidth <= 576 ?"90px":"80px",backgroundColor:"rgb(40, 51, 65)"}}  >
-                <p className={`${window.innerWidth <= 576 ?"fs-6 fw-light ps-3 mb-0" :"mb-0 mt-2"} text-white `}>VEGAN LEMONGRASS STEAK</p>
-                <p className={`${window.innerWidth <= 576 ?"fs-6 ps-1 pb-1 pt-0":"mt-0 mx-0"} text-warning `}>bánh mì BÍT TẾT SẢ CHAY</p>
+               <div className="d-flex justify-content-center align-items-left flex-column pt-4 pb-1"  style={{height:window.innerWidth <= 576 ?"90px":"80px",backgroundColor:"rgb(40, 51, 65)"}}  >
+                <p className={`${window.innerWidth <= 576 ?"fs-6 fw-light ps-2 mb-0" :"mb-0 mt-2"} text-white `}>VEGAN LEMONGRASS STEAK</p>
+                <p className={`${window.innerWidth <= 576 ?"fs-6 ps-2 pb-1 pt-0":"mt-0 mx-0"} text-warning `}>bánh mì BÍT TẾT SẢ CHAY</p>
                </div>
              </div>
 
              <div className="d-flex flex-column" style={{height:window.innerWidth <= 576 ?"330px":"300px",width:window.innerWidth <= 576 ?"95%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 10px":"10px"}}>
                <img className="" src="sandwitch3.jpeg" alt="" style={{height:window.innerWidth <= 576 ?"240px":"220px"}} />
-                <div className="d-flex justify-content-center align-items-center flex-column " style={{height:window.innerWidth <= 576 ?"90px":"80px",backgroundColor:"rgb(40, 51, 65)"}}  >
+                <div className="d-flex justify-content-center align-items-left flex-column " style={{height:window.innerWidth <= 576 ?"90px":"80px",backgroundColor:"rgb(40, 51, 65)"}}  >
                  <p className={`${window.innerWidth <= 576 ?"fs-6 fw-normal ps-2 mb-0" :"mb-0 mt-2"} text-white `}>VEGAN PORT MEATBALLS</p>
-                 <p className={`${window.innerWidth <= 576 ?"fs-6 ps-0 pb-1 pt-0":"mt-0 mx-0"} text-warning `}>bánh mì Xiú Mại Chay</p>
+                 <p className={`${window.innerWidth <= 576 ?"fs-6 ps-2 pb-1 pt-0":"mt-0 mx-0"} text-warning `}>bánh mì Xiú Mại Chay</p>
                </div>
              </div>
 
              <div className="d-flex flex-column" style={{height:window.innerWidth <= 576 ?"330px":"300px",width:window.innerWidth <= 576 ?"95%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 10px":"10px"}}>
                <img className="" src="sandwitch4.jpeg" alt="" style={{height:window.innerWidth <= 576 ?"240px":"220px"}} />
-                <div className="d-flex justify-content-center align-items-center flex-column" style={{height:window.innerWidth <= 576 ?"90px":"80px",backgroundColor:"rgb(40, 51, 65)"}}  >
-                 <p className={`${window.innerWidth <= 576 ?"fs-6 fw-normal ps-0 pt-4 mb-0" :"mb-0 mt-2"} text-white `}>VEGAN GRILLED PORK</p>
-                 <p className={`${window.innerWidth <= 576 ?"fs-6 ps-3 pb-1 pt-0":"mt-0 mx-0"} text-warning `}>bánh mì THỊT NƯỚNG CHAY</p>
+                <div className="d-flex justify-content-center align-items-left flex-column" style={{height:window.innerWidth <= 576 ?"90px":"80px",backgroundColor:"rgb(40, 51, 65)"}}  >
+                 <p className={`${window.innerWidth <= 576 ?"fs-6 fw-normal ps-2 pt-4 mb-0" :"mb-0 mt-2"} text-white `}>VEGAN GRILLED PORK</p>
+                 <p className={`${window.innerWidth <= 576 ?"fs-6 ps-2 pb-1 pt-0":"mt-0 mx-0"} text-warning `}>bánh mì THỊT NƯỚNG CHAY</p>
                </div>
              </div>
 
              <div className="d-flex flex-column" style={{height:window.innerWidth <= 576 ?"330px":"300px",width:window.innerWidth <= 576 ?"95%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 10px":"10px"}}>
                <img className="" src="sandwitch5.jpeg" alt="" style={{height:window.innerWidth <= 576 ?"240px":"220px"}} />
-                <div className="d-flex justify-content-center align-items-center flex-column" style={{height:window.innerWidth <= 576 ?"90px":"80px",backgroundColor:"rgb(40, 51, 65)"}}  >
+                <div className="d-flex justify-content-center align-items-left flex-column" style={{height:window.innerWidth <= 576 ?"90px":"80px",backgroundColor:"rgb(40, 51, 65)"}}  >
                  <p className={`${window.innerWidth <= 576 ?"fs-6 fw-normal ps-2 mb-0" :"mb-0 mt-2"} text-white `}>VIETNAMES BAGUETTE</p>
-                 <p className={`${window.innerWidth <= 576 ?"fs-6 ps-1 pb-1 pt-0":"mt-0 mx-0"} text-warning `}>Bánh Mì Baguette</p>
+                 <p className={`${window.innerWidth <= 576 ?"fs-6 ps-2 pb-1 pt-0":"mt-0 mx-0"} text-warning `}>Bánh Mì Baguette</p>
                </div>
              </div>
 
              <div className="d-flex flex-column" style={{height:window.innerWidth <= 576 ?"330px":"300px",width:window.innerWidth <= 576 ?"95%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 10px":"10px"}}>
                <img className="" src="sandwitch6.jpeg" alt="" style={{height:window.innerWidth <= 576 ?"240px":"220px"}} />
-                <div className="d-flex justify-content-center align-items-center flex-column" style={{height:window.innerWidth <= 576 ?"90px":"80px",backgroundColor:"rgb(40, 51, 65)"}}  >
-                 <p className={`${window.innerWidth <= 576 ?"fs-6 fw-normal ps-1 mb-0 pt-3" :"mb-0 mt-2"} text-white `}>VEGAN GRILLED CHICKEN</p>
+                <div className="d-flex justify-content-center align-items-left flex-column" style={{height:window.innerWidth <= 576 ?"90px":"80px",backgroundColor:"rgb(40, 51, 65)"}}  >
+                 <p className={`${window.innerWidth <= 576 ?"fs-6 fw-normal ps-2 mb-0 pt-3" :"mb-0 mt-2"} text-white `}>VEGAN GRILLED CHICKEN</p>
                  <p className={`${window.innerWidth <= 576 ?"fs-6 ps-2 pb-1 pt-0":"mt-0 mx-0"} text-warning `}>bánh mì Gà NƯỚNG CHAY</p>
                </div>
              </div> 
 
              <div className="d-flex flex-column" style={{height:window.innerWidth <= 576 ?"330px":"300px",width:window.innerWidth <= 576 ?"95%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 10px":"10px"}}>
                <img className="" src="sandwitch7.jpeg" alt="" style={{height:window.innerWidth <= 576 ?"240px":"220px"}} />
-                <div className="d-flex justify-content-center align-items-center flex-column " style={{height:window.innerWidth <= 576 ?"90px":"80px",backgroundColor:"rgb(40, 51, 65)"}}  >
-                 <p className={`${window.innerWidth <= 576 ?"fs-6 fw-normal ps-3 mb-0" :"mb-0 mt-2"} text-white `}>VEGAN  SPECIAL COMBINATION</p>
-                 <p className={`${window.innerWidth <= 576 ?"fs-6 ps-1 pb-1 pt-0":"mt-0 mx-0"} text-warning `}>bánh mì ĐẶC BIỆT CHAY</p>
+                <div className="d-flex justify-content-center align-items-left flex-column " style={{height:window.innerWidth <= 576 ?"90px":"80px",backgroundColor:"rgb(40, 51, 65)"}}  >
+                 <p className={`${window.innerWidth <= 576 ?"fs-6 fw-normal ps-2 mb-0" :"mb-0 mt-2"} text-white `}>VEGAN  SPECIAL COMBINATION</p>
+                 <p className={`${window.innerWidth <= 576 ?"fs-6 ps-2 pb-1 pt-0":"mt-0 mx-0"} text-warning `}>bánh mì ĐẶC BIỆT CHAY</p>
                </div>
              </div>
 
              <div className="d-flex flex-column" style={{height:window.innerWidth <= 576 ?"330px":"300px",width:window.innerWidth <= 576 ?"95%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 10px":"10px"}}>
                <img className="" src="sandwitch4.jpeg" alt="" style={{height:window.innerWidth <= 576 ?"240px":"220px"}} />
-                <div className="d-flex justify-content-center align-items-center flex-column" style={{height:window.innerWidth <= 576 ?"90px":"80px",backgroundColor:"rgb(40, 51, 65)"}}  >
-                 <p className={`${window.innerWidth <= 576 ?"fs-6 fw-normal ps-1 mb-0 pt-3" :"mb-0 mt-2"} text-white `}>VEGAN Pâté MEAT LOAF</p>
-                 <p className={`${window.innerWidth <= 576 ?"fs-6 ps-3 pb-1 pt-0":"mt-0 mx-0"} text-warning `}>bánh mì PÂTÉ CHẢ LUẠ CHAY</p>
+                <div className="d-flex justify-content-center align-items-left flex-column" style={{height:window.innerWidth <= 576 ?"90px":"80px",backgroundColor:"rgb(40, 51, 65)"}}  >
+                 <p className={`${window.innerWidth <= 576 ?"fs-6 fw-normal ps-2 mb-0 pt-3" :"mb-0 mt-2"} text-white `}>VEGAN Pâté MEAT LOAF</p>
+                 <p className={`${window.innerWidth <= 576 ?"fs-6 ps-2 pb-1 pt-0":"mt-0 mx-0"} text-warning `}>bánh mì PÂTÉ CHẢ LUẠ CHAY</p>
                </div>
              </div>
 
              <div className="d-flex flex-column" style={{height:window.innerWidth <= 576 ?"330px":"300px",width:window.innerWidth <= 576 ?"95%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 10px":"10px"}}>
                <img className="" src="sandwitch2.jpeg" alt="" style={{height:window.innerWidth <= 576 ?"240px":"220px"}} />
-                <div className="d-flex justify-content-center align-items-center flex-column" style={{height:window.innerWidth <= 576 ?"90px":"80px",backgroundColor:"rgb(40, 51, 65)"}}  >
+                <div className="d-flex justify-content-center align-items-left flex-column" style={{height:window.innerWidth <= 576 ?"90px":"80px",backgroundColor:"rgb(40, 51, 65)"}}  >
                  <p className={`${window.innerWidth <= 576 ?"fs-6 fw-normal ps-2 mb-0" :"mb-0 mt-2"} text-white `}>VEGAN FRIED CHICKEN</p>
-                 <p className={`${window.innerWidth <= 576 ?"fs-6 ps-1 pb-1 pt-0":"mt-0 mx-0"} text-warning `}>bánh mì GÀ CHIÊN CHAY</p>
+                 <p className={`${window.innerWidth <= 576 ?"fs-6 ps-2 pb-1 pt-0":"mt-0 mx-0"} text-warning `}>bánh mì GÀ CHIÊN CHAY</p>
                </div>
              </div>
 
               <div className="d-flex flex-column" style={{height:window.innerWidth <= 576 ?"330px":"300px",width:window.innerWidth <= 576 ?"95%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 10px":"10px"}}>
                <img className="" src="burger2.jpeg" alt="" style={{height:window.innerWidth <= 576 ?"240px":"220px"}} />
-                <div className="d-flex justify-content-center align-items-center flex-column" style={{height:window.innerWidth <= 576 ?"90px":"80px",backgroundColor:"rgb(40, 51, 65)"}}  >
-                 <p className={`${window.innerWidth <= 576 ?"fs-6 fw-normal pt-3 ps-2 mb-0" :"mb-0 mt-2"} text-white `}>VEGAN SHREDDED PORK SKIN</p>
-                 <p className={`${window.innerWidth <= 576 ?"fs-6 ps-1 pb-1 pt-0":"mt-0 mx-0"} text-warning `}>bánh mì GÀ CHIÊN CHAY</p>
+                <div className="d-flex justify-content-center align-items-left flex-column" style={{height:window.innerWidth <= 576 ?"90px":"80px",backgroundColor:"rgb(40, 51, 65)"}}  >
+                 <p className={`${window.innerWidth <= 576 ?"fs-6 fw-normal pt-1 ps-2 mb-0" :"mb-0 mt-2"} text-white `}>VEGAN SHREDDED PORK SKIN</p>
+                 <p className={`${window.innerWidth <= 576 ?"fs-6 ps-2 pb-1 pt-0":"mt-0 mx-0"} text-warning `}>bánh mì GÀ CHIÊN CHAY</p>
                </div>
              </div>
           </div>
@@ -198,16 +198,16 @@ export default function Vegan() {
              <div className="d-flex  flex-column" style={{height:window.innerWidth <= 576 ?"330px":"300px",width:window.innerWidth <= 576 ?"95%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 10px":"10px"}}>
               <img className="" src="pastry5.jpeg" alt="" style={{height:window.innerWidth <= 576 ?"240px":"220px"}} />
                <div className={`${window.innerWidth <= 576 ?"align-items-left":"align-items-center"} d-flex justify-content-center align-items-left flex-column `} style={{height:window.innerWidth <= 576 ?"90px":"80px",backgroundColor:"rgb(40, 51, 65)"}} >
-                <p className={`${window.innerWidth <= 576 ?"fs-6 fw-normal ps-3 pt-2 mb-0" :"mb-0 mt-2"} text-white `}>VEGAN VIETNAMESES BONUT</p>
-                <p className={`${window.innerWidth <= 576 ?"fs-6 ps-3 pb-1 pt-0":"mt-0 mx-0"} text-warning `}>Bánh Bao Chay</p>
+                <p className={`${window.innerWidth <= 576 ?"fs-6 fw-normal ps-2 pt-2 mb-0" :"mb-0 mt-2"} text-white `}>VEGAN VIETNAMESES BONUT</p>
+                <p className={`${window.innerWidth <= 576 ?"fs-6 ps-2 pb-1 pt-0":"mt-0 mx-0"} text-warning `}>Bánh Bao Chay</p>
                </div>
              </div>
 
              <div className="d-flex flex-column" style={{height:window.innerWidth <= 576 ?"330px":"300px",width:window.innerWidth <= 576 ?"95%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 10px":"10px"}}>
                <img className="" src="pastry2.jpeg" alt="" style={{height:window.innerWidth <= 576 ?"240px":"220px"}} />
                 <div className={`${window.innerWidth <= 576 ?"align-items-left":"align-items-center"} d-flex justify-content-center align-items-left flex-column `} style={{height:window.innerWidth <= 576 ?"90px":"80px",backgroundColor:"rgb(40, 51, 65)"}} >
-                 <p className={`${window.innerWidth <= 576 ?"fs-6 fw-normal ps-3 mb-0" :"mb-0 mt-2"} text-white `}>VEGAN STEAMED BUN</p>
-                 <p className={`${window.innerWidth <= 576 ?"fs-6 ps-5 pb-1 pt-0":"mt-0 mx-0"} text-warning `}>Bánh Bao Chay</p>
+                 <p className={`${window.innerWidth <= 576 ?"fs-6 fw-normal ps-2 mb-0" :"mb-0 mt-2"} text-white `}>VEGAN STEAMED BUN</p>
+                 <p className={`${window.innerWidth <= 576 ?"fs-6 ps-4 pb-1 pt-0":"mt-0 mx-0"} text-warning `}>Bánh Bao Chay</p>
                </div>
              </div>
 
@@ -222,8 +222,8 @@ export default function Vegan() {
              <div className="d-flex flex-column" style={{height:window.innerWidth <= 576 ?"330px":"300px",width:window.innerWidth <= 576 ?"95%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 10px":"10px"}}>
                <img className="" src="buns2.jpeg" alt="" style={{height:window.innerWidth <= 576 ?"240px":"220px"}} />
                 <div className={`${window.innerWidth <= 576 ?"align-items-left":"align-items-center"} d-flex justify-content-center align-items-left flex-column `} style={{height:window.innerWidth <= 576 ?"90px":"80px",backgroundColor:"rgb(40, 51, 65)"}} >
-                 <p className={`${window.innerWidth <= 576 ?"fs-6 fw-normal pt-3 ps-4 mb-0" :"mb-0 mt-2"} text-white `}>VEGAN BEEF PUFF PASTRY</p>
-                 <p className={`${window.innerWidth <= 576 ?"fs-6 ps-4 pb-1 pt-0":"mt-0 mx-0"} text-warning `}>Bánh Quai Vạc Chay</p>
+                 <p className={`${window.innerWidth <= 576 ?"fs-6 fw-normal pt-2 ps-4 mb-0" :"mb-0 mt-2"} text-white `}>VEGAN BEEF PUFF PASTRY</p>
+                 <p className={`${window.innerWidth <= 576 ?"fs-6 ps-4 pt-1":"mt-0 mx-0"} text-warning `}>Bánh Quai Vạc Chay</p>
                </div>
              </div>
 
@@ -238,7 +238,7 @@ export default function Vegan() {
              <div className="d-flex flex-column" style={{height:window.innerWidth <= 576 ?"330px":"300px",width:window.innerWidth <= 576 ?"95%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 10px":"10px"}}>
                <img className="" src="pastry3.jpeg" alt="" style={{height:window.innerWidth <= 576 ?"240px":"220px"}} />
                 <div className={`${window.innerWidth <= 576 ?"align-items-left":"align-items-center"} d-flex justify-content-center align-items-left flex-column `} style={{height:window.innerWidth <= 576 ?"90px":"80px",backgroundColor:"rgb(40, 51, 65)"}} >
-                 <p className={`${window.innerWidth <= 576 ?"fs-6 fw-normal ps-1 pt-3 mb-0" :"mb-0 mt-2"} text-white `}>VEGAN SWEET EMPANADA</p>
+                 <p className={`${window.innerWidth <= 576 ?"fs-6 fw-normal ps-1 pt-1 mb-0" :"mb-0 mt-2"} text-white `}>VEGAN SWEET EMPANADA</p>
                  <p className={`${window.innerWidth <= 576 ?"fs-6 ps-1 pb-1 pt-0":"mt-0 mx-0"} text-warning `}>Durian, Taro, Mung Bean, Coconut</p>
                </div>
              </div>
@@ -265,8 +265,8 @@ export default function Vegan() {
              <div className="d-flex  flex-column " style={{height:"335px",width:window.innerWidth <= 576 ?"95%":"27%",margin:window.innerWidth <= 576 ?"10px 0px 10px 10px":"10px"}}>
               <img className="" src="coffee1.jpeg" alt="" style={{height:"240px",objectFit:"cover"}} />
                <div className={`${window.innerWidth <= 576 ? "align-items-left":"align-items-center"} d-flex  flex-column `} style={{height:"90px",backgroundColor:"rgb(40, 51, 65)"}} >
-                <p className={` ${window.innerWidth <= 576 ?"pt-2 ps-3 mb-0":"mt-2"} text-white fw-semibold`}>VEGAN VIETNAMESES COFFEE</p>
-                <p className={`${window.innerWidth <= 576 ?"fs-6 ps-3 pb-1 pt-1":"mt-0 mx-0"} text-warning `}>CÀ PHÊ SỮA 'OAT' ĐÁ</p>
+                <p className={` ${window.innerWidth <= 576 ?"pt-1 ps-2 mb-0":"mt-2"} text-white fw-normal`}>VEGAN VIETNAMESES COFFEE</p>
+                <p className={`${window.innerWidth <= 576 ?"fs-6 ps-2 pb-1 pt-1":"mt-0 mx-0"} text-warning `}>CÀ PHÊ SỮA 'OAT' ĐÁ</p>
                </div>
              </div>
 
@@ -323,7 +323,7 @@ export default function Vegan() {
         </div>
        </div>
        {/* ------------------------------------------------------------------------section no 6------------------------------------------------------------------------------------------ */}
-      <div className="d-flex flex-wrap w-100 bg-black align-items-center"  style={{height:"100px"}}>
+      <div className="d-flex flex-wrap w-100 bg-black align-items-center"  style={{height:"110px"}}>
          <p className="fs-5 text-white mt-3 mx-5">© 2025 Đông Hưng Viên Bakery – All Rights Reserved.</p>
       </div>
     </>
