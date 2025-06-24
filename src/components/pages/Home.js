@@ -82,7 +82,7 @@ const boxes =[
     <>
     <header>
  <div className="images">
-  <div className="d-flex position-relative w-100 bg-dark" style={{ height:"500px",marginTop: window.innerWidth <= 550 ?"100px":"0px",overflow:"hidden"}}>
+  <div className="d-flex position-relative w-100 bg-dark" style={{ height:window.innerWidth <= 576 ?"500px":"700px",marginTop: window.innerWidth <= 550 ?"100px":"0px",overflow:"hidden"}}>
    <img src={images[index]} alt="logo2" className="img-fluid" style={{objectFit:"cover",width:"100%",height:"100%"}} />
     <button onClick={handlePrev} className="text-white fs-3 fw-bold bg-dark bg-opacity-75  position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",left:'2px',transform:"translateY(-50%)",zIndex:2}}> ‹ </button>
     <button onClick={handleNext} className="text-white fs-3 fw-bold bg-dark bg-opacity-75 position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",right:"2px",transform:"translateY(-50%)",zIndex:2}}> › </button>
@@ -107,16 +107,16 @@ const boxes =[
 </div>
 {/* ---------------------------------------------------------------------section no 1 ------------------------------------------------------------------------------------------- */}
 <div className={` ${window.innerWidth <= 576 ?"flex-column":"flex-row"} bg-black d-flex flex-row`} style={{height:window.innerWidth <= 576 ?"600px":"500px"}}>
-   <div className={` ${window.innerWidth <= 576 ?"align-items-center justify-conmtent-center":"justify-content-left"} d-flex flex-column text-white`} style={{width:window.innerWidth <= 576 ?"100%":"25%",height:window.innerWidth <= 576 ?"150px":"500px",padding:window.innerWidth <= 576?"20px 0px 10px 10px":"150px 0px 50px 120px"}}>
+   <div className={` ${window.innerWidth <= 576 ?"align-items-center justify-conmtent-center":"justify-content-left"} d-flex flex-column text-white`} style={{width:window.innerWidth <= 576 ?"100%":"20%",height:window.innerWidth <= 576 ?"150px":"500px",padding:window.innerWidth <= 576?"20px 0px 10px 10px":"150px 0px 50px 60px"}}>
     <h5 className={`${window.innerWidth <= 576 ?"ps-2":"ps-5"} fw-bold fs-4 `}>4.5</h5>
     <p className="fs-5 fw-semibold ">Based on 265 reviews</p>
     <p className={` ${window.innerWidth <= 576 ?"ps-1":"ps-3"} mt-0 `}>powered by google</p>
    </div>
 
-   <div className="d-flex flex-row position-relative" style={{height:window.innerWidth <= 576 ?"400px":"500px",width:window.innerWidth <= 576 ?"100%":"75%"}}>
+   <div className="d-flex flex-row position-relative" style={{height:window.innerWidth <= 576 ?"400px":"500px",width:window.innerWidth <= 576 ?"100%":"80%"}}>
     <button onClick={prevbox} className="text-white fs-3 fw-bold  bg-dark bg-opacity-75 position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",left:'10px'}}> ‹ </button>
      {visibleboxes.map((boxes,i)=>(
-      <div className="d-flex flex-column rounded-4" key={i} style={{height:"380px",width:window.innerWidth <= 576 ?"70%":"320px",margin:window.innerWidth <= 576 ?"2% 15% 5% 15%":"50px 0px 50px 40px",backgroundColor:"lightblue"}}>
+      <div className="d-flex flex-column rounded-4" key={i} style={{height:"380px",width:window.innerWidth <= 576 ?"70%":"320px",margin:window.innerWidth <= 576 ?"2% 15% 5% 15%":"50px 0px 50px 60px",backgroundColor:"lightblue"}}>
         <div className="d-flex flex-row pt-3 ps-4" style={{height:"80px"}}>
           <img src="cooking-48.png" alt="logo"/>
             <div className="d-flex flex-column" style={{height:"120px",width:"150px"}}>
