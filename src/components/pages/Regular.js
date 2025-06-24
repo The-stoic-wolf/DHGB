@@ -236,7 +236,7 @@ export default function Regular() {
         </div>
        </div>
        {/* ------------------------------------------------------------------------section no 6------------------------------------------------------------------------------------------ */}
-      <div className="d-flex flex-wrap w-100 bg-black align-items-center"  style={{height:"100px"}}>
+      <div className="d-flex flex-wrap w-100 bg-black align-items-center"  style={{height:"110px"}}>
          <p className="fs-5 text-white mt-3 mx-5">© 2025 Đông Hưng Viên Bakery – All Rights Reserved.</p>
       </div>
     </>

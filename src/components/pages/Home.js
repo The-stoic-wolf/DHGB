@@ -52,7 +52,10 @@ const boxes =[
   },
 ];
 
-    const visibleboxes = boxes.slice(starindex, starindex + 3);
+    const visibleboxes = window.innerWidth <= 576 ? 
+    boxes.slice(starindex, starindex + 1):window.innerWidth > 576  && window.innerWidth <= 992 ?
+    boxes.slice(starindex, starindex + 2):boxes.slice(starindex, starindex + 3)
+    
 
     const nextBox = ()=>{
       if(starindex + 3 < boxes.length){
@@ -164,7 +167,7 @@ const boxes =[
         </div>
        </div>
        {/* ------------------------------------------------------------------------section no 6------------------------------------------------------------------------------------------ */}
-      <div className="d-flex flex-wrap w-100 bg-black align-items-center"  style={{height:"100px",border:"3px solid red"}}>
+      <div className="d-flex flex-wrap w-100 bg-black align-items-center"  style={{height:"110px",border:"3px solid red"}}>
          <p className=" fs-5 text-white mt-3 mx-5">© 2025 Đông Hưng Viên Bakery – All Rights Reserved.</p>
       </div>
 </>
