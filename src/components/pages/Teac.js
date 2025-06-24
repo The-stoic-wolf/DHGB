@@ -29,42 +29,42 @@ export default function Teac() {
             <p className={`${window.innerWidth <= 900 ?" fs-5 ps-2 fw-semibold ":"fs-3 fw-normal "}`} style={{border:"2px solid red"}}>BOOK YOUR VIETNAMESE TEA CEREMONY WITH US!</p>
             <p className={`${window.innerWidth <= 900 ?"fst-italic ps-2":"fs-5 fw-normal"} `} style={{margin:window.innerWidth <= 900 ?"10px 10px 0px 10px":"10px 120px 0px 120px",border:"2px solid red"}}>At Đông Hưng Viên Bakery, we specialize in bringing to life the sweetness of  your engagement (Đám Hỏi) and wedding day with our bespoke cakes and personalized service.</p>
 
-          <div className="d-flex flex-column mt-4"  style={{height:window.innerWidth <= 900 ?"1100px":"1100px",width:"100%",border:"2px solid red"}}>
+          <div className="d-flex flex-column mt-4"  style={{height:window.innerWidth <= 900 ?"1200px":"1100px",width:"100%",border:"2px solid red"}}>
 
-            <div className={`d-flex ${window.innerWidth <= 900 ?"flex-column ":"flex-row"} mt-2`} style={{height:window.innerWidth <= 900 ?"120px":"60px",border:"2px solid red"}}>
-               <div className={`d-flex flex-column  ps-1 ${window.innerWidth <= 900 ?"pb-2 pt-2":"pt-2"} `} style={{width:window.innerWidth <= 900 ?"98%":"48%",height:window.innerWidth <= 900 ?"60px":"0px"}}>
-                 <label  htmlFor="fname" className={`${window.innerWidth <= 900 ?" fs-6 fst-italic ":"fs-5 fw-normal"} mx-1 `} style={{height:window.innerWidth <= 900 ?"20px":"25px"}}>First name:</label><br></br>
-                 <input className="rounded-3 mb-1" type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
+            <div className={`d-flex ${window.innerWidth <= 900 ? "flex-column":"flex-row"} `} style={{height:window.innerWidth <= 900 ?"150px":"70px",border:"2px solid red"}}>
+               <div className={`d-flex flex-column  ps-1 `} style={{width:window.innerWidth <= 900 ?"100%":"50%",height:window.innerWidth <= 900 ?"70px":"0px"}}>
+                 <label  htmlFor="fname" className={`fs-5 fw-normal px-1 pb-1`} >First name:</label>
+                 <input className="rounded-3 mb-1" type="text" id="fname" name="fname"  style={{width:window.innerWidth <= 900 ?"99%":'97%'}} placeholder='Enter here'/>
                </div>
-               <div className={`d-flex flex-column ${window.innerWidth <= 900 ?"ps-1 pb-2":"ps-4"} pt-2`} style={{width:window.innerWidth <= 900 ?"98%":"48%",height:window.innerWidth <= 900 ?"60px":"0px"}}>
-                 <label  htmlFor="fname" className={`${window.innerWidth <= 900 ?" fs-6 fst-italic pb-0":"fs-5 fw-normal"} mx-1 `} style={{height:window.innerWidth <= 900 ?"20px":"25px"}}>Last name:</label><br></br>
-                 <input className="rounded-3 mb-1" type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
+               <div className={`d-flex flex-column ${window.innerWidth <= 900 ?"ps-1":"ps-2"} `} style={{width:window.innerWidth <= 900 ?"100%":"50%",height:window.innerWidth <= 900 ?"70px":"0px"}}>
+                 <label  htmlFor="fname" className={`fs-5 fw-normal px-1 pb-1 `} >Last name:</label>
+                 <input className="rounded-3 mb-1" type="text" id="fname" name="fname" style={{width:window.innerWidth <= 900 ?"99%":'97%'}} placeholder='Enter here'/>
                </div>
              </div>
 
-             <div className={`${window.innerWidth <= 900 ?"mt-0":"mt-2"} d-flex flex-column  pb-2 mx-1`} style={{width:"98%",height:"60px"}} >
-                 <label  htmlFor="fname" className={`${window.innerWidth <= 900 ?" fs-6 fst-italic ":"fs-5 fw-normal"} mx-1 `} style={{height:window.innerWidth <= 900 ?"20px":"25px"}}>Email:</label><br></br>
-                 <input  className="rounded-3 mb-1" type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
+             <div className={`mt-2  d-flex flex-column  pb-2 mx-1`} style={{width:"98%",height:"70px"}} >
+                 <label  htmlFor="fname" className={` fs-5 fw-normal  ps-1 pb-1`} >Email:</label>
+                 <input  className="rounded-3 mb-1" type="text" id="fname" name="fname" placeholder='Enter here'/>
              </div>
 
-             <div className={`${window.innerWidth <= 900 ?"mt-0":"mt-2"} d-flex flex-column  pb-2 mx-1`} style={{width:"98%",height:"60px"}}>
-                 <label  htmlFor="fname" className={`${window.innerWidth <= 900 ?" fs-6 fst-italic ":"fs-5 fw-normal"} mx-1 `} style={{height:window.innerWidth <= 900 ?"20px":"25px"}}>Phone:</label><br></br>
-                 <input className="rounded-3 mb-1" type="text" id="fname" name="fname"/><br></br>
+             <div className={`mt-2  d-flex flex-column  pb-2 mx-1`} style={{width:"98%",height:"70px"}}>
+                 <label  htmlFor="fname" className={` fs-5 fw-normal  px-1 pb-1 `} >Phone:</label>
+                 <input className="rounded-3 mb-1" type="text" id="fname" name="fname"/>
              </div>
 
-             <div className={`${window.innerWidth <= 900 ?"mt-0":"mt-2"} d-flex flex-column  pb-2 mx-1`} style={{width:"98%",height:"60px"}}>
-                 <label  htmlFor="fname" className={`${window.innerWidth <= 900 ?" fs-6 fst-italic ":"fs-5 fw-normal"} mx-1 `} style={{height:window.innerWidth <= 900 ?"20px":"25px"}}>Date Of Event:</label><br></br>
-                 <input className="rounded-3 mb-1" type="text" id="fname" name="fname" placeholder='mm/dd/yyyy'/><br></br>
+             <div className={`mt-2  d-flex flex-column  pb-2 mx-1`} style={{width:"98%",height:"70px"}}>
+                 <label  htmlFor="fname" className={` fs-5 fw-normal  px-1 pb-1`} >Date Of Event:</label>
+                 <input className="rounded-3 mb-1" type="text" id="fname" name="fname" placeholder='mm/dd/yyyy'/>
              </div>
 
-             <div className={`${window.innerWidth <= 900 ?"mt-0":"mt-2"} d-flex flex-column  pb-2 mx-1`} style={{width:"98%",height:"60px"}}>
-                 <label  htmlFor="fname" className={`${window.innerWidth <= 900 ?" fs-6 fst-italic ":"fs-5 fw-normal"} mx-1 `} style={{height:window.innerWidth <= 900 ?"20px":"25px"}}>Time Of Event:</label><br></br>
-                 <input className="rounded-3 mb-1" type="text" id="fname" name="fname" placeholder='--:-- --'/><br></br>
+             <div className={`mt-2  d-flex flex-column  pb-2 mx-1`} style={{width:"98%",height:"70px"}}>
+                 <label  htmlFor="fname" className={` fs-5 fw-normal  px-1 pb-1`} >Time Of Event:</label>
+                 <input className="rounded-3 mb-1" type="text" id="fname" name="fname" placeholder='--:-- --'/>
              </div>
 
-             <div className={`${window.innerWidth <= 900 ?"mt-0":"mt-2"} d-flex flex-column  pb-2 mx-1`} style={{width:"98%",height:"60px"}}>
-                 <label  htmlFor="fname" className={`${window.innerWidth <= 900 ?" fs-6 fst-italic ":"fs-5 fw-normal"} mx-1 `} style={{height:window.innerWidth <= 900 ?"20px":"25px"}}>Number Of Guests:</label><br></br>
-                 <input className="rounded-3 mb-1" type="text" id="fname" name="fname" placeholder='Enter here'/><br></br>
+             <div className={`mt-2  d-flex flex-column  pb-2 mx-1`} style={{width:"98%",height:"70px"}}>
+                 <label  htmlFor="fname" className={` fs-5 fw-normal  px-1 pb-1`} >Number Of Guests:</label>
+                 <input className="rounded-3 mb-1" type="text" id="fname" name="fname" placeholder='Enter here'/>
              </div>
   {/* --------------------------------------------------------section no 3--------------------------------------------------------- */}
             <div className="ms-2 mt-1" style={{height:window.innerWidth <= 900 ?"50px":"30px"}}>
@@ -74,54 +74,54 @@ export default function Teac() {
                 <div className="d-flex flex-column "style={{width:window.innerWidth <= 600 ?"90%":"50%",border:"2px solid red"}}>
                   <div className={`${window.innerWidth <= 900 ? "pt-1":"pt-0"} d-flex px-2`}> 
                     <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"  style={{transform: "scale(1.5)",}}/>
-                    <label htmlFor="vehicle1"className={`${window.innerWidth <= 900 ?"fs-6 ":"fs-5"} ms-2 fw-semibold`}>BÁNH CỐM</label><br></br>
+                    <label htmlFor="vehicle1"className={`${window.innerWidth <= 900 ?"fs-6 ":"fs-5"} ms-2 fw-semibold`}>BÁNH CỐM</label>
                    </div>
 
                     <div className={`${window.innerWidth <= 900 ? "pt-1":"pt-0"} d-flex px-2`}>
                      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"  style={{transform: "scale(1.5)",}}/>
-                     <label htmlFor="vehicle1"className={`${window.innerWidth <= 900 ?"fs-6 ":"fs-5"} ms-2 fw-semibold`}>XÔI GẤC</label><br></br>
+                     <label htmlFor="vehicle1"className={`${window.innerWidth <= 900 ?"fs-6 ":"fs-5"} ms-2 fw-semibold`}>XÔI GẤC</label>
                    </div>
 
                     <div className={`${window.innerWidth <= 900 ? "pt-1":"pt-0"} d-flex px-2`}>
                     <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"  style={{transform: "scale(1.5)",}}/>
-                    <label htmlFor="vehicle1"className={`${window.innerWidth <= 900 ?"fs-6 ":"fs-5"} ms-2 fw-semibold`}>TRẦU CAU (ARTIFICIAL)</label><br></br>
+                    <label htmlFor="vehicle1"className={`${window.innerWidth <= 900 ?"fs-6 ":"fs-5"} ms-2 fw-semibold`}>TRẦU CAU (ARTIFICIAL)</label>
                    </div>
 
                     <div className={`${window.innerWidth <= 900 ? "pt-1":"pt-0"} d-flex px-2`}>
                     <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" style={{transform: "scale(1.5)",}}/>
-                    <label htmlFor="vehicle1"className={`${window.innerWidth <= 900 ?"fs-6 ":"fs-5"} ms-2 fw-semibold`}>TEA (JASMINE OR OOLONG)</label><br></br>
+                    <label htmlFor="vehicle1"className={`${window.innerWidth <= 900 ?"fs-6 ":"fs-5"} ms-2 fw-semibold`}>TEA (JASMINE OR OOLONG)</label>
                    </div>
                  </div>  
 
                  <div className="d-flex flex-column "style={{width:window.innerWidth <= 600 ?"90%":"50%",border:"2px solid red"}}>
                   <div className={`${window.innerWidth <= 900 ? "pt-1":"pt-0"} d-flex px-2`}> 
                     <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"  style={{transform: "scale(1.5)",}}/>
-                    <label htmlFor="vehicle1"className={`${window.innerWidth <= 900 ?"fs-6 ":"fs-5"} ms-2 fw-semibold`}>BÁNH XU-XÊ</label><br></br>
+                    <label htmlFor="vehicle1"className={`${window.innerWidth <= 900 ?"fs-6 ":"fs-5"} ms-2 fw-semibold`}>BÁNH XU-XÊ</label>
                    </div>
 
                     <div className={`${window.innerWidth <= 900 ? "pt-1":"pt-0"} d-flex px-2`}>
                      <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"  style={{transform: "scale(1.5)",}}/>
-                     <label htmlFor="vehicle1"className={`${window.innerWidth <= 900 ?"fs-6 ":"fs-5"} ms-2 fw-semibold`}>XÔI TRÁI TIM</label><br></br>
+                     <label htmlFor="vehicle1"className={`${window.innerWidth <= 900 ?"fs-6 ":"fs-5"} ms-2 fw-semibold`}>XÔI TRÁI TIM</label>
                    </div>
 
                     <div className={`${window.innerWidth <= 900 ? "pt-1":"pt-0"} d-flex px-2`}>
                     <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"  style={{transform: "scale(1.5)",}}/>
-                    <label htmlFor="vehicle1"className={`${window.innerWidth <= 900 ?"fs-6 ":"fs-5"} ms-2 fw-semibold`}>KHAY RƯỢU</label><br></br>
+                    <label htmlFor="vehicle1"className={`${window.innerWidth <= 900 ?"fs-6 ":"fs-5"} ms-2 fw-semibold`}>KHAY RƯỢU</label>
                    </div>
 
                     <div className={`${window.innerWidth <= 900 ? "pt-1":"pt-0"} d-flex px-2`}>
                     <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" style={{transform: "scale(1.5)",}}/>
-                    <label htmlFor="vehicle1"className={`${window.innerWidth <= 900 ?"fs-6 ":"fs-5"} ms-2 fw-semibold`}>MÂM QUẢ</label><br></br>
+                    <label htmlFor="vehicle1"className={`${window.innerWidth <= 900 ?"fs-6 ":"fs-5"} ms-2 fw-semibold`}>MÂM QUẢ</label>
                    </div>
                  </div>     
             </div>
             <div className="d-flex flex-column pt-2 mx-1" style={{width:"98%",height:"200px",border:"3px solid red"}}>
-                 <label  htmlFor="fname" className={`${window.innerWidth <= 900 ?"pt-1 pb-2 fst-italic fw-normal":"pt-1 fw-semibold"} ms-1 fs-6 `}>DESCRIBE YOUR EVENT (Are there any additional details you would like us to be aware of?)*</label><br></br>
-                 <textarea className="form-control rounded-3" id="exampleFormControlTextarea1" rows="5"></textarea><br></br>
+                 <label  htmlFor="fname" className={`${window.innerWidth <= 900 ?"pt-1 pb-2 fst-italic fw-normal":"pt-1 fw-semibold"} ms-1 fs-6 `}>DESCRIBE YOUR EVENT (Are there any additional details you would like us to be aware of?)*</label>
+                 <textarea className="form-control rounded-3" id="exampleFormControlTextarea1" rows="5"></textarea>
              </div>
              <div className="d-flex flex-column mx-1 pt-2" style={{width:"98%",height:"100px",border:"2px solid red"}}>
-                 <label  htmlFor="fname" className='ms-1 fs-6 fw-semibold pb-1'>How Did You Hear About Us? *</label><br></br>
-                 <textarea className="form-control rounded-3" id="exampleFormControlTextarea1" rows="1"></textarea><br></br>
+                 <label  htmlFor="fname" className='ms-1 fs-6 fw-semibold pb-1'>How Did You Hear About Us? *</label>
+                 <textarea className="form-control rounded-3" id="exampleFormControlTextarea1" rows="1"></textarea>
              </div>
              <div className={`${window.innerWidth <= 900 ?"pt-1":"pt-3"}`} style={{height:window.innerWidth <= 900 ?"60px":"80px",border:"2px solid red"}}>
               <button className={`${window.innerWidth <= 900 ?"fs-6":"fs-5"} btn btn-primary rounded-5  fw-normal `} style={{height:"50px",width:window.innerWidth <= 900 ?"100px":"120px"}}>SUBMIT</button>
