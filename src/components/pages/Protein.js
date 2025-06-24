@@ -10,7 +10,7 @@ export default function protein() {
           </div>
         </div>
 
-        <div className="d-flex flex-column"  style={{height:window.innerWidth <= 700 ?"850px":window.innerWidth > 700 && window.innerWidth <= 900 ?"700px":"800px",width:window.innerWidth <= 900 ?"100%":"60%",margin:window.innerWidth <= 900 ?"0px 0px 10px 5px":"150px 0px 150px 0px",border:"1px solid  red",padding:window.innerWidth <= 900 ?"0px":'0px 0px 0px 80px'}}>
+        <div className="d-flex flex-column"  style={{height:window.innerWidth <= 700 ?"850px":window.innerWidth > 700 && window.innerWidth <= 900 ?"700px":"800px",width:window.innerWidth <= 900 ?"100%":"60%",margin:window.innerWidth <= 900 ?"10px 0px 10px 0px":"150px 0px 150px 0px",border:"1px solid  red",padding:window.innerWidth <= 900 ?"0px":'0px 0px 0px 80px'}}>
             <div className="d-flex flex-column text-white" style={{height:window.innerWidth <= 576 ?"300px":window.innerWidth > 576 && window.innerWidth  <=900 ?"230px":"400px"}}>
                 <p className={` text-white ${window.innerWidth <= 900 ?"px-3 fw-bold fs-4 ":"fw-bold fs-3"} `} >VEGAN PROTEIN TO-GO</p>
                 <p className={` ${window.innerWidth <= 900 ?"fw-semibold fs-6  px-3 ":"fw-semibold fs-5 ps-2 mt-1"}  text-white`} style={{border:"1px solid  red"}}>Customize your meals at home with our vegan ingredients.</p>
@@ -54,7 +54,7 @@ export default function protein() {
             </div>
             <p className="text-white mt-2 d-none d-lg-block">___________________________________________________________________________________________</p>
              <p className={`${window.innerWidth <= 900 ?"px-2 text-white":"d-none"}`} >_______________________________________</p>
-             <button type="button" className={`${window.innerWidth <= 700 ?"px-3 mt-2 fw-semibold fs-6 btn btn-primary ":window.innerWidth > 700 && window.innerWidth <= 900 ?"px-1 mt-0 fw-semibold fs-6 btn btn-primary ":"mt-3 fw-bold fs-5 btn btn-primary "} `}  style={{height:window.innerWidth <= 900 ?"50px":"70px" , width:window.innerWidth <= 900 ?"250px":"300px",borderRadius:"70px"}}>View All Vegan Bánh Mì</button>
+             <button type="button" className={`${window.innerWidth <= 700 ?"px-3 mt-2 pb-1 fw-semibold fs-6 btn btn-primary ":window.innerWidth > 700 && window.innerWidth <= 900 ?"px-1 mt-0 fw-semibold fs-6 btn btn-primary ":"mt-3 fw-bold fs-5 btn btn-primary "} `}  style={{height:window.innerWidth <= 900 ?"50px":"70px" , width:window.innerWidth <= 900 ?"250px":"300px",borderRadius:"70px"}}>View All Vegan Bánh Mì</button>
         </div>
     </div>
     {/* ---------------------------------------------------------------------------------------------------------section no 2-------------------------------------------------------------------------------------------- */}
