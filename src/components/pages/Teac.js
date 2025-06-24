@@ -8,7 +8,7 @@ export default function Teac() {
            <img src="teac.png" alt="T-logo" style={{height:"450px",width:"90%",padding:window.innerWidth <= 750 ?"20% 5% 5% 5%":window.innerWidth > 750 && window.innerWidth > 750 ?"10% 15% 0% 0%":"10% 5% 5% 5%",objectFit:"cover"}}/>
          </div>
 
-         <div className="d-flex flex-column" style={{height:window.innerWidth <= 900 ?"650px":"850px",width:window.innerWidth <= 900 ?"100%":"40%",border:"1px solid  red",margin:window.innerWidth <= 900 ?"20px 0px 10px 5px":"80px 80px 0px 100px"}}>
+         <div className="d-flex flex-column" style={{height:window.innerWidth <= 900 ?"650px":"850px",width:window.innerWidth <= 900 ?"100%":"40%",border:"1px solid  red",margin:window.innerWidth <= 900 ?"20px 0px 10px 0px":"80px 80px 0px 100px"}}>
             <div className={`d-flex ${window.innerWidth <= 900 ?"ps-2 mt-2":"mx-3 mt-4"} flex-column text-white`} >
               <p className={`${window.innerWidth <= 900 ?"fw-semibold fs-4 px-1":"fs-3 fw-bold"}`} >VIETNAMESE TEA CEREMONY (ĐÁM HỎI)</p>
             </div>
