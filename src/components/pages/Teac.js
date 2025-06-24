@@ -3,19 +3,19 @@
 export default function Teac() {
   return (
     <>
-      <div className={` d-flex ${window.innerWidth  <= 900 ? "flex-column":"flex-row"} bg-black`} style={{height:window.innerWidth <= 900 ?"1150px":"850px",width:"100%",border:"1px solid  red"}}>
+      <div className={` d-flex ${window.innerWidth  <= 900 ? "flex-column":"flex-row"} bg-black`} style={{height:window.innerWidth <= 900 ?"1150px":"850px",width:"100%"}}>
          <div className="d-flex " style={{height:window.innerWidth <= 900 ?"500px":"850px",width:window.innerWidth <= 900 ?"90%":"40%",margin:window.innerWidth <= 750 ?"20% 10% 0% 10%":window.innerWidth > 750 && window.innerWidth > 750 ?"10% 15% 0% 15%":"80px 0px 0px 80px"}}>
            <img src="teac.png" alt="T-logo" style={{height:"450px",width:"90%",padding:window.innerWidth <= 750 ?"20% 5% 5% 5%":window.innerWidth > 750 && window.innerWidth > 750 ?"10% 15% 0% 0%":"10% 5% 5% 5%",objectFit:"cover"}}/>
          </div>
 
-         <div className="d-flex flex-column" style={{height:window.innerWidth <= 900 ?"650px":"850px",width:window.innerWidth <= 900 ?"100%":"40%",border:"1px solid  red",margin:window.innerWidth <= 900 ?"20px 0px 10px 0px":"80px 80px 0px 100px"}}>
+         <div className="d-flex flex-column" style={{height:window.innerWidth <= 900 ?"650px":"850px",width:window.innerWidth <= 900 ?"100%":"40%",margin:window.innerWidth <= 900 ?"20px 0px 10px 0px":"80px 80px 0px 100px"}}>
             <div className={`d-flex ${window.innerWidth <= 900 ?"ps-2 mt-2":"mx-3 mt-4"} flex-column text-white`} >
               <p className={`${window.innerWidth <= 900 ?"fw-semibold fs-4 px-1":"fs-3 fw-bold"}`} >VIETNAMESE TEA CEREMONY (ĐÁM HỎI)</p>
             </div>
             <p className={` ${window.innerWidth <= 900 ?"ps-2 d-none":"mx-3"} text-white`} >_________________________________________________________________</p>
-            <p className={`${window.innerWidth <= 900 ?"px-2 fs-6 fst-italic ":"mx-3 fs-5 "}  fw-semibold text-white`} style={{height:"150px",border:"1px solid  red"}}>A Vietnamese tea ceremony, commonly known as ‘Đám Hỏi’, is a profound blend of tradition and symbolism, celebrating not only the union of two souls but also the coming together of two families.</p>
+            <p className={`${window.innerWidth <= 900 ?"px-3 fs-6 fst-italic ":"mx-3 fs-5 "}  fw-semibold text-white`} style={{height:"150px"}}>A Vietnamese tea ceremony, commonly known as ‘Đám Hỏi’, is a profound blend of tradition and symbolism, celebrating not only the union of two souls but also the coming together of two families.</p>
 
-             <p className={` ${window.innerWidth <= 900 ?"px-1 fs-6 fst-italic":"mx-3 fs-5 "} fw-semibold text-white `} style={{height:"250px",border:"1px solid  red"}}>Vietnamese Tea Ceremony Rental Policy: A $200 deposit is required to secure your Vietnamese tea ceremony rentals. This deposit will be returned in full once all rental items are returned within 48 hours of the event. If any item is not returned within that timeframe, the corresponding deposit will be forfeited. By renting our Vietnamese tea ceremony items, you agree to these terms.</p>
+             <p className={` ${window.innerWidth <= 900 ?"px-3 fs-6 fst-italic":"mx-3 fs-5 "} fw-semibold text-white `} style={{height:"250px"}}>Vietnamese Tea Ceremony Rental Policy: A $200 deposit is required to secure your Vietnamese tea ceremony rentals. This deposit will be returned in full once all rental items are returned within 48 hours of the event. If any item is not returned within that timeframe, the corresponding deposit will be forfeited. By renting our Vietnamese tea ceremony items, you agree to these terms.</p>
              <p className={`${window.innerWidth <= 900 ?"ps-1 d-none":"mx-3"} text-white`} >__________________________________________________________________</p>
              <div className={` ${window.innerWidth <= 900 ?"d-flex justify-content-left align-items-center ps-2":"pt-1"}`} style={{height:window.innerWidth <= 900 ?"80px":"100px"}}>
                 <button className={ `${window.innerWidth <= 900 ?"ps-2 pt-1 fw-normal ":"mx-3 mt-3 fw-bold"} btn btn-primary fs-6`} style={{height:"55px",width:window.innerWidth <= 900 ?"320px":"400px",borderRadius:"35px"}}>VIEW VIETNAMESE TEA CERMONY MENU</button>
@@ -23,9 +23,9 @@ export default function Teac() {
          </div>
       </div>
 {/* ----------------------------------------------------------section no 1---------------------------------------------------------------- */}
-      <div className={`${window.innerWidth <= 900 ? "pt-3":"pt-5"}`} style={{height:window.innerWidth <= 900 ?"1500px":"1400px",border:"1px solid  red",width:"100%",backgroundColor:"rgb(40, 51, 65)"}}> 
+      <div className={`${window.innerWidth <= 900 ? "pt-3":"pt-5"}`} style={{height:window.innerWidth <= 900 ?"1500px":"1400px",width:"100%",backgroundColor:"rgb(40, 51, 65)"}}> 
 
-        <div className={`d-flex flex-column ${window.innerWidth <= 900 ?"pt-0":"pt-3"} text-white align-items-center `} style={{height:window.innerWidth <= 900 ?"1200px":"1200px", margin:window.innerWidth <= 900 ?"0px 20px 20px 10px":"0px 300px 50px 300px",border:"1px solid  red"}}>
+        <div className={`d-flex flex-column ${window.innerWidth <= 900 ?"pt-0":"pt-3"} text-white align-items-center `} style={{height:window.innerWidth <= 900 ?"1200px":"1200px", margin:window.innerWidth <= 900 ?"0px 20px 20px 10px":"0px 300px 50px 300px"}}>
             <p className={`${window.innerWidth <= 900 ?" fs-5 ps-2 fw-semibold ":"fs-3 fw-normal "}`} >BOOK YOUR VIETNAMESE TEA CEREMONY WITH US!</p>
             <p className={`${window.innerWidth <= 900 ?"fst-italic ps-2":"fs-5 fw-normal"} `} style={{margin:window.innerWidth <= 900 ?"10px 10px 0px 10px":"10px 120px 0px 120px"}}>At Đông Hưng Viên Bakery, we specialize in bringing to life the sweetness of  your engagement (Đám Hỏi) and wedding day with our bespoke cakes and personalized service.</p>
 
@@ -130,7 +130,7 @@ export default function Teac() {
          </div>
       </div>
            {/* ---------------------------------------------------------------------------------section no 5------------------------------------------------------------------------------------ */}
-      <div className={`d-flex ${window.innerWidth <=700 ? "flex-column":" flex-row"}  bg-dark w-100`} style={{height: window.innerWidth <= 700 ?"620px":window.innerWidth ? "220px":"180px"}}>
+      <div className={`d-flex ${window.innerWidth <=700 ? "flex-column":" flex-row"}  bg-dark w-100`} style={{height: window.innerWidth <= 700 ?"600px":window.innerWidth ? "220px":"180px"}}>
 
         <div className="d-flex flex-column " style={{height:"160px",width:"200px",padding:"20px 10px 10px 10px"}}>
            <p className="mx-3 fs-5 fw-semibold text-white "> Address</p>
