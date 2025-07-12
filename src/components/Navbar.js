@@ -33,7 +33,7 @@ export default function Navbar() {
   <div className="container-fluid"> 
     <div className="logo1 ">
       <a href="/">
-       <img className="ms-2" src="cooking-logo.png" alt="logo" />
+       <img className="ms-2" src={`${window.innerWidth <= 576 ?"cooking-48.png":"cooking-logo.png"}`} alt="logo" />
        </a>
     </div>
     <button className="navbar-toggler bg-light d-lg-none ms-auto d-icons-none"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
