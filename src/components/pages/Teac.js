@@ -134,7 +134,7 @@ export default function Teac() {
            {/* ---------------------------------------------------------------------------------section no 5------------------------------------------------------------------------------------ */}
      <div className={`d-flex ${window.innerWidth <=700 ? "flex-column":" flex-row"}  bg-dark w-100`} style={{height: window.innerWidth <= 700 ?"620px":window.innerWidth ? "220px":"180px"}}>
 
-        <div className="d-flex flex-column " style={{height:"160px",width:"200px",padding:"20px 10px 10px 10px"}}>
+        <div className="d-flex flex-column " style={{height:"160px",width:"200px",padding:"20px 10px 10px 0px"}}>
            <p className="mx-3 fs-5 fw-semibold text-white "> Address</p>
            <p className="mx-3 fw-semibold text-white ">  
                8536 Westminster Blvd,
