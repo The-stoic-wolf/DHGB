@@ -106,12 +106,12 @@ export default function Teac() {
                      <label htmlFor="vehicle1"className={`${window.innerWidth <= 900 ?"fs-6 ":"fs-5"} ms-2 fw-semibold`}>XÔI TRÁI TIM</label>
                    </div>
 
-                    <div className={`${window.innerWidth <= 900 ? "pt-2":"pt-0"} d-flex px-2`}>
+                    <div className={`${window.innerWidth <= 900 ? "pt-3":"pt-0"} d-flex px-2`}>
                     <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"  style={{transform: "scale(1.5)",}}/>
                     <label htmlFor="vehicle1"className={`${window.innerWidth <= 900 ?"fs-6 ":"fs-5"} ms-2 fw-semibold`}>KHAY RƯỢU</label>
                    </div>
 
-                    <div className={`${window.innerWidth <= 900 ? "pt-2":"pt-0"} d-flex px-2`}>
+                    <div className={`${window.innerWidth <= 900 ? "pt-5":"pt-0"} d-flex px-2`}>
                     <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" style={{transform: "scale(1.5)",}}/>
                     <label htmlFor="vehicle1"className={`${window.innerWidth <= 900 ?"fs-6 ":"fs-5"} ms-2 fw-semibold`}>MÂM QUẢ</label>
                    </div>
@@ -132,9 +132,9 @@ export default function Teac() {
          </div>
       </div>
            {/* ---------------------------------------------------------------------------------section no 5------------------------------------------------------------------------------------ */}
-      <div className={`d-flex ${window.innerWidth <=700 ? "flex-column":" flex-row"}  bg-dark w-100`} style={{height: window.innerWidth <= 700 ?"600px":window.innerWidth ? "220px":"180px"}}>
+     <div className={`d-flex ${window.innerWidth <=700 ? "flex-column":" flex-row"}  bg-dark w-100`} style={{height: window.innerWidth <= 700 ?"620px":window.innerWidth ? "220px":"180px"}}>
 
-        <div className="d-flex flex-column " style={{height:"160px",width:"200px",padding:window.innerWidth <= 576 ?"20px 10px 10px 10px":"20px 10px 10px 10px"}}>
+        <div className="d-flex flex-column " style={{height:"160px",width:"200px",padding:"20px 10px 10px 10px"}}>
            <p className="mx-3 fs-5 fw-semibold text-white "> Address</p>
            <p className="mx-3 fw-semibold text-white ">  
                8536 Westminster Blvd,
