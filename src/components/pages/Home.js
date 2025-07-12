@@ -86,9 +86,9 @@ const boxes =[
    <img src={images[index]} alt="logo2" className="img-fluid" style={{objectFit:"cover",width:"100%",height:"100%"}} />
     <button onClick={handlePrev} className="text-white fs-3 fw-bold bg-dark bg-opacity-75  position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",left:'2px',transform:"translateY(-50%)",zIndex:2}}> ‹ </button>
     <button onClick={handleNext} className="text-white fs-3 fw-bold bg-dark bg-opacity-75 position-absolute" style={{height:"50px",border:"none",cursor:"pointer",width:"50px",top:"50%",right:"2px",transform:"translateY(-50%)",zIndex:2}}> › </button>
-    <div className={` ${window.innerWidth <= 576 ?"justify-content-left":"ms-5"} d-flex flex-column position-absolute bg-dark bg-opacity-75 rounded-5`} style={{maxHeight:"200px",height:"80%",margin:window.innerWidth <= 576 ?"0px 10% 0px 10%":"",width:"80%",maxWidth:"647px",top:'50%',left : largescreen?"30%" :"1%",transform : largescreen  ? "none":"translateY(-50%)",zIndex:2}}>
+    <div className={` ${window.innerWidth <= 576 ?"justify-content-left":"ms-5"} d-flex flex-column position-absolute bg-dark bg-opacity-75 rounded-5`} style={{maxHeight:"200px",height:"80%",margin:window.innerWidth <= 576 ?"0px 10% 0px 10%":"",width:"80%",maxWidth:"647px",top:'40%',left : largescreen ? "30%" :"1%",transform : largescreen  ? "none":"translateY(-50%)",zIndex:2}}>
        <p className={`  text-white fs-2 fw-bold fst-italic ps-4 mt-1`}>IT'S BETTER VEGAN</p>
-       <h5 className="ps-4 text-white" style={{ fontWeight: window.innerWidth <= 550 ?"normal":"semibold"}}>Experience our one-of-a-kind signature vegan coconut croissant.</h5>
+        <h5 className="ps-4 text-white" style={{ fontWeight: window.innerWidth <= 550 ?"normal":"semibold"}}>Experience our one-of-a-kind signature vegan coconut croissant.</h5>
        <button className=" btn btn-primary rounded-5 " style={{height:'40px',width:"200px",margin: window.innerWidth <= 550 ?"6px 0px 0px 6px":"20px 0px 0px 10px"}}>Learn More</button>
      </div>
   </div>

@@ -3,12 +3,12 @@
 export default function Teac() {
   return (
     <>
-      <div className={` d-flex ${window.innerWidth  <= 900 ? "flex-column":"flex-row"} bg-black`} style={{height:window.innerWidth <= 900 ?"1200px":"850px",width:"100%"}}>
-         <div className="d-flex " style={{height:window.innerWidth <= 900 ?"500px":"850px",width:window.innerWidth <= 900 ?"90%":"40%",margin:window.innerWidth <= 750 ?"20% 10% 0% 10%":window.innerWidth > 750 && window.innerWidth > 750 ?"10% 15% 0% 15%":"80px 0px 0px 80px"}}>
-           <img src="teac.png" alt="T-logo" style={{height:"450px",width:"90%",padding:window.innerWidth <= 750 ?"20% 5% 5% 5%":window.innerWidth > 750 && window.innerWidth > 750 ?"10% 15% 0% 0%":"10% 5% 5% 5%",objectFit:"cover"}}/>
+      <div className={` d-flex ${window.innerWidth  <= 900 ? "flex-column":"flex-row"} bg-black`} style={{height:window.innerWidth <= 900 ?"1200px":"800px",width:"100%"}}>
+         <div className="d-flex " style={{height:window.innerWidth <= 900 ?"500px":"100%",width:window.innerWidth <= 900 ?"90%":"40%",margin:window.innerWidth <= 750 ?"20% 10% 0% 10%":window.innerWidth > 750 && window.innerWidth < 900 ?"10% 15% 0% 15%":"5% 3% 5% 3%"}}>
+           <img src="teac.png" alt="T-logo" style={{height:"650px",width:"80%",padding:window.innerWidth <= 750 ?"20% 5% 5% 5%":window.innerWidth > 750 && window.innerWidth < 900 ?"10% 15% 0% 0%":"4% 3% 4% 3%",objectFit:"cover"}}/>
          </div>
 
-         <div className="d-flex flex-column" style={{height:window.innerWidth <= 900 ?"700px":"850px",width:window.innerWidth <= 900 ?"100%":"40%",margin:window.innerWidth <= 900 ?"20px 0px 10px 0px":"80px 80px 0px 100px"}}>
+         <div className="d-flex flex-column" style={{height:window.innerWidth <= 900 ?"700px":"100%",width:window.innerWidth <= 900 ?"100%":"40%",margin:window.innerWidth <= 900 ?"20px 0px 10px 0px":"80px 80px 0px 100px"}}>
             <div className={`d-flex ${window.innerWidth <= 900 ?"ps-2 mt-2":"mx-3 mt-4"} flex-column text-white`} >
               <p className={`${window.innerWidth <= 900 ?"fw-semibold fs-4 px-1":"fs-3 fw-bold"}`} >VIETNAMESE TEA CEREMONY (ĐÁM HỎI)</p>
             </div>
