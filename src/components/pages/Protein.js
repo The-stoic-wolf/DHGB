@@ -15,7 +15,7 @@ export default function protein() {
                 <p className={` text-white ${window.innerWidth <= 900 ?"px-3 fw-bold fs-4 ":"fw-bold fs-3"} `} >VEGAN PROTEIN TO-GO</p>
                 <p className={` ${window.innerWidth <= 900 ?"fw-semibold fs-6  px-3 ":"fw-semibold fs-5 ps-2 mt-1"}  text-white`} >Customize your meals at home with our vegan ingredients.</p>
                 <p className="d-none d-lg-block" >___________________________________________________________________________________________</p>
-                 <p className={`${window.innerWidth <= 900 ?"mt-0 px-3":"d-none"}`} style={{height:"8px"}}>________________________________________</p>
+                 <p className={`${window.innerWidth <= 900 ?"mt-0 ps-3":"d-none"}`} style={{height:"8px"}}>________________________________________</p>
                 <p className={`${window.innerWidth <= 900 ?" pb-2 fs-6 px-3 fst-italic ":"mt-2 fs-5 "} fw-normal  text-white`} >Your favorite vegan proteins are now available in convenient To-Go boxes for purchase, allowing you to create any meal you desire in the comfort of your home. Fully   prepared & ready to be added to your favorite recipes. Options include:</p>
             </div>
             <div className={`${window.innerWidth <= 900 ?"pt-0 ps-3":"pt-3 ms-2"} d-flex flex-column`} style={{height:window.innerWidth <= 400 ?"100px":window.innerWidth > 400 && window.innerWidth  <= 900 ?"100px":"130px"}}>
@@ -53,8 +53,10 @@ export default function protein() {
               <p >Perfect for sandwiches, salads, bowls or other creative dishes.</p>
             </div>
             <p className="text-white mt-2 d-none d-lg-block">___________________________________________________________________________________________</p>
-             <p className={`${window.innerWidth <= 900 ?"px-2 text-white":"d-none"}`} >_______________________________________</p>
-             <button type="button" className={`${window.innerWidth <= 700 ?"px-3 mt-2 pb-1 fw-semibold fs-6 btn btn-primary ":window.innerWidth > 700 && window.innerWidth <= 900 ?"px-1 mt-0 fw-semibold fs-6 btn btn-primary ":"mt-3 fw-bold fs-5 btn btn-primary "} `}  style={{height:window.innerWidth <= 900 ?"50px":"70px" , width:window.innerWidth <= 900 ?"250px":"300px",borderRadius:"70px"}}>View All Vegan Bánh Mì</button>
+             <p className={`${window.innerWidth <= 900 ?"ps-3 text-white":"d-none"}`} >_______________________________________</p>
+             <div className="ms-5">
+               <button type="button" className={`${window.innerWidth <= 700 ?"px-3 mt-2 pb-1 fw-semibold fs-6 btn btn-primary ":window.innerWidth > 700 && window.innerWidth <= 900 ?"px-1 mt-0 fw-semibold fs-6 btn btn-primary ":"mt-3 fw-bold fs-5 btn btn-primary "} `}  style={{height:window.innerWidth <= 900 ?"50px":"70px" , width:window.innerWidth <= 900 ?"250px":"300px",borderRadius:"70px"}}>View All Vegan Bánh Mì</button>
+             </div>
         </div>
     </div>
     {/* ---------------------------------------------------------------------------------------------------------section no 2-------------------------------------------------------------------------------------------- */}
