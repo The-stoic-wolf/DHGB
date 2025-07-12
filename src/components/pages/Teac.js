@@ -4,8 +4,8 @@ export default function Teac() {
   return (
     <>
       <div className={` d-flex ${window.innerWidth  <= 900 ? "flex-column":"flex-row"} bg-black`} style={{height:window.innerWidth <= 900 ?"1250px":"800px",width:"100%"}}>
-         <div className="d-flex " style={{height:window.innerWidth <= 900 ?"450px":"100%",width:window.innerWidth <= 900 ?"100%":"40%",margin:window.innerWidth <= 750 ?"20% 5% 2% 5%":window.innerWidth > 750 && window.innerWidth < 900 ?"10% 15% 0% 15%":"5% 3% 5% 3%"}}>
-           <img src="teac.png" alt="T-logo" style={{height:window.innerWidth <= 900 ?"450px":"650px",width:"90%",padding:window.innerWidth <= 750 ?"5% 0% 5% 0%":window.innerWidth > 750 && window.innerWidth < 900 ?"10% 15% 0% 0%":"4% 3% 4% 3%",objectFit:"cover"}}/>
+         <div className="d-flex " style={{height:window.innerWidth <= 900 ?"450px":"100%",width:window.innerWidth <= 900 ?"100%":"40%",margin:window.innerWidth <= 750 ?"15% 0% 2% 10%":window.innerWidth > 750 && window.innerWidth < 900 ?"10% 15% 0% 15%":"5% 3% 5% 3%"}}>
+           <img src="teac.png" alt="T-logo" style={{height:window.innerWidth <= 900 ?"400px":"650px",width:"80%",padding:window.innerWidth <= 750 ?"5% 0% 5% 0%":window.innerWidth > 750 && window.innerWidth < 900 ?"10% 15% 0% 0%":"4% 3% 4% 3%",objectFit:"cover"}}/>
          </div>
 
          <div className="d-flex flex-column" style={{height:window.innerWidth <= 900 ?"750px":"100%",width:window.innerWidth <= 900 ?"100%":"40%",margin:window.innerWidth <= 900 ?"20px 0px 10px 0px":"80px 80px 0px 100px"}}>
