@@ -135,7 +135,7 @@ const boxes =[
 {/* -----------------------------------------------------------------------------section no 2------------------------------------------------------------- */}
      <div className={`d-flex ${window.innerWidth <= 547?"flex-column":"flex-row"}  bg-dark w-100`} style={{height : window.innerWidth <= 550 ? "620px": "180px"}}>
 
-        <div className="d-flex flex-column " style={{height:"160px",width:"200px",padding:"20px 10px 10px 10px"}}>
+        <div className="d-flex flex-column " style={{height:"160px",width:"200px",padding:"20px 10px 10px 0px"}}>
            <p className="mx-3 fs-5 fw-semibold text-white "> Address</p>
            <p className="mx-3 fw-semibold text-white ">  
                8536 Westminster Blvd,
@@ -161,10 +161,10 @@ const boxes =[
         </div>
 
         <div  style={{height:"160px",width:"200px",padding:window.innerWidth <= 576 ?"20px 10px 10px 10px":"20px 5px 10px 0px"}}>
-          <p  className="mx-1 fs-6 fw-semibold text-white">ABOUT US</p>
+          <p  className="mx-3 fs-6 fw-semibold text-white">ABOUT US</p>
         </div>
         <div style={{height:"160px",width:"200px",padding:window.innerWidth <= 576 ?"20px 10px 10px 10px":"20px 5px 10px 0px"}}>
-           <p  className="mx-1 fs-6 fw-semibold text-white">CONTACT US</p>
+           <p  className="mx-3 fs-6 fw-semibold text-white">CONTACT US</p>
         </div>
        </div>
        {/* ------------------------------------------------------------------------section no 6------------------------------------------------------------------------------------------ */}
