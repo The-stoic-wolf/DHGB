@@ -111,7 +111,7 @@ export default function Teac() {
                     <label htmlFor="vehicle1"className={`${window.innerWidth <= 900 ?"fs-6 ":"fs-5"} ms-2 fw-semibold`}>KHAY RƯỢU</label>
                    </div>
 
-                    <div className={`${window.innerWidth <= 900 ? "pt-5":"pt-0"} d-flex px-2`}>
+                    <div className={`${window.innerWidth <= 900 ? "pt-4":"pt-0"} d-flex px-2`}>
                     <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" style={{transform: "scale(1.5)",}}/>
                     <label htmlFor="vehicle1"className={`${window.innerWidth <= 900 ?"fs-6 ":"fs-5"} ms-2 fw-semibold`}>MÂM QUẢ</label>
                    </div>
@@ -160,10 +160,10 @@ export default function Teac() {
         </div>
 
         <div  style={{height:"160px",width:"200px",padding:window.innerWidth <= 576 ?"20px 10px 10px 10px":"20px 5px 10px 10px"}}>
-          <p  className="mx-1 fs-6 fw-semibold text-white">ABOUT US</p>
+          <p  className="mx-3 fs-6 fw-semibold text-white">ABOUT US</p>
         </div>
         <div style={{height:"160px",width:"200px",padding:window.innerWidth <= 576 ?"20px 10px 10px 10px":"20px 5px 10px 10px"}}>
-           <p  className="mx-1 fs-6 fw-semibold text-white">CONTACT US</p>
+           <p  className="mx-3 fs-6 fw-semibold text-white">CONTACT US</p>
         </div>
        </div>
        {/* ------------------------------------------------------------------------section no 6------------------------------------------------------------------------------------------ */}
